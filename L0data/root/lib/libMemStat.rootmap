@@ -1,0 +1,8 @@
+Library.UIntVector_t:                       libMemStat.so libTree.so libGpad.so libGraf.so
+Library.IntVector_t:                        libMemStat.so libTree.so libGpad.so libGraf.so
+Library.TMemStatInfoStamp:                  libMemStat.so libTree.so libGpad.so libGraf.so
+Library.TMemStatCodeInfo:                   libMemStat.so libTree.so libGpad.so libGraf.so
+Library.TMemStatStackInfo:                  libMemStat.so libTree.so libGpad.so libGraf.so
+Library.TMemStatManager:                    libMemStat.so libTree.so libGpad.so libGraf.so
+Library.TMemStat:                           libMemStat.so libTree.so libGpad.so libGraf.so
+Library.TMemStatDepend:                     libMemStat.so libTree.so libGpad.so libGraf.so

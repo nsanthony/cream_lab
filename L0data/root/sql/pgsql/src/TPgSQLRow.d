@@ -1,0 +1,1 @@
+  sql/pgsql/src/TPgSQLRow.o sql/pgsql/src/TPgSQLRow.d: $(wildcard include/TPgSQLRow.h include/TSQLRow.h include/TObject.h include/Rtypes.h include/RConfig.h include/RVersion.h include/DllImport.h include/Rtypeinfo.h include/TGenericClassInfo.h include/TSchemaHelper.h include/TStorage.h include/TVersionCheck.h include/Riosfwd.h include/TBuffer.h)

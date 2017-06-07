@@ -1,0 +1,21 @@
+!/bin/sh 
+
+MONTH=$1
+echo $MONTH
+
+DAY=$2
+echo $DAY
+
+source env.sh
+export CRMROOT=`pwd`
+cd cream
+
+ls /data/cdps2/cream/2016/$MONTH/$DAY/*dat /data/cdps2/cream/2016/$MONTH/$DAY/*bsd.led > LIST
+./adc
+
+mkdir /data/L0/2016
+mkdir /data/L0/2016/$MONTH
+mkdir /data/L0/2016/$MONTH/$DAY
+mv ROOT/*root /data/L0/2016/$MONTH/$DAY
+
+cp /data/cdps2/cream/2016/$MONTH/$DAY/*log /data/cdps2/cream/2016/$MONTH/$DAY/*hk /data/cdps2/cream/2016/$MONTH/$DAY/*pds /data/cdps2/cream/2016/$MONTH/$DAY/*spi* /data/cdps2/cream/2016/$MONTH/$DAY/*gtb /data/cdps2/cream/2016/$MONTH/$DAY/*tgn /data/cdps2/cream/2016/$MONTH/$DAY/*bsd.led /data/cdps2/cream/2016/$MONTH/$DAY/*phs /data/L0/2016/$MONTH/$DAY

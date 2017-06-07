@@ -1,0 +1,12 @@
+!/bin/sh 
+
+export CRMROOT=`pwd`
+cd cream
+
+ls /data/KSC/cream/$1/$2/$3/*dat /data/KSC/cream/$1/$2/$3/*bsd.led > LIST
+./adc
+
+mkdir /data/L0/$1/$2/$3
+mv ROOT/*root /data/L0/$1/$2/$3
+
+cp /data/KSC/cream/$1/$2/$3/*log /data/KSC/cream/$1/$2/$3/*hk /data/KSC/cream/$1/$2/$3/*pds /data/KSC/cream/$1/$2/$3/*spi* /data/KSC/cream/$1/$2/$3/*gtb /data/KSC/cream/$1/$2/$3/*tgn /data/KSC/cream/$1/$2/$3/*bsd.led /data/KSC/cream/$1/$2/$3/*phs /data/L0/$1/$2/$3

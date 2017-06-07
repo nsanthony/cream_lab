@@ -1,0 +1,1 @@
+  misc/memstat/src/TMemStatDepend.o misc/memstat/src/TMemStatDepend.d: $(wildcard include/TString.h include/TRefCnt.h include/Rtypes.h include/RConfig.h include/RVersion.h include/DllImport.h include/Rtypeinfo.h include/TGenericClassInfo.h include/TSchemaHelper.h include/Riosfwd.h include/TMathBase.h include/TMemStatDepend.h)

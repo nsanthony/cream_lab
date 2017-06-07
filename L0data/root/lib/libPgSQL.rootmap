@@ -1,0 +1,4 @@
+Library.TPgSQLServer:                       libPgSQL.so libNet.so libRIO.so
+Library.TPgSQLResult:                       libPgSQL.so libNet.so libRIO.so
+Library.TPgSQLRow:                          libPgSQL.so libNet.so libRIO.so
+Library.TPgSQLStatement:                    libPgSQL.so libNet.so libRIO.so

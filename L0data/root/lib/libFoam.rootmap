@@ -1,0 +1,5 @@
+Library.TFoamIntegrand:                     libFoam.so libHist.so
+Library.TFoamMaxwt:                         libFoam.so libHist.so
+Library.TFoamVect:                          libFoam.so libHist.so
+Library.TFoamCell:                          libFoam.so libHist.so
+Library.TFoam:                              libFoam.so libHist.so

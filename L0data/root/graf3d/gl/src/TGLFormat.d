@@ -1,0 +1,1 @@
+  graf3d/gl/src/TGLFormat.o graf3d/gl/src/TGLFormat.d: $(wildcard include/TGLFormat.h include/Rtypes.h include/RConfig.h include/RVersion.h include/DllImport.h include/Rtypeinfo.h include/TGenericClassInfo.h include/TSchemaHelper.h)

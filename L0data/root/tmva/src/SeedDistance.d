@@ -1,0 +1,1 @@
+  tmva/src/SeedDistance.o tmva/src/SeedDistance.d: $(wildcard include/TMVA/SeedDistance.h include/TMVA/IMetric.h include/Rtypes.h include/RConfig.h include/RVersion.h include/DllImport.h include/Rtypeinfo.h include/TGenericClassInfo.h include/TSchemaHelper.h)

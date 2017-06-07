@@ -1,0 +1,12 @@
+!/bin/sh 
+
+export CRMROOT=`pwd`
+cd cream
+
+ls /data/RAW/cream/2015/08/08/*dat /data/RAW/cream/2015/08/08/*bsd.led > LIST
+./adc
+
+mkdir /data/L0/2015/08/08
+mv ROOT/*root /data/L0/2015/08/08
+
+cp /data/RAW/cream/2015/08/08/*log /data/RAW/cream/2015/08/08/*hk /data/RAW/cream/2015/08/08/*pds /data/RAW/cream/2015/08/08/*spi* /data/RAW/cream/2015/08/08/*gtb /data/RAW/cream/2015/08/08/*tgn /data/RAW/cream/2015/08/08/*bsd.led /data/RAW/cream/2015/08/08/*phs /data/L0/2015/08/08

@@ -1,0 +1,3 @@
+Library.StringVector_t:                     libMemStatGui.so libMemStat.so libTree.so libGui.so
+Library.TMemStatViewerGUI:                  libMemStatGui.so libMemStat.so libTree.so libGui.so
+Library.TMemStatDrawDlg:                    libMemStatGui.so libMemStat.so libTree.so libGui.so

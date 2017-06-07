@@ -1,0 +1,9 @@
+#!/bin/sh 
+
+export CRMROOT=`pwd`
+cd cream
+
+ls /data/RAW/BeamTest/cream8/beamtest/2015/aug26/*dat /data/RAW/BeamTest/cream8/beamtest/2015/aug26/*bsd.led > LIST
+./adc
+
+mv ROOT/*root /data/L0/beamtest/2015/aug26

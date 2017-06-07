@@ -1,0 +1,1 @@
+  core/editline/src/history.o core/editline/src/history.d: $(wildcard core/editline/src/compat.h core/editline/src/compat_conf.h core/editline/src/strlcpy.h core/editline/src/sys.h core/editline/src/histedit.h)

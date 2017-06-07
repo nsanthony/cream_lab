@@ -1,0 +1,6 @@
+Library.TPython:                            libPyROOT.so
+Library.TPyReturn:                          libPyROOT.so
+Library.TPyDispatcher:                      libPyROOT.so
+Library.TPySelector:                        libPyROOT.so
+Library.PyROOT@@TPyException:               libPyROOT.so
+Library.PyROOT@@TPyROOTApplication:         libPyROOT.so

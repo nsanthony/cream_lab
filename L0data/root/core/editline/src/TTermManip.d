@@ -1,0 +1,1 @@
+  core/editline/src/TTermManip.o core/editline/src/TTermManip.d: $(wildcard core/editline/src/TTermManip.h core/editline/src/rlcurses.h /usr/include/ncurses/ncurses.h /usr/include/ncurses/ncurses_dll.h /usr/include/ncurses/unctrl.h /usr/include/ncurses/curses.h /usr/include/ncurses/termcap.h)
