@@ -1,0 +1,194 @@
+SEP 28 19:35:54.900.463 cdaq_evt[03288]: SprsBox[4]: garbage data is cleared.
+SEP 28 19:35:55.102.955 cdaq_evt[03289]: dispatch: 60430C0200000000.
+SEP 28 19:35:55.104.058 cdaq_evt[03290]: dispatch: 60560F0300000009.
+SEP 28 19:35:55.105.057 cdaq_evt[03291]: dispatch: 60430C0200000004.
+SEP 28 19:35:55.817.699 cdaq_evt[03292]: SprsBox[1]: garbage data is cleared.
+SEP 28 19:35:56.441.229 cdaq_evt[03293]: SprsBox[4]: garbage data is cleared.
+SEP 28 19:35:56.638.861 cdaq_evt[03294]: dispatch: 60430C0200000000.
+SEP 28 19:35:56.640.878 cdaq_evt[03295]: dispatch: 60560F030000000A.
+SEP 28 19:35:56.642.887 cdaq_evt[03296]: dispatch: 60430C0200000004.
+SEP 28 19:35:58.578.900 cdaq_evt[03297]: SprsBox[4]: garbage data is cleared.
+SEP 28 19:35:58.774.397 cdaq_evt[03298]: dispatch: 60430C0200000000.
+SEP 28 19:35:58.775.494 cdaq_evt[03299]: dispatch: 60560F030000000B.
+SEP 28 19:35:58.776.495 cdaq_evt[03300]: dispatch: 60430C0200000004.
+SEP 28 19:36:01.313.481 cdaq_evt[03301]: SprsBox[4]: garbage data is cleared.
+SEP 28 19:36:01.517.977 cdaq_evt[03302]: dispatch: 60430C0200000000.
+SEP 28 19:36:01.519.076 cdaq_evt[03303]: dispatch: 60560F030000000C.
+SEP 28 19:36:01.520.074 cdaq_evt[03304]: dispatch: 60430C0200000004.
+SEP 28 19:36:03.457.153 cdaq_evt[03305]: SprsBox[4]: garbage data is cleared.
+SEP 28 19:36:03.653.650 cdaq_evt[03306]: dispatch: 60430C0200000000.
+SEP 28 19:36:03.654.748 cdaq_evt[03307]: dispatch: 60560F030000000D.
+SEP 28 19:36:03.655.748 cdaq_evt[03308]: dispatch: 60430C0200000004.
+SEP 28 19:36:05.594.825 cdaq_evt[03309]: SprsBox[4]: garbage data is cleared.
+SEP 28 19:36:06.000.515 cdaq_evt[03310]: ERROR: SprsBox[3]: no data after 1 secs/trials.
+SEP 28 19:36:06.110.254 cdaq_evt[03311]: 200 events [7.1 Hz].
+SEP 28 19:36:06.181.393 cdaq_evt[03312]: dispatch: 60430C0200000000.
+SEP 28 19:36:06.183.420 cdaq_evt[03313]: dispatch: 60560F030000000E.
+SEP 28 19:36:06.185.438 cdaq_evt[03314]: dispatch: 60430C0200000004.
+SEP 28 19:36:06.297.967 cdaq_evt[03315]: SprsBox[1]: garbage data is cleared.
+SEP 28 19:36:06.921.622 cdaq_evt[03316]: SprsBox[4]: garbage data is cleared.
+SEP 28 19:36:07.118.114 cdaq_evt[03317]: dispatch: 60430C0200000000.
+SEP 28 19:36:07.119.217 cdaq_evt[03318]: dispatch: 60560F030000000F.
+SEP 28 19:36:07.120.217 cdaq_evt[03319]: dispatch: 60430C0200000004.
+SEP 28 19:36:09.237.793 cdaq_evt[03320]: dispatch: 60430C0200000000.
+SEP 28 19:36:09.238.893 cdaq_evt[03321]: dispatch: 60560F0300000010.
+SEP 28 19:36:09.239.892 cdaq_evt[03322]: dispatch: 60430C0200000004.
+SEP 28 19:36:10.552.192 cdaq_evt[03323]: SprsBox[1]: garbage data is cleared.
+SEP 28 19:36:11.175.971 cdaq_evt[03324]: SprsBox[4]: garbage data is cleared.
+SEP 28 19:36:11.373.601 cdaq_evt[03325]: dispatch: 60430C0200000000.
+SEP 28 19:36:11.375.620 cdaq_evt[03326]: dispatch: 60560F0300000011.
+SEP 28 19:36:11.377.629 cdaq_evt[03327]: dispatch: 60430C0200000004.
+SEP 28 19:36:12.087.957 cdaq_evt[03328]: SprsBox[1]: garbage data is cleared.
+SEP 28 19:36:12.110.828 cdaq_evt[03329]: SprsBox[4]: garbage data is cleared.
+SEP 28 19:36:12.301.328 cdaq_evt[03330]: dispatch: 60430C0200000000.
+SEP 28 19:36:12.302.424 cdaq_evt[03331]: dispatch: 60560F0300000012.
+SEP 28 19:36:12.303.423 cdaq_evt[03332]: dispatch: 60430C0200000004.
+SEP 28 19:36:13.813.247 cdaq_evt[03333]: dispatch: 60430C0200000000.
+SEP 28 19:36:13.814.317 cdaq_evt[03334]: dispatch: 60560F0300000013.
+SEP 28 19:36:13.815.315 cdaq_evt[03335]: dispatch: 60430C0200000004.
+SEP 28 19:36:17.132.584 cdaq_evt[03336]: dispatch: 60430C0200000000.
+SEP 28 19:36:17.133.685 cdaq_evt[03337]: dispatch: 60560F0300000014.
+SEP 28 19:36:17.134.684 cdaq_evt[03338]: dispatch: 60430C0200000004.
+SEP 28 19:36:18.471.853 cdaq_evt[03339]: SprsBox[4]: garbage data is cleared.
+SEP 28 19:36:18.660.351 cdaq_evt[03340]: dispatch: 60430C0200000000.
+SEP 28 19:36:18.661.449 cdaq_evt[03341]: dispatch: 60560F0300000015.
+SEP 28 19:36:18.662.449 cdaq_evt[03342]: dispatch: 60430C0200000004.
+SEP 28 19:36:19.998.620 cdaq_evt[03343]: SprsBox[4]: garbage data is cleared.
+SEP 28 19:36:20.212.250 cdaq_evt[03344]: dispatch: 60430C0200000000.
+SEP 28 19:36:20.214.281 cdaq_evt[03345]: dispatch: 60560F0300000016.
+SEP 28 19:36:20.216.272 cdaq_evt[03346]: dispatch: 60430C0200000004.
+SEP 28 19:36:20.950.474 cdaq_evt[03347]: SprsBox[4]: garbage data is cleared.
+SEP 28 19:36:21.140.108 cdaq_evt[03348]: dispatch: 60430C0200000000.
+SEP 28 19:36:21.142.140 cdaq_evt[03349]: dispatch: 60560F0300000017.
+SEP 28 19:36:21.144.148 cdaq_evt[03350]: dispatch: 60430C0200000004.
+SEP 28 19:36:21.854.711 cdaq_evt[03351]: SprsBox[1]: garbage data is cleared.
+SEP 28 19:36:24.000.134 cdaq_evt[03352]: ERROR: SprsBox[3]: no data after 1 secs/trials.
+SEP 28 19:36:24.172.633 cdaq_evt[03353]: dispatch: 60430C0200000000.
+SEP 28 19:36:24.174.680 cdaq_evt[03354]: dispatch: 60560F0300000018.
+SEP 28 19:36:24.176.687 cdaq_evt[03355]: dispatch: 60430C0200000004.
+SEP 28 19:36:25.510.775 cdaq_evt[03356]: SprsBox[4]: garbage data is cleared.
+SEP 28 19:36:25.700.273 cdaq_evt[03357]: dispatch: 60430C0200000000.
+SEP 28 19:36:25.701.372 cdaq_evt[03358]: dispatch: 60560F0300000019.
+SEP 28 19:36:25.702.371 cdaq_evt[03359]: dispatch: 60430C0200000004.
+SEP 28 19:36:26.441.321 cdaq_evt[03360]: SprsBox[4]: garbage data is cleared.
+SEP 28 19:36:27.000.050 cdaq_evt[03361]: ERROR: SprsBox[3]: no data after 1 secs/trials.
+SEP 28 19:36:27.172.048 cdaq_evt[03362]: dispatch: 60430C0200000000.
+SEP 28 19:36:27.173.190 cdaq_evt[03363]: dispatch: 60560F030000001A.
+SEP 28 19:36:27.174.147 cdaq_evt[03364]: dispatch: 60430C0200000004.
+SEP 28 19:36:27.310.499 cdaq_evt[03365]: SprsBox[4]: garbage data is cleared.
+SEP 28 19:36:27.499.993 cdaq_evt[03366]: dispatch: 60430C0200000000.
+SEP 28 19:36:27.500.971 cdaq_evt[03367]: dispatch: 60560F030000001B.
+SEP 28 19:36:27.501.970 cdaq_evt[03368]: dispatch: 60430C0200000004.
+SEP 28 19:36:28.241.030 cdaq_evt[03369]: SprsBox[4]: garbage data is cleared.
+SEP 28 19:36:29.000.990 cdaq_evt[03370]: ERROR: SprsBox[3]: no data after 1 secs/trials.
+SEP 28 19:36:29.171.737 cdaq_evt[03371]: dispatch: 60430C0200000000.
+SEP 28 19:36:29.172.840 cdaq_evt[03372]: dispatch: 60560F030000001C.
+SEP 28 19:36:29.173.840 cdaq_evt[03373]: dispatch: 60430C0200000004.
+SEP 28 19:36:29.886.480 cdaq_evt[03374]: SprsBox[1]: garbage data is cleared.
+SEP 28 19:36:32.000.035 cdaq_evt[03375]: ERROR: SprsBox[3]: no data after 1 secs/trials.
+SEP 28 19:36:32.171.469 cdaq_evt[03376]: 400 events [7.7 Hz].
+SEP 28 19:36:32.187.653 cdaq_evt[03377]: dispatch: 60430C0200000000.
+SEP 28 19:36:32.188.759 cdaq_evt[03378]: dispatch: 60560F030000001D.
+SEP 28 19:36:32.189.879 cdaq_evt[03379]: dispatch: 60430C0200000004.
+SEP 28 19:36:33.524.675 cdaq_evt[03380]: SprsBox[4]: garbage data is cleared.
+SEP 28 19:36:33.715.417 cdaq_evt[03381]: dispatch: 60430C0200000000.
+SEP 28 19:36:33.716.525 cdaq_evt[03382]: dispatch: 60560F030000001E.
+SEP 28 19:36:33.717.520 cdaq_evt[03383]: dispatch: 60430C0200000004.
+SEP 28 19:36:34.431.035 cdaq_evt[03384]: SprsBox[1]: garbage data is cleared.
+SEP 28 19:36:35.842.845 cdaq_evt[03385]: dispatch: 60430C0200000000.
+SEP 28 19:36:35.844.930 cdaq_evt[03386]: dispatch: 60560F030000001F.
+SEP 28 19:36:35.846.898 cdaq_evt[03387]: dispatch: 60430C0200000004.
+SEP 28 19:36:37.159.115 cdaq_evt[03388]: SprsBox[1]: garbage data is cleared.
+SEP 28 19:36:37.182.987 cdaq_evt[03389]: SprsBox[4]: garbage data is cleared.
+SEP 28 19:36:37.378.609 cdaq_evt[03390]: dispatch: 60430C0200000000.
+SEP 28 19:36:37.380.322 cdaq_evt[03391]: dispatch: 60430C0300000000.
+SEP 28 19:36:37.381.334 cdaq_evt[03392]: dispatch: 60430F0200000000.
+SEP 28 19:36:37.382.458 cdaq_evt[03393]: dispatch: 605317170000F000.
+SEP 28 19:36:37.383.457 cdaq_evt[03394]: dispatch: 605318170000F000.
+SEP 28 19:36:37.385.956 cdaq_evt[03395]: dispatch: 60430C020000000C.
+SEP 28 19:36:37.389.670 cdaq_evt[03396]: setting hold delay to 19.
+SEP 28 19:36:37.389.681 cdaq_evt[03397]: dispatch: 60430F0400001113.
+SEP 28 19:36:37.390.707 cdaq_evt[03398]: dispatch: 60430F0100000001.
+SEP 28 19:36:37.999.986 cdaq_evt[03399]: SprsBox[1]: garbage data is cleared.
+SEP 28 19:36:38.023.858 cdaq_evt[03400]: SprsBox[4]: garbage data is cleared.
+SEP 28 19:36:38.024.053 cdaq_evt[03401]: end of SCD charge calibration run.
+SEP 28 19:36:38.024.067 cdaq_evt[03402]: Charge injection event sending: on.
+SEP 28 19:36:38.024.075 cdaq_evt[03403]: loop parameters 50, 50, 50.
+SEP 28 19:36:38.024.082 cdaq_evt[03404]: szcal: starting (loop parameters 50, 50, 50; 10 events each).
+SEP 28 19:36:38.024.129 cdaq_evt[03405]: setting hold delay to 25.
+SEP 28 19:36:38.024.137 cdaq_evt[03406]: dispatch: 6043100400001119.
+SEP 28 19:36:38.027.211 cdaq_evt[03407]: dispatch: 6043100200000000.
+SEP 28 19:36:38.028.406 cdaq_evt[03408]: dispatch: 605319170000F000.
+SEP 28 19:36:38.029.487 cdaq_evt[03409]: dispatch: 60531A170000F000.
+SEP 28 19:36:38.030.987 cdaq_evt[03410]: dispatch: 6043100100000000.
+SEP 28 19:36:38.031.983 cdaq_evt[03411]: dispatch: 60430C0300000000.
+SEP 28 19:36:38.033.108 cdaq_evt[03412]: dispatch: 60430C0400000000.
+SEP 28 19:36:38.034.233 cdaq_evt[03413]: dispatch: 60430C0200000004.
+SEP 28 19:36:38.340.267 cdaq_evt[03414]: dispatch: 60430C0200000000.
+SEP 28 19:36:38.341.311 cdaq_evt[03415]: dispatch: 6043100200000001.
+SEP 28 19:36:38.342.311 cdaq_evt[03416]: dispatch: 605319170000F001.
+SEP 28 19:36:38.343.311 cdaq_evt[03417]: dispatch: 60531A170000F001.
+SEP 28 19:36:38.344.310 cdaq_evt[03418]: dispatch: 60430C0300000001.
+SEP 28 19:36:38.345.435 cdaq_evt[03419]: dispatch: 60430C0100000032.
+SEP 28 19:36:38.346.435 cdaq_evt[03420]: dispatch: 60430C05000011FF.
+SEP 28 19:36:38.348.602 cdaq_evt[03421]: dispatch: 6056100300000000.
+SEP 28 19:36:38.349.564 cdaq_evt[03422]: dispatch: 60430C0200000004.
+SEP 28 19:36:39.063.489 cdaq_evt[03423]: SprsBox[1]: garbage data is cleared.
+SEP 28 19:36:39.491.322 cdaq_cmd[01667]: SCI_NOOP.
+SEP 28 19:36:39.491.348 cdaq_cmd[01668]: ERROR: COMMAND MISSING: serial number 67, expected number 66.
+SEP 28 19:36:39.491.359 cdaq_cmd[01669]: NOOP (command counts: 2 since last noop, 732 in total).
+SEP 28 19:36:40.491.380 cdaq_evt[03424]: dispatch: 60430C0200000000.
+SEP 28 19:36:40.492.484 cdaq_evt[03425]: dispatch: 6056100300000001.
+SEP 28 19:36:40.493.481 cdaq_evt[03426]: dispatch: 60430C0200000004.
+SEP 28 19:36:41.806.405 cdaq_evt[03427]: SprsBox[1]: garbage data is cleared.
+SEP 28 19:36:42.043.145 cdaq_evt[03428]: dispatch: 60430C0200000000.
+SEP 28 19:36:42.044.249 cdaq_evt[03429]: dispatch: 6056100300000002.
+SEP 28 19:36:42.045.244 cdaq_evt[03430]: dispatch: 60430C0200000004.
+SEP 28 19:36:45.000.671 cdaq_evt[03431]: ERROR: SprsBox[4]: no data after 1 secs/trials.
+SEP 28 19:36:45.186.661 cdaq_evt[03432]: dispatch: 60430C0200000000.
+SEP 28 19:36:45.187.768 cdaq_evt[03433]: dispatch: 6056100300000003.
+SEP 28 19:36:45.188.889 cdaq_evt[03434]: dispatch: 60430C0200000004.
+SEP 28 19:36:47.906.074 cdaq_evt[03435]: dispatch: 60430C0200000000.
+SEP 28 19:36:47.908.057 cdaq_evt[03436]: dispatch: 6056100300000004.
+SEP 28 19:36:47.910.034 cdaq_evt[03437]: dispatch: 60430C0200000004.
+SEP 28 19:36:48.833.731 cdaq_evt[03438]: dispatch: 60430C0200000000.
+SEP 28 19:36:48.834.829 cdaq_evt[03439]: dispatch: 6056100300000005.
+SEP 28 19:36:48.835.828 cdaq_evt[03440]: dispatch: 60430C0200000004.
+SEP 28 19:36:49.551.217 cdaq_evt[03441]: SprsBox[2]: garbage data is cleared.
+SEP 28 19:36:49.777.706 cdaq_evt[03442]: dispatch: 60430C0200000000.
+SEP 28 19:36:49.779.747 cdaq_evt[03443]: dispatch: 6056100300000006.
+SEP 28 19:36:49.781.747 cdaq_evt[03444]: dispatch: 60430C0200000004.
+SEP 28 19:36:52.000.221 cdaq_evt[03445]: ERROR: SprsBox[4]: no data after 1 secs/trials.
+SEP 28 19:36:52.177.218 cdaq_evt[03446]: dispatch: 60430C0200000000.
+SEP 28 19:36:52.178.318 cdaq_evt[03447]: dispatch: 6056100300000007.
+SEP 28 19:36:52.179.315 cdaq_evt[03448]: dispatch: 60430C0200000004.
+SEP 28 19:36:53.706.356 cdaq_evt[03449]: dispatch: 60430C0200000000.
+SEP 28 19:36:53.707.462 cdaq_evt[03450]: dispatch: 6056100300000008.
+SEP 28 19:36:53.708.457 cdaq_evt[03451]: dispatch: 60430C0200000004.
+SEP 28 19:36:55.826.030 cdaq_evt[03452]: dispatch: 60430C0200000000.
+SEP 28 19:36:55.827.011 cdaq_evt[03453]: dispatch: 6056100300000009.
+SEP 28 19:36:55.828.009 cdaq_evt[03454]: dispatch: 60430C0200000004.
+SEP 28 19:36:55.940.863 cdaq_evt[03455]: SprsBox[1]: garbage data is cleared.
+SEP 28 19:36:56.169.978 cdaq_evt[03456]: dispatch: 60430C0200000000.
+SEP 28 19:36:56.170.959 cdaq_evt[03457]: dispatch: 605610030000000A.
+SEP 28 19:36:56.171.956 cdaq_evt[03458]: dispatch: 60430C0200000004.
+SEP 28 19:36:57.697.746 cdaq_evt[03459]: dispatch: 60430C0200000000.
+SEP 28 19:36:57.698.724 cdaq_evt[03460]: dispatch: 605610030000000B.
+SEP 28 19:36:57.699.847 cdaq_evt[03461]: dispatch: 60430C0200000004.
+SEP 28 19:36:59.014.772 cdaq_evt[03462]: SprsBox[2]: garbage data is cleared.
+SEP 28 19:36:59.217.262 cdaq_evt[03463]: dispatch: 60430C0200000000.
+SEP 28 19:36:59.219.319 cdaq_evt[03464]: dispatch: 605610030000000C.
+SEP 28 19:36:59.221.333 cdaq_evt[03465]: dispatch: 60430C0200000004.
+SEP 28 19:36:59.936.629 cdaq_evt[03466]: SprsBox[3]: garbage data is cleared.
+SEP 28 19:37:00.000.374 cdaq_evt[03467]: ERROR: SprsBox[4]: no data after 1 secs/trials.
+SEP 28 19:37:00.184.992 cdaq_evt[03468]: dispatch: 60430C0200000000.
+SEP 28 19:37:00.186.091 cdaq_evt[03469]: dispatch: 605610030000000D.
+SEP 28 19:37:00.187.090 cdaq_evt[03470]: dispatch: 60430C0200000004.
+SEP 28 19:37:02.792.700 cdaq_evt[03471]: 200 events [8.1 Hz].
+SEP 28 19:37:02.904.575 cdaq_evt[03472]: dispatch: 60430C0200000000.
+SEP 28 19:37:02.905.554 cdaq_evt[03473]: dispatch: 605610030000000E.
+SEP 28 19:37:02.906.548 cdaq_evt[03474]: dispatch: 60430C0200000004.
+SEP 28 19:37:05.000.608 cdaq_evt[03475]: ERROR: SprsBox[4]: no data after 1 secs/trials.
+SEP 28 19:37:05.184.598 cdaq_evt[03476]: dispatch: 60430C0200000000.
+SEP 28 19:37:05.185.579 cdaq_evt[03477]: dispatch: 605610030000000F.
+SEP 28 19:37:05.186.701 cdaq_evt[03478]: dispatch: 60430C0200000004.

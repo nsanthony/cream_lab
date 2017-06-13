@@ -1,0 +1,17 @@
+# charge: start 50, end 50, step 50
+10 pedestal q = 50
+10 run q = 50, channel = 0
+10 run q = 50, channel = 1
+10 run q = 50, channel = 2
+10 run q = 50, channel = 3
+10 run q = 50, channel = 4
+10 run q = 50, channel = 5
+10 run q = 50, channel = 6
+10 run q = 50, channel = 7
+10 run q = 50, channel = 8
+10 run q = 50, channel = 9
+10 run q = 50, channel = 10
+10 run q = 50, channel = 11
+10 run q = 50, channel = 12
+10 run q = 50, channel = 13
+10 run q = 50, channel = 14

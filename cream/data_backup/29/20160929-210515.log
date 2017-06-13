@@ -1,0 +1,1869 @@
+SEP 29 21:05:15.136.127 cdaq_cmd[00058]: SCI_NOOP.
+SEP 29 21:05:15.136.146 cdaq_cmd[00059]: NOOP (command counts: 1 since last noop, 52 in total).
+SEP 29 21:05:23.236.889 cdaq_cmd[00060]: SCI_HW *C0C020000000C.
+SEP 29 21:05:23.373.898 cdaq_evt[00062]: dispatch: 60430C020000000C.
+SEP 29 21:05:25.641.521 cdaq_cmd[00061]: SCI_OPMODE 54178, 1.
+SEP 29 21:05:25.641.537 cdaq_cmd[00062]: test mode.
+SEP 29 21:05:26.380.411 cdaq_evt[00063]: select: avail 0xD3A2, active 0xD3A2.
+SEP 29 21:05:26.380.420 cdaq_evt[00064]: test mode.
+SEP 29 21:06:40.131.165 cdaq_cmd[00063]: SCI_OPMODE 54178, 0.
+SEP 29 21:06:40.131.194 cdaq_cmd[00064]: standby mode.
+SEP 29 21:06:40.411.140 cdaq_evt[00065]: select: avail 0xD3A2, active 0xD3A2.
+SEP 29 21:06:40.411.155 cdaq_evt[00066]: standby mode.
+SEP 29 21:06:52.130.335 cdaq_cmd[00065]: SCI_SCRIPT 0x00000002.
+SEP 29 21:06:52.130.354 cdaq_cmd[00066]: checkpoint 2.
+SEP 29 21:06:52.130.360 cdaq_cmd[00067]: Executing 002.daq_prestart.crm.
+SEP 29 21:06:52.130.654 cdaq_cmd[00068]: cdaq_exec returned 13185.
+SEP 29 21:06:52.140.332 cdaq_cmd[00069]: SCI_MTR DISABLE = 0x1F.
+SEP 29 21:06:52.140.353 cdaq_cmd[00070]: SCI_CLB_PULSE FREQ = ALL, 0, 0.
+SEP 29 21:06:52.140.366 cdaq_cmd[00071]: SCI_HOLD_DELAY CAL, 0, 41.
+SEP 29 21:06:52.140.379 cdaq_cmd[00072]: SCI_HOLD_DELAY CAL, 1, 41.
+SEP 29 21:06:52.140.391 cdaq_cmd[00073]: SCI_HOLD_DELAY CAL, 2, 47.
+SEP 29 21:06:52.140.403 cdaq_cmd[00074]: SCI_HOLD_DELAY CAL, 3, 254.
+SEP 29 21:06:52.140.416 cdaq_cmd[00075]: SCI_HOLD_DELAY TCD/BCD, 0, 39.
+SEP 29 21:06:52.140.429 cdaq_cmd[00076]: SCI_HOLD_DELAY TCD/BCD, 1, 39.
+SEP 29 21:06:52.140.441 cdaq_cmd[00077]: SCI_HOLD_DELAY TCD/BCD, 2, 45.
+SEP 29 21:06:52.140.453 cdaq_cmd[00078]: SCI_HOLD_DELAY SCD1, 0, 19.
+SEP 29 21:06:52.140.466 cdaq_cmd[00079]: SCI_HOLD_DELAY SCD1, 1, 19.
+SEP 29 21:06:52.140.478 cdaq_cmd[00080]: SCI_HOLD_DELAY SCD1, 2, 25.
+SEP 29 21:06:52.140.491 cdaq_cmd[00081]: SCI_HOLD_DELAY SCD2, 0, 19.
+SEP 29 21:06:52.140.503 cdaq_cmd[00082]: SCI_HOLD_DELAY SCD2, 1, 19.
+SEP 29 21:06:52.140.520 cdaq_cmd[00083]: SCI_HOLD_DELAY SCD2, 2, 25.
+SEP 29 21:06:52.140.533 cdaq_cmd[00084]: SCI_HOLD_DELAY SCD3, 0, 19.
+SEP 29 21:06:52.140.545 cdaq_cmd[00085]: SCI_HOLD_DELAY SCD3, 1, 19.
+SEP 29 21:06:52.140.557 cdaq_cmd[00086]: SCI_HOLD_DELAY SCD3, 2, 25.
+SEP 29 21:06:52.140.569 cdaq_cmd[00087]: SCI_HOLD_DELAY SCD4, 0, 19.
+SEP 29 21:06:52.140.581 cdaq_cmd[00088]: SCI_HOLD_DELAY SCD4, 1, 19.
+SEP 29 21:06:52.140.594 cdaq_cmd[00089]: SCI_HOLD_DELAY SCD4, 2, 25.
+SEP 29 21:06:52.140.619 cdaq_cmd[00090]: SCI_SPRS CAL, SW = OFF, LEVEL = 1.000000.
+SEP 29 21:06:52.140.634 cdaq_cmd[00091]: SCI_SPRS TCD/BCD, SW = OFF, LEVEL = 1.000000.
+SEP 29 21:06:52.140.647 cdaq_cmd[00092]: SCI_SPRS SCD1, SW = OFF, LEVEL = 1.000000.
+SEP 29 21:06:52.140.660 cdaq_cmd[00093]: SCI_SPRS SCD2, SW = OFF, LEVEL = 1.000000.
+SEP 29 21:06:52.140.674 cdaq_cmd[00094]: SCI_SPRS SCD3, SW = OFF, LEVEL = 1.000000.
+SEP 29 21:06:52.140.687 cdaq_cmd[00095]: SCI_SPRS SCD4, SW = OFF, LEVEL = 1.000000.
+SEP 29 21:06:52.140.699 cdaq_cmd[00096]: SCI_SPI CAL, SELECT = 16.
+SEP 29 21:06:52.140.709 cdaq_cmd[00097]: SPI selection: dev 1, bitmask 0x10.
+SEP 29 21:06:52.140.721 cdaq_cmd[00098]: SCI_SPI TCD/BCD, SELECT = 16.
+SEP 29 21:06:52.140.728 cdaq_cmd[00099]: SPI selection: dev 14, bitmask 0x10.
+SEP 29 21:06:52.140.740 cdaq_cmd[00100]: SCI_SPI SCD1, SELECT = 16.
+SEP 29 21:06:52.140.746 cdaq_cmd[00101]: SPI selection: dev 7, bitmask 0x10.
+SEP 29 21:06:52.140.758 cdaq_cmd[00102]: SCI_SPI SCD2, SELECT = 16.
+SEP 29 21:06:52.140.764 cdaq_cmd[00103]: SPI selection: dev 6, bitmask 0x10.
+SEP 29 21:06:52.140.776 cdaq_cmd[00104]: SCI_SPI SCD3, SELECT = 16.
+SEP 29 21:06:52.140.783 cdaq_cmd[00105]: SPI selection: dev 11, bitmask 0x10.
+SEP 29 21:06:52.140.795 cdaq_cmd[00106]: SCI_SPI SCD4, SELECT = 16.
+SEP 29 21:06:52.140.801 cdaq_cmd[00107]: SPI selection: dev 12, bitmask 0x10.
+SEP 29 21:06:52.140.814 cdaq_cmd[00108]: SCI_SPI CAL, SELECT = 12, INTERVAL = 3600.
+SEP 29 21:06:52.140.821 cdaq_cmd[00109]: APMS interval: dev 1, 3600 sec.
+SEP 29 21:06:52.140.826 cdaq_cmd[00110]: SPI selection: dev 1, bitmask 0xc.
+SEP 29 21:06:52.140.837 cdaq_cmd[00111]: SCI_SPI TCD/BCD, SELECT = 12, INTERVAL = 1800.
+SEP 29 21:06:52.140.844 cdaq_cmd[00112]: APMS interval: dev 14, 1800 sec.
+SEP 29 21:06:52.140.850 cdaq_cmd[00113]: SPI selection: dev 14, bitmask 0xc.
+SEP 29 21:06:52.140.860 cdaq_cmd[00114]: SCI_SPI SCD1, SELECT = 12, INTERVAL = 1800.
+SEP 29 21:06:52.140.867 cdaq_cmd[00115]: APMS interval: dev 7, 1800 sec.
+SEP 29 21:06:52.140.873 cdaq_cmd[00116]: SPI selection: dev 7, bitmask 0xc.
+SEP 29 21:06:52.140.883 cdaq_cmd[00117]: SCI_SPI SCD2, SELECT = 12, INTERVAL = 1800.
+SEP 29 21:06:52.140.890 cdaq_cmd[00118]: APMS interval: dev 6, 1800 sec.
+SEP 29 21:06:52.140.896 cdaq_cmd[00119]: SPI selection: dev 6, bitmask 0xc.
+SEP 29 21:06:52.140.906 cdaq_cmd[00120]: SCI_SPI SCD3, SELECT = 12, INTERVAL = 1800.
+SEP 29 21:06:52.140.913 cdaq_cmd[00121]: APMS interval: dev 11, 1800 sec.
+SEP 29 21:06:52.140.919 cdaq_cmd[00122]: SPI selection: dev 11, bitmask 0xc.
+SEP 29 21:06:52.140.929 cdaq_cmd[00123]: SCI_SPI SCD4, SELECT = 12, INTERVAL = 1800.
+SEP 29 21:06:52.140.936 cdaq_cmd[00124]: APMS interval: dev 12, 1800 sec.
+SEP 29 21:06:52.140.942 cdaq_cmd[00125]: SPI selection: dev 12, bitmask 0xc.
+SEP 29 21:06:52.140.954 cdaq_cmd[00126]: SCI_PEDESTAL CAL, INTERVAL = 3600, EVENT = 100, RAW = ON, SUMMARY = ON.
+SEP 29 21:06:52.140.961 cdaq_cmd[00127]: Pedestal interval: dev 1, 3600 sec.
+SEP 29 21:06:52.140.967 cdaq_cmd[00128]: Pedestal event no: dev 1, 100.
+SEP 29 21:06:52.140.973 cdaq_cmd[00129]: Pedestal: dev 1, send raw data 1.
+SEP 29 21:06:52.140.978 cdaq_cmd[00130]: Pedestal: dev 1, summary file 1.
+SEP 29 21:06:52.140.990 cdaq_cmd[00131]: SCI_PEDESTAL TCD/BCD, INTERVAL = 600, EVENT = 100, RAW = ON, SUMMARY = ON.
+SEP 29 21:06:52.140.997 cdaq_cmd[00132]: Pedestal interval: dev 14, 600 sec.
+SEP 29 21:06:52.141.003 cdaq_cmd[00133]: Pedestal event no: dev 14, 100.
+SEP 29 21:06:52.141.009 cdaq_cmd[00134]: Pedestal: dev 14, send raw data 1.
+SEP 29 21:06:52.141.015 cdaq_cmd[00135]: Pedestal: dev 14, summary file 1.
+SEP 29 21:06:52.141.026 cdaq_cmd[00136]: SCI_PEDESTAL SCD1, INTERVAL = 600, EVENT = 100, RAW = ON, SUMMARY = ON.
+SEP 29 21:06:52.141.033 cdaq_cmd[00137]: Pedestal interval: dev 7, 600 sec.
+SEP 29 21:06:52.141.039 cdaq_cmd[00138]: Pedestal event no: dev 7, 100.
+SEP 29 21:06:52.141.045 cdaq_cmd[00139]: Pedestal: dev 7, send raw data 1.
+SEP 29 21:06:52.141.050 cdaq_cmd[00140]: Pedestal: dev 7, summary file 1.
+SEP 29 21:06:52.141.061 cdaq_cmd[00141]: SCI_PEDESTAL SCD2, INTERVAL = 600, EVENT = 100, RAW = ON, SUMMARY = ON.
+SEP 29 21:06:52.141.068 cdaq_cmd[00142]: Pedestal interval: dev 6, 600 sec.
+SEP 29 21:06:52.141.074 cdaq_cmd[00143]: Pedestal event no: dev 6, 100.
+SEP 29 21:06:52.141.080 cdaq_cmd[00144]: Pedestal: dev 6, send raw data 1.
+SEP 29 21:06:52.141.085 cdaq_cmd[00145]: Pedestal: dev 6, summary file 1.
+SEP 29 21:06:52.141.097 cdaq_cmd[00146]: SCI_PEDESTAL SCD3, INTERVAL = 600, EVENT = 100, RAW = ON, SUMMARY = ON.
+SEP 29 21:06:52.141.104 cdaq_cmd[00147]: Pedestal interval: dev 11, 600 sec.
+SEP 29 21:06:52.141.110 cdaq_cmd[00148]: Pedestal event no: dev 11, 100.
+SEP 29 21:06:52.141.116 cdaq_cmd[00149]: Pedestal: dev 11, send raw data 1.
+SEP 29 21:06:52.141.122 cdaq_cmd[00150]: Pedestal: dev 11, summary file 1.
+SEP 29 21:06:52.141.133 cdaq_cmd[00151]: SCI_PEDESTAL SCD4, INTERVAL = 600, EVENT = 100, RAW = ON, SUMMARY = ON.
+SEP 29 21:06:52.141.140 cdaq_cmd[00152]: Pedestal interval: dev 12, 600 sec.
+SEP 29 21:06:52.141.146 cdaq_cmd[00153]: Pedestal event no: dev 12, 100.
+SEP 29 21:06:52.141.151 cdaq_cmd[00154]: Pedestal: dev 12, send raw data 1.
+SEP 29 21:06:52.141.157 cdaq_cmd[00155]: Pedestal: dev 12, summary file 1.
+SEP 29 21:06:52.141.169 cdaq_cmd[00156]: SCI_STV CAL, 0x0000FFFF, ALGORITHM = 3.
+SEP 29 21:06:52.141.189 cdaq_cmd[00157]: SCI_STV CAL, 0x0000FFFF, DELTA = 20.000000.
+SEP 29 21:06:52.141.203 cdaq_cmd[00158]: SCI_STV CAL, 0x0000FFFF, ATOL = 0.000000.
+SEP 29 21:06:52.141.217 cdaq_cmd[00159]: SCI_STV CAL, 0x0000FFFF, STOL = 0.000000.
+SEP 29 21:06:52.141.230 cdaq_cmd[00160]: SCI_STV CAL, 0x0000FFFF, SFACTOR = 3.000000.
+SEP 29 21:06:52.141.244 cdaq_cmd[00161]: SCI_STV TCD/BCD, 0x0000FFFF, ALGORITHM = 3.
+SEP 29 21:06:52.141.258 cdaq_cmd[00162]: SCI_STV TCD/BCD, 0x0000FFFF, DELTA = 20.000000.
+SEP 29 21:06:52.141.272 cdaq_cmd[00163]: SCI_STV TCD/BCD, 0x0000FFFF, ATOL = 0.000000.
+SEP 29 21:06:52.141.287 cdaq_cmd[00164]: SCI_STV TCD/BCD, 0x0000FFFF, STOL = 0.000000.
+SEP 29 21:06:52.141.300 cdaq_cmd[00165]: SCI_STV TCD/BCD, 0x0000FFFF, SFACTOR = 3.000000.
+SEP 29 21:06:52.141.321 cdaq_cmd[00166]: SCI_STV SCD1, 0x0000FFFF, ALGORITHM = 3.
+SEP 29 21:06:52.141.336 cdaq_cmd[00167]: SCI_STV SCD1, 0x0000FFFF, DELTA = 15.000000.
+SEP 29 21:06:52.141.350 cdaq_cmd[00168]: SCI_STV SCD1, 0x0000FFFF, ATOL = 0.000000.
+SEP 29 21:06:52.141.364 cdaq_cmd[00169]: SCI_STV SCD1, 0x0000FFFF, STOL = 0.000000.
+SEP 29 21:06:52.141.378 cdaq_cmd[00170]: SCI_STV SCD1, 0x0000FFFF, SFACTOR = 3.000000.
+SEP 29 21:06:52.141.391 cdaq_cmd[00171]: SCI_STV SCD2, 0x0000FFFF, ALGORITHM = 3.
+SEP 29 21:06:52.141.404 cdaq_cmd[00172]: SCI_STV SCD2, 0x0000FFFF, DELTA = 15.000000.
+SEP 29 21:06:52.142.042 cdaq_cmd[00173]: SCI_STV SCD2, 0x0000FFFF, ATOL = 0.000000.
+SEP 29 21:06:52.142.057 cdaq_cmd[00174]: SCI_STV SCD2, 0x0000FFFF, STOL = 0.000000.
+SEP 29 21:06:52.142.071 cdaq_cmd[00175]: SCI_STV SCD2, 0x0000FFFF, SFACTOR = 3.000000.
+SEP 29 21:06:52.142.084 cdaq_cmd[00176]: SCI_STV SCD3, 0x0000FFFF, ALGORITHM = 3.
+SEP 29 21:06:52.142.098 cdaq_cmd[00177]: SCI_STV SCD3, 0x0000FFFF, DELTA = 15.000000.
+SEP 29 21:06:52.142.111 cdaq_cmd[00178]: SCI_STV SCD3, 0x0000FFFF, ATOL = 0.000000.
+SEP 29 21:06:52.142.125 cdaq_cmd[00179]: SCI_STV SCD3, 0x0000FFFF, STOL = 0.000000.
+SEP 29 21:06:52.142.139 cdaq_cmd[00180]: SCI_STV SCD3, 0x0000FFFF, SFACTOR = 3.000000.
+SEP 29 21:06:52.142.151 cdaq_cmd[00181]: SCI_STV SCD4, 0x0000FFFF, ALGORITHM = 3.
+SEP 29 21:06:52.142.165 cdaq_cmd[00182]: SCI_STV SCD4, 0x0000FFFF, DELTA = 15.000000.
+SEP 29 21:06:52.142.179 cdaq_cmd[00183]: SCI_STV SCD4, 0x0000FFFF, ATOL = 0.000000.
+SEP 29 21:06:52.142.193 cdaq_cmd[00184]: SCI_STV SCD4, 0x0000FFFF, STOL = 0.000000.
+SEP 29 21:06:52.142.206 cdaq_cmd[00185]: SCI_STV SCD4, 0x0000FFFF, SFACTOR = 3.000000.
+SEP 29 21:06:52.142.220 cdaq_cmd[00186]: SCI_LPARAM CAL, 0, 50, 50, 50.
+SEP 29 21:06:52.142.233 cdaq_cmd[00187]: SCI_CLB_PULSE FREQ = CAL, 2, 7.
+SEP 29 21:06:52.142.246 cdaq_cmd[00188]: SCI_LPARAM TCD/BCD, 0, 50, 50, 50.
+SEP 29 21:06:52.142.260 cdaq_cmd[00189]: SCI_LPARAM SCD1, 0, 50, 50, 50.
+SEP 29 21:06:52.142.273 cdaq_cmd[00190]: SCI_LPARAM SCD2, 0, 50, 50, 50.
+SEP 29 21:06:52.142.286 cdaq_cmd[00191]: SCI_LPARAM SCD3, 0, 50, 50, 50.
+SEP 29 21:06:52.142.299 cdaq_cmd[00192]: SCI_LPARAM SCD4, 0, 50, 50, 50.
+SEP 29 21:06:52.142.320 cdaq_cmd[00193]: SCI_ZCAL CAL, INTERVAL = 7200, EVENT = 10, RAW = ON, SUMMARY = ON.
+SEP 29 21:06:52.142.328 cdaq_cmd[00194]: Charge inj interval: dev 1, 7200 sec.
+SEP 29 21:06:52.142.334 cdaq_cmd[00195]: Charge injection event no: dev 1, 10.
+SEP 29 21:06:52.142.339 cdaq_cmd[00196]: Charge calibration: dev 1, send raw data 1.
+SEP 29 21:06:52.142.345 cdaq_cmd[00197]: Charge calibration: dev 1, summary file 1.
+SEP 29 21:06:52.142.356 cdaq_cmd[00198]: SCI_ZCAL TCD/BCD, INTERVAL = 7200, EVENT = 10, RAW = ON, SUMMARY = ON.
+SEP 29 21:06:52.142.363 cdaq_cmd[00199]: Charge inj interval: dev 14, 7200 sec.
+SEP 29 21:06:52.142.368 cdaq_cmd[00200]: Charge injection event no: dev 14, 10.
+SEP 29 21:06:52.142.374 cdaq_cmd[00201]: Charge calibration: dev 14, send raw data 1.
+SEP 29 21:06:52.142.380 cdaq_cmd[00202]: Charge calibration: dev 14, summary file 1.
+SEP 29 21:06:52.142.391 cdaq_cmd[00203]: SCI_ZCAL SCD1, INTERVAL = 7200, EVENT = 10, RAW = ON, SUMMARY = ON.
+SEP 29 21:06:52.142.399 cdaq_cmd[00204]: Charge inj interval: dev 7, 7200 sec.
+SEP 29 21:06:52.142.404 cdaq_cmd[00205]: Charge injection event no: dev 7, 10.
+SEP 29 21:06:52.142.410 cdaq_cmd[00206]: Charge calibration: dev 7, send raw data 1.
+SEP 29 21:06:52.142.417 cdaq_cmd[00207]: Charge calibration: dev 7, summary file 1.
+SEP 29 21:06:52.142.427 cdaq_cmd[00208]: SCI_ZCAL SCD2, INTERVAL = 7200, EVENT = 10, RAW = ON, SUMMARY = ON.
+SEP 29 21:06:52.142.434 cdaq_cmd[00209]: Charge inj interval: dev 6, 7200 sec.
+SEP 29 21:06:52.142.440 cdaq_cmd[00210]: Charge injection event no: dev 6, 10.
+SEP 29 21:06:52.142.446 cdaq_cmd[00211]: Charge calibration: dev 6, send raw data 1.
+SEP 29 21:06:52.142.451 cdaq_cmd[00212]: Charge calibration: dev 6, summary file 1.
+SEP 29 21:06:52.142.462 cdaq_cmd[00213]: SCI_ZCAL SCD3, INTERVAL = 7200, EVENT = 10, RAW = ON, SUMMARY = ON.
+SEP 29 21:06:52.142.469 cdaq_cmd[00214]: Charge inj interval: dev 11, 7200 sec.
+SEP 29 21:06:52.142.475 cdaq_cmd[00215]: Charge injection event no: dev 11, 10.
+SEP 29 21:06:52.142.481 cdaq_cmd[00216]: Charge calibration: dev 11, send raw data 1.
+SEP 29 21:06:52.142.487 cdaq_cmd[00217]: Charge calibration: dev 11, summary file 1.
+SEP 29 21:06:52.142.498 cdaq_cmd[00218]: SCI_ZCAL SCD4, INTERVAL = 7200, EVENT = 10, RAW = ON, SUMMARY = ON.
+SEP 29 21:06:52.142.505 cdaq_cmd[00219]: Charge inj interval: dev 12, 7200 sec.
+SEP 29 21:06:52.142.511 cdaq_cmd[00220]: Charge injection event no: dev 12, 10.
+SEP 29 21:06:52.142.517 cdaq_cmd[00221]: Charge calibration: dev 12, send raw data 1.
+SEP 29 21:06:52.142.522 cdaq_cmd[00222]: Charge calibration: dev 12, summary file 1.
+SEP 29 21:06:52.142.534 cdaq_cmd[00223]: SCI_LPARAM CAL, 1, 100, 100, 50.
+SEP 29 21:06:52.142.547 cdaq_cmd[00224]: SCI_LED CAL, INTERVAL = 7200, EVENT = 20, RAW = ON, SUMMARY = ON.
+SEP 29 21:06:52.142.554 cdaq_cmd[00225]: LED flash interval: dev 1, 7200 sec.
+SEP 29 21:06:52.142.560 cdaq_cmd[00226]: LED flash event no: dev 1, 20.
+SEP 29 21:06:52.142.565 cdaq_cmd[00227]: LED: dev 1, send raw data 1.
+SEP 29 21:06:52.142.571 cdaq_cmd[00228]: LED: dev 1, summary file 1.
+SEP 29 21:06:52.143.342 cdaq_cmd[00229]: termination of child.
+SEP 29 21:06:52.143.364 cdaq_cmd[00230]: resuming.
+SEP 29 21:06:52.143.377 cdaq_cmd[00231]: SCI_WAIT 1.
+SEP 29 21:06:52.143.389 cdaq_cmd[00232]: SCI_CTR ALGORITHM = 2.
+SEP 29 21:06:52.143.401 cdaq_cmd[00233]: SCI_MTR ZCLB = 0.
+SEP 29 21:06:52.143.413 cdaq_cmd[00234]: SCI_MTR ZCLB = 0.
+SEP 29 21:06:52.143.426 cdaq_cmd[00235]: SCI_MTR EHI = 0.
+SEP 29 21:06:52.143.437 cdaq_cmd[00236]: SCI_MTR EHI = 0.
+SEP 29 21:06:52.143.449 cdaq_cmd[00237]: SCI_MTR ELO = 0.
+SEP 29 21:06:52.143.460 cdaq_cmd[00238]: SCI_MTR ELO = 0.
+SEP 29 21:06:52.143.474 cdaq_cmd[00239]: SCI_LPARAM BSD, 1, 60, 100, 40.
+SEP 29 21:06:52.143.488 cdaq_cmd[00240]: SCI_LPARAM BSD, 0, 51, 51, 40.
+SEP 29 21:06:52.143.501 cdaq_cmd[00241]: SCI_LPARAM BSD, 2, 60, 51, 40.
+SEP 29 21:06:52.143.517 cdaq_cmd[00242]: SCI_LED BSD, INTERVAL = 3600, EVENT = 3000, RAW = OFF, SUMMARY = ON.
+SEP 29 21:06:52.143.525 cdaq_cmd[00243]: LED flash interval: dev 5, 3600 sec.
+SEP 29 21:06:52.143.530 cdaq_cmd[00244]: LED flash event no: dev 5, 3000.
+SEP 29 21:06:52.143.537 cdaq_cmd[00245]: LED: dev 5, send raw data 0.
+SEP 29 21:06:52.143.542 cdaq_cmd[00246]: LED: dev 5, summary file 1.
+SEP 29 21:06:52.143.552 cdaq_cmd[00247]: SCI_LED BSD, ENABLE.
+SEP 29 21:06:52.143.558 cdaq_cmd[00248]: LED: dev 5, enable 1.
+SEP 29 21:06:52.430.323 cdaq_evt[00067]: calibration trigger frequency (dev 15, addr 0) set to level 0.
+SEP 29 21:06:52.430.346 cdaq_evt[00068]: dispatch: 6043090400001129.
+SEP 29 21:06:52.431.409 cdaq_evt[00069]: dispatch: 60431B0400001127.
+SEP 29 21:06:52.432.370 cdaq_evt[00070]: dispatch: 60430E0400001113.
+SEP 29 21:06:52.434.307 cdaq_evt[00071]: dispatch: 60430D0400001113.
+SEP 29 21:06:52.435.244 cdaq_evt[00072]: dispatch: 60430F0400001113.
+SEP 29 21:06:52.436.244 cdaq_evt[00073]: dispatch: 6043100400001113.
+SEP 29 21:06:52.437.244 cdaq_evt[00074]: disable sw sprs[C].
+SEP 29 21:06:52.437.253 cdaq_evt[00075]: sw sprs level[C]: 1.000000.
+SEP 29 21:06:52.437.312 cdaq_evt[00076]: disable sw sprs[T].
+SEP 29 21:06:52.437.321 cdaq_evt[00077]: sw sprs level[T]: 1.000000.
+SEP 29 21:06:52.437.330 cdaq_evt[00078]: disable sw sprs[1].
+SEP 29 21:06:52.437.338 cdaq_evt[00079]: sw sprs level[1]: 1.000000.
+SEP 29 21:06:52.437.353 cdaq_evt[00080]: disable sw sprs[2].
+SEP 29 21:06:52.437.361 cdaq_evt[00081]: sw sprs level[2]: 1.000000.
+SEP 29 21:06:52.437.371 cdaq_evt[00082]: disable sw sprs[3].
+SEP 29 21:06:52.437.377 cdaq_evt[00083]: sw sprs level[3]: 1.000000.
+SEP 29 21:06:52.437.387 cdaq_evt[00084]: disable sw sprs[4].
+SEP 29 21:06:52.437.394 cdaq_evt[00085]: sw sprs level[4]: 1.000000.
+SEP 29 21:06:52.437.405 cdaq_evt[00086]: SPI selection: dev 1, bitmask 0x10.
+SEP 29 21:06:52.437.414 cdaq_evt[00087]: SPI selection: dev 14, bitmask 0x10.
+SEP 29 21:06:52.437.423 cdaq_evt[00088]: SPI selection: dev 7, bitmask 0x10.
+SEP 29 21:06:52.437.432 cdaq_evt[00089]: SPI selection: dev 6, bitmask 0x10.
+SEP 29 21:06:52.437.441 cdaq_evt[00090]: SPI selection: dev 11, bitmask 0x10.
+SEP 29 21:06:52.437.450 cdaq_evt[00091]: SPI selection: dev 12, bitmask 0x10.
+SEP 29 21:06:52.437.462 cdaq_evt[00092]: set_algorithm[C]: channel 65535, algorithm 3.
+SEP 29 21:06:52.437.548 cdaq_evt[00093]: set_delta[C]: channel 65535, value 20.000000.
+SEP 29 21:06:52.437.573 cdaq_evt[00094]: set_max_mean_change[C]: ch all, val 0.000000.
+SEP 29 21:06:52.437.598 cdaq_evt[00095]: set_max_sigma_change[C]: ch all, val 0.000000.
+SEP 29 21:06:52.437.623 cdaq_evt[00096]: set_sigma_factor[C]: ch all, val 3.000000.
+SEP 29 21:06:52.437.649 cdaq_evt[00097]: set_algorithm[T]: channel 65535, algorithm 3.
+SEP 29 21:06:52.437.698 cdaq_evt[00098]: set_delta[T]: channel 65535, value 20.000000.
+SEP 29 21:06:52.437.715 cdaq_evt[00099]: set_max_mean_change[T]: ch all, val 0.000000.
+SEP 29 21:06:52.437.732 cdaq_evt[00100]: set_max_sigma_change[T]: ch all, val 0.000000.
+SEP 29 21:06:52.437.749 cdaq_evt[00101]: set_sigma_factor[T]: ch all, val 3.000000.
+SEP 29 21:06:52.437.765 cdaq_evt[00102]: set_algorithm[1]: channel 65535, algorithm 3.
+SEP 29 21:06:52.437.861 cdaq_evt[00103]: set_delta[1]: channel 65535, value 15.000000.
+SEP 29 21:06:52.437.888 cdaq_evt[00104]: set_max_mean_change[1]: ch all, val 0.000000.
+SEP 29 21:06:52.437.915 cdaq_evt[00105]: set_max_sigma_change[1]: ch all, val 0.000000.
+SEP 29 21:06:52.437.943 cdaq_evt[00106]: set_sigma_factor[1]: ch all, val 3.000000.
+SEP 29 21:06:52.437.969 cdaq_evt[00107]: set_algorithm[2]: channel 65535, algorithm 3.
+SEP 29 21:06:52.438.070 cdaq_evt[00108]: set_delta[2]: channel 65535, value 15.000000.
+SEP 29 21:06:52.438.097 cdaq_evt[00109]: set_max_mean_change[2]: ch all, val 0.000000.
+SEP 29 21:06:52.438.124 cdaq_evt[00110]: set_max_sigma_change[2]: ch all, val 0.000000.
+SEP 29 21:06:52.438.151 cdaq_evt[00111]: set_sigma_factor[2]: ch all, val 3.000000.
+SEP 29 21:06:52.438.179 cdaq_evt[00112]: set_algorithm[3]: channel 65535, algorithm 3.
+SEP 29 21:06:52.438.281 cdaq_evt[00113]: set_delta[3]: channel 65535, value 15.000000.
+SEP 29 21:06:52.438.309 cdaq_evt[00114]: set_max_mean_change[3]: ch all, val 0.000000.
+SEP 29 21:06:52.438.336 cdaq_evt[00115]: set_max_sigma_change[3]: ch all, val 0.000000.
+SEP 29 21:06:52.438.363 cdaq_evt[00116]: set_sigma_factor[3]: ch all, val 3.000000.
+SEP 29 21:06:52.438.390 cdaq_evt[00117]: set_algorithm[4]: channel 65535, algorithm 3.
+SEP 29 21:06:52.438.489 cdaq_evt[00118]: set_delta[4]: channel 65535, value 15.000000.
+SEP 29 21:06:52.438.516 cdaq_evt[00119]: set_max_mean_change[4]: ch all, val 0.000000.
+SEP 29 21:06:52.438.543 cdaq_evt[00120]: set_max_sigma_change[4]: ch all, val 0.000000.
+SEP 29 21:06:52.438.571 cdaq_evt[00121]: set_sigma_factor[4]: ch all, val 3.000000.
+SEP 29 21:06:52.438.598 cdaq_evt[00122]: zbegin: index 0, value 50.
+SEP 29 21:06:52.438.604 cdaq_evt[00123]: zend: index 0, value 50.
+SEP 29 21:06:52.438.610 cdaq_evt[00124]: zstep: index 0, value 50.
+SEP 29 21:06:52.438.620 cdaq_evt[00125]: calibration trigger frequency (dev 1, addr 2) set to level 7.
+SEP 29 21:06:52.438.630 cdaq_evt[00126]: zbegin: index 0, value 50.
+SEP 29 21:06:52.438.636 cdaq_evt[00127]: zend: index 0, value 50.
+SEP 29 21:06:52.438.642 cdaq_evt[00128]: zstep: index 0, value 50.
+SEP 29 21:06:52.438.651 cdaq_evt[00129]: zbegin: index 0, value 50.
+SEP 29 21:06:52.438.657 cdaq_evt[00130]: zend: index 0, value 50.
+SEP 29 21:06:52.438.663 cdaq_evt[00131]: zstep: index 0, value 50.
+SEP 29 21:06:52.438.672 cdaq_evt[00132]: zbegin: index 0, value 50.
+SEP 29 21:06:52.438.678 cdaq_evt[00133]: zend: index 0, value 50.
+SEP 29 21:06:52.438.684 cdaq_evt[00134]: zstep: index 0, value 50.
+SEP 29 21:06:52.438.693 cdaq_evt[00135]: zbegin: index 0, value 50.
+SEP 29 21:06:52.438.699 cdaq_evt[00136]: zend: index 0, value 50.
+SEP 29 21:06:52.438.705 cdaq_evt[00137]: zstep: index 0, value 50.
+SEP 29 21:06:52.438.714 cdaq_evt[00138]: zbegin: index 0, value 50.
+SEP 29 21:06:52.438.721 cdaq_evt[00139]: zend: index 0, value 50.
+SEP 29 21:06:52.438.726 cdaq_evt[00140]: zstep: index 0, value 50.
+SEP 29 21:06:52.438.735 cdaq_evt[00141]: zbegin: index 1, value 100.
+SEP 29 21:06:52.438.741 cdaq_evt[00142]: zend: index 1, value 100.
+SEP 29 21:06:52.438.747 cdaq_evt[00143]: zstep: index 1, value 50.
+SEP 29 21:06:52.438.756 cdaq_evt[00144]: waiting 1 sec.
+SEP 29 21:06:53.440.127 cdaq_evt[00145]: dispatch: 60430B0200000002.
+SEP 29 21:06:53.442.453 cdaq_evt[00146]: trigger selectors: EHI 0, ZCLB 0, ELO 0.
+SEP 29 21:06:53.442.953 cdaq_evt[00147]: trigger selectors: EHI 0, ZCLB 0, ELO 0.
+SEP 29 21:06:53.444.453 cdaq_evt[00148]: trigger selectors: EHI 0, ZCLB 0, ELO 0.
+SEP 29 21:06:53.444.953 cdaq_evt[00149]: trigger selectors: EHI 0, ZCLB 0, ELO 0.
+SEP 29 21:06:53.446.452 cdaq_evt[00150]: trigger selectors: EHI 0, ZCLB 0, ELO 0.
+SEP 29 21:06:53.446.951 cdaq_evt[00151]: trigger selectors: EHI 0, ZCLB 0, ELO 0.
+SEP 29 21:06:53.446.967 cdaq_evt[00152]: zbegin: index 1, value 60.
+SEP 29 21:06:53.446.973 cdaq_evt[00153]: zend: index 1, value 100.
+SEP 29 21:06:53.446.978 cdaq_evt[00154]: zstep: index 1, value 40.
+SEP 29 21:06:53.446.988 cdaq_evt[00155]: zbegin: index 0, value 51.
+SEP 29 21:06:53.446.994 cdaq_evt[00156]: zend: index 0, value 51.
+SEP 29 21:06:53.447.001 cdaq_evt[00157]: zstep: index 0, value 40.
+SEP 29 21:06:53.447.011 cdaq_evt[00158]: zbegin: index 2, value 60.
+SEP 29 21:06:53.447.016 cdaq_evt[00159]: zend: index 2, value 51.
+SEP 29 21:06:53.447.023 cdaq_evt[00160]: zstep: index 2, value 40.
+SEP 29 21:07:12.229.272 cdaq_cmd[00249]: SCI_CLB_PULSE FREQ = CAL, 0, 12.
+SEP 29 21:07:12.476.249 cdaq_evt[00161]: calibration trigger frequency (dev 1, addr 0) set to level 12.
+SEP 29 21:07:15.328.789 cdaq_cmd[00250]: SCI_CLB_PULSE FREQ = TCD/BCD, 0, 12.
+SEP 29 21:07:15.481.765 cdaq_evt[00162]: calibration trigger frequency (dev 14, addr 0) set to level 12.
+SEP 29 21:07:18.730.268 cdaq_cmd[00251]: SCI_CLB_PULSE FREQ = BSD, 0, 12.
+SEP 29 21:07:19.489.154 cdaq_evt[00163]: calibration trigger frequency (dev 5, addr 0) set to level 12.
+SEP 29 21:07:22.729.661 cdaq_cmd[00252]: SCI_CLB_PULSE FREQ = SCD1, 0, 12.
+SEP 29 21:07:23.495.558 cdaq_evt[00164]: calibration trigger frequency (dev 7, addr 0) set to level 12.
+SEP 29 21:07:26.728.048 cdaq_cmd[00253]: SCI_CLB_PULSE FREQ = SCD2, 0, 12.
+SEP 29 21:07:27.499.945 cdaq_evt[00165]: calibration trigger frequency (dev 6, addr 0) set to level 12.
+SEP 29 21:07:30.728.439 cdaq_cmd[00254]: SCI_CLB_PULSE FREQ = SCD3, 0, 12.
+SEP 29 21:07:31.507.315 cdaq_evt[00166]: calibration trigger frequency (dev 11, addr 0) set to level 12.
+SEP 29 21:07:34.722.838 cdaq_cmd[00255]: SCI_CLB_PULSE FREQ = SCD4, 0, 12.
+SEP 29 21:07:35.510.724 cdaq_evt[00167]: calibration trigger frequency (dev 12, addr 0) set to level 12.
+SEP 29 21:07:40.123.005 cdaq_cmd[00256]: SCI_CLB_PULSE FREQ = CAL, 1, 5.
+SEP 29 21:07:40.518.940 cdaq_evt[00168]: calibration trigger frequency (dev 1, addr 1) set to level 5.
+SEP 29 21:07:43.122.554 cdaq_cmd[00257]: SCI_CLB_PULSE FREQ = TCD/BCD, 1, 5.
+SEP 29 21:07:43.524.502 cdaq_evt[00169]: calibration trigger frequency (dev 14, addr 1) set to level 5.
+SEP 29 21:07:49.121.641 cdaq_cmd[00258]: SCI_CLB_PULSE FREQ = BSD, 1, 5.
+SEP 29 21:07:49.530.574 cdaq_evt[00170]: calibration trigger frequency (dev 5, addr 1) set to level 5.
+SEP 29 21:07:51.524.265 cdaq_cmd[00259]: SCI_CLB_PULSE FREQ = SCD1, 1, 5.
+SEP 29 21:07:51.534.267 cdaq_evt[00171]: calibration trigger frequency (dev 7, addr 1) set to level 5.
+SEP 29 21:07:55.522.655 cdaq_cmd[00260]: SCI_CLB_PULSE FREQ = SCD2, 1, 5.
+SEP 29 21:07:55.541.656 cdaq_evt[00172]: calibration trigger frequency (dev 6, addr 1) set to level 5.
+SEP 29 21:07:59.523.044 cdaq_cmd[00261]: SCI_CLB_PULSE FREQ = SCD3, 1, 5.
+SEP 29 21:07:59.549.039 cdaq_evt[00173]: calibration trigger frequency (dev 11, addr 1) set to level 5.
+SEP 29 21:08:03.523.447 cdaq_cmd[00262]: SCI_CLB_PULSE FREQ = SCD4, 1, 5.
+SEP 29 21:08:03.555.450 cdaq_evt[00174]: calibration trigger frequency (dev 12, addr 1) set to level 5.
+SEP 29 21:08:12.820.024 cdaq_cmd[00263]: SCI_CTR ALGORITHM = 2.
+SEP 29 21:08:13.568.917 cdaq_evt[00175]: dispatch: 60430B0200000002.
+SEP 29 21:08:18.022.231 cdaq_cmd[00264]: SCI_CTR THRESHOLD = 15, 15, 16339.
+SEP 29 21:08:18.580.140 cdaq_evt[00176]: dispatch: 6043010B00000FA6.
+SEP 29 21:08:18.581.176 cdaq_evt[00177]: dispatch: 6043010C00000FA6.
+SEP 29 21:08:18.582.166 cdaq_evt[00178]: dispatch: 6043010D00000FA6.
+SEP 29 21:08:18.583.180 cdaq_evt[00179]: dispatch: 6043010E00000FA6.
+SEP 29 21:08:18.584.144 cdaq_evt[00180]: dispatch: 6043010F00000FA6.
+SEP 29 21:08:18.585.184 cdaq_evt[00181]: dispatch: 6043011000000FA6.
+SEP 29 21:08:18.586.178 cdaq_evt[00182]: dispatch: 6043011100000FA6.
+SEP 29 21:08:18.587.161 cdaq_evt[00183]: dispatch: 6043011200000FA6.
+SEP 29 21:08:18.588.164 cdaq_evt[00184]: dispatch: 6043011300000FA6.
+SEP 29 21:08:18.589.168 cdaq_evt[00185]: dispatch: 6043011400000FA6.
+SEP 29 21:08:18.590.164 cdaq_evt[00186]: dispatch: 6043020B00000FA6.
+SEP 29 21:08:18.591.160 cdaq_evt[00187]: dispatch: 6043020C00000FA6.
+SEP 29 21:08:18.592.172 cdaq_evt[00188]: dispatch: 6043020D00000FA6.
+SEP 29 21:08:18.593.158 cdaq_evt[00189]: dispatch: 6043020E00000FA6.
+SEP 29 21:08:18.594.163 cdaq_evt[00190]: dispatch: 6043020F00000FA6.
+SEP 29 21:08:18.595.168 cdaq_evt[00191]: dispatch: 6043021000000FA6.
+SEP 29 21:08:18.596.162 cdaq_evt[00192]: dispatch: 6043021100000FA6.
+SEP 29 21:08:18.597.201 cdaq_evt[00193]: dispatch: 6043021200000FA6.
+SEP 29 21:08:18.598.144 cdaq_evt[00194]: dispatch: 6043021300000FA6.
+SEP 29 21:08:18.599.180 cdaq_evt[00195]: dispatch: 6043021400000FA6.
+SEP 29 21:08:18.600.170 cdaq_evt[00196]: dispatch: 6043030B00000FA6.
+SEP 29 21:08:18.601.189 cdaq_evt[00197]: dispatch: 6043030C00000FA6.
+SEP 29 21:08:18.602.169 cdaq_evt[00198]: dispatch: 6043030D00000FA6.
+SEP 29 21:08:18.603.179 cdaq_evt[00199]: dispatch: 6043030E00000FA6.
+SEP 29 21:08:18.604.143 cdaq_evt[00200]: dispatch: 6043030F00000FA6.
+SEP 29 21:08:18.605.189 cdaq_evt[00201]: dispatch: 6043031000000FA6.
+SEP 29 21:08:18.606.164 cdaq_evt[00202]: dispatch: 6043031100000FA6.
+SEP 29 21:08:18.607.155 cdaq_evt[00203]: dispatch: 6043031200000FA6.
+SEP 29 21:08:18.608.167 cdaq_evt[00204]: dispatch: 6043031300000FA6.
+SEP 29 21:08:18.609.157 cdaq_evt[00205]: dispatch: 6043031400000FA6.
+SEP 29 21:08:18.610.162 cdaq_evt[00206]: dispatch: 6043040B00000FA6.
+SEP 29 21:08:18.611.165 cdaq_evt[00207]: dispatch: 6043040C00000FA6.
+SEP 29 21:08:18.612.161 cdaq_evt[00208]: dispatch: 6043040D00000FA6.
+SEP 29 21:08:18.613.185 cdaq_evt[00209]: dispatch: 6043040E00000FA6.
+SEP 29 21:08:18.614.163 cdaq_evt[00210]: dispatch: 6043040F00000FA6.
+SEP 29 21:08:18.615.156 cdaq_evt[00211]: dispatch: 6043041000000FA6.
+SEP 29 21:08:18.616.169 cdaq_evt[00212]: dispatch: 6043041100000FA6.
+SEP 29 21:08:18.617.178 cdaq_evt[00213]: dispatch: 6043041200000FA6.
+SEP 29 21:08:18.618.176 cdaq_evt[00214]: dispatch: 6043041300000FA6.
+SEP 29 21:08:18.619.179 cdaq_evt[00215]: dispatch: 6043041400000FA6.
+SEP 29 21:08:18.620.244 cdaq_evt[00216]: dispatch: 6043050B00000FA6.
+SEP 29 21:08:18.621.241 cdaq_evt[00217]: dispatch: 6043050C00000FA6.
+SEP 29 21:08:18.622.173 cdaq_evt[00218]: dispatch: 6043050D00000FA6.
+SEP 29 21:08:18.623.154 cdaq_evt[00219]: dispatch: 6043050E00000FA6.
+SEP 29 21:08:18.624.159 cdaq_evt[00220]: dispatch: 6043050F00000FA6.
+SEP 29 21:08:18.625.162 cdaq_evt[00221]: dispatch: 6043051000000FA6.
+SEP 29 21:08:18.626.158 cdaq_evt[00222]: dispatch: 6043051100000FA6.
+SEP 29 21:08:18.627.184 cdaq_evt[00223]: dispatch: 6043051200000FA6.
+SEP 29 21:08:18.628.163 cdaq_evt[00224]: dispatch: 6043051300000FA6.
+SEP 29 21:08:18.629.152 cdaq_evt[00225]: dispatch: 6043051400000FA6.
+SEP 29 21:08:18.630.164 cdaq_evt[00226]: dispatch: 6043060B00000FA6.
+SEP 29 21:08:18.631.152 cdaq_evt[00227]: dispatch: 6043060C00000FA6.
+SEP 29 21:08:18.632.157 cdaq_evt[00228]: dispatch: 6043060D00000FA6.
+SEP 29 21:08:18.633.162 cdaq_evt[00229]: dispatch: 6043060E00000FA6.
+SEP 29 21:08:18.634.157 cdaq_evt[00230]: dispatch: 6043060F00000FA6.
+SEP 29 21:08:18.635.153 cdaq_evt[00231]: dispatch: 6043061000000FA6.
+SEP 29 21:08:18.636.165 cdaq_evt[00232]: dispatch: 6043061100000FA6.
+SEP 29 21:08:18.637.151 cdaq_evt[00233]: dispatch: 6043061200000FA6.
+SEP 29 21:08:18.638.156 cdaq_evt[00234]: dispatch: 6043061300000FA6.
+SEP 29 21:08:18.639.160 cdaq_evt[00235]: dispatch: 6043061400000FA6.
+SEP 29 21:08:18.640.156 cdaq_evt[00236]: dispatch: 6043070B00000FA6.
+SEP 29 21:08:18.641.153 cdaq_evt[00237]: dispatch: 6043070C00000FA6.
+SEP 29 21:08:18.642.164 cdaq_evt[00238]: dispatch: 6043070D00000FA6.
+SEP 29 21:08:18.643.154 cdaq_evt[00239]: dispatch: 6043070E00000FA6.
+SEP 29 21:08:18.644.155 cdaq_evt[00240]: dispatch: 6043070F00000FA6.
+SEP 29 21:08:18.645.160 cdaq_evt[00241]: dispatch: 6043071000000FA6.
+SEP 29 21:08:18.646.155 cdaq_evt[00242]: dispatch: 6043071100000FA6.
+SEP 29 21:08:18.647.163 cdaq_evt[00243]: dispatch: 6043071200000FA6.
+SEP 29 21:08:18.648.310 cdaq_evt[00244]: dispatch: 6043071300000FA6.
+SEP 29 21:08:18.649.421 cdaq_evt[00245]: dispatch: 6043071400000FA6.
+SEP 29 21:08:18.650.386 cdaq_evt[00246]: dispatch: 6043080B00000FA6.
+SEP 29 21:08:18.651.385 cdaq_evt[00247]: dispatch: 6043080C00000FA6.
+SEP 29 21:08:18.652.513 cdaq_evt[00248]: dispatch: 6043080D00000FA6.
+SEP 29 21:08:18.653.511 cdaq_evt[00249]: dispatch: 6043080E00000FA6.
+SEP 29 21:08:18.654.514 cdaq_evt[00250]: dispatch: 6043080F00000FA6.
+SEP 29 21:08:18.655.510 cdaq_evt[00251]: dispatch: 6043081000000FA6.
+SEP 29 21:08:18.656.575 cdaq_evt[00252]: dispatch: 6043081100000FA6.
+SEP 29 21:08:18.657.634 cdaq_evt[00253]: dispatch: 6043081200000FA6.
+SEP 29 21:08:18.658.633 cdaq_evt[00254]: dispatch: 6043081300000FA6.
+SEP 29 21:08:18.659.633 cdaq_evt[00255]: dispatch: 6043081400000FA6.
+SEP 29 21:08:22.721.506 cdaq_cmd[00265]: SCI_TCRDTR INPUT DISABLE = 0x00000200.
+SEP 29 21:08:23.668.384 cdaq_evt[00256]: dispatch: 6043200500020080.
+SEP 29 21:08:26.520.926 cdaq_cmd[00266]: SCI_TCRDTR ALGORITHM = 0.
+SEP 29 21:08:26.674.938 cdaq_evt[00257]: dispatch: 6043200200000001.
+SEP 29 21:08:26.676.934 cdaq_evt[00258]: dispatch: 6043200400000002.
+SEP 29 21:08:35.418.580 cdaq_cmd[00267]: SCI_TCRDTR THRESHOLD = 15, 15, 16238.
+SEP 29 21:08:35.687.551 cdaq_evt[00259]: dispatch: 60431C0B00000EDC.
+SEP 29 21:08:35.688.537 cdaq_evt[00260]: dispatch: 60431C0C00000EDC.
+SEP 29 21:08:35.689.533 cdaq_evt[00261]: dispatch: 60431C0D00000EDC.
+SEP 29 21:08:35.690.541 cdaq_evt[00262]: dispatch: 60431C0F00000EDC.
+SEP 29 21:08:35.691.533 cdaq_evt[00263]: dispatch: 60431C1000000EDC.
+SEP 29 21:08:35.692.554 cdaq_evt[00264]: dispatch: 60431C1100000EDC.
+SEP 29 21:08:35.693.533 cdaq_evt[00265]: dispatch: 60431C1200000EDC.
+SEP 29 21:08:35.694.549 cdaq_evt[00266]: dispatch: 60431D0B00000EDC.
+SEP 29 21:08:35.695.532 cdaq_evt[00267]: dispatch: 60431D0C00000EDC.
+SEP 29 21:08:35.696.549 cdaq_evt[00268]: dispatch: 60431D0D00000EDC.
+SEP 29 21:08:35.697.536 cdaq_evt[00269]: dispatch: 60431D0F00000EDC.
+SEP 29 21:08:35.698.549 cdaq_evt[00270]: dispatch: 60431D1000000EDC.
+SEP 29 21:08:35.699.531 cdaq_evt[00271]: dispatch: 60431D1100000EDC.
+SEP 29 21:08:35.700.546 cdaq_evt[00272]: dispatch: 60431D1200000EDC.
+SEP 29 21:08:35.701.530 cdaq_evt[00273]: dispatch: 60431E0B00000EDC.
+SEP 29 21:08:35.702.551 cdaq_evt[00274]: dispatch: 60431E0C00000EDC.
+SEP 29 21:08:35.703.532 cdaq_evt[00275]: dispatch: 60431E0D00000EDC.
+SEP 29 21:08:35.704.547 cdaq_evt[00276]: dispatch: 60431E0F00000EDC.
+SEP 29 21:08:35.705.529 cdaq_evt[00277]: dispatch: 60431E1000000EDC.
+SEP 29 21:08:35.706.545 cdaq_evt[00278]: dispatch: 60431E1100000EDC.
+SEP 29 21:08:35.707.533 cdaq_evt[00279]: dispatch: 60431E1200000EDC.
+SEP 29 21:08:35.708.546 cdaq_evt[00280]: dispatch: 60431F0B00000EDC.
+SEP 29 21:08:35.709.530 cdaq_evt[00281]: dispatch: 60431F0C00000EDC.
+SEP 29 21:08:35.710.546 cdaq_evt[00282]: dispatch: 60431F0D00000EDC.
+SEP 29 21:08:35.711.530 cdaq_evt[00283]: dispatch: 60431F0F00000EDC.
+SEP 29 21:08:35.712.549 cdaq_evt[00284]: dispatch: 60431F1000000EDC.
+SEP 29 21:08:35.713.530 cdaq_evt[00285]: dispatch: 60431F1100000EDC.
+SEP 29 21:08:35.714.545 cdaq_evt[00286]: dispatch: 60431F1200000EDC.
+SEP 29 21:08:45.518.030 cdaq_cmd[00268]: SCI_MTR EHI = 0.
+SEP 29 21:08:45.730.357 cdaq_evt[00287]: trigger selectors: EHI 0, ZCLB 0, ELO 0.
+SEP 29 21:08:48.020.646 cdaq_cmd[00269]: SCI_MTR ELO = 0.
+SEP 29 21:08:48.735.769 cdaq_evt[00288]: trigger selectors: EHI 0, ZCLB 0, ELO 0.
+SEP 29 21:08:52.019.041 cdaq_cmd[00270]: SCI_MTR ZCLB = 0.
+SEP 29 21:08:52.742.284 cdaq_evt[00289]: trigger selectors: EHI 0, ZCLB 0, ELO 0.
+SEP 29 21:09:06.318.857 cdaq_cmd[00271]: SCI_SCRIPT 0x00000032.
+SEP 29 21:09:06.318.876 cdaq_cmd[00272]: checkpoint 50.
+SEP 29 21:09:06.318.883 cdaq_cmd[00273]: Executing 050.cal_ch_mask.crm.
+SEP 29 21:09:06.323.480 cdaq_cmd[00274]: cdaq_exec returned 13704.
+SEP 29 21:09:06.324.564 cdaq_cmd[00275]: termination of child.
+SEP 29 21:09:06.324.583 cdaq_cmd[00276]: resuming.
+SEP 29 21:09:06.324.601 cdaq_cmd[00277]: SCI_STV CAL, 0x00000005, DISABLE.
+SEP 29 21:09:06.324.616 cdaq_cmd[00278]: SCI_STV CAL, 0x00000005, STV = 0.
+SEP 29 21:09:06.324.629 cdaq_cmd[00279]: SCI_STV CAL, 0x00000045, DISABLE.
+SEP 29 21:09:06.324.642 cdaq_cmd[00280]: SCI_STV CAL, 0x00000045, STV = 0.
+SEP 29 21:09:06.324.654 cdaq_cmd[00281]: SCI_STV CAL, 0x00000085, DISABLE.
+SEP 29 21:09:06.324.667 cdaq_cmd[00282]: SCI_STV CAL, 0x00000085, STV = 0.
+SEP 29 21:09:06.324.680 cdaq_cmd[00283]: SCI_STV CAL, 0x000000C5, DISABLE.
+SEP 29 21:09:06.324.693 cdaq_cmd[00284]: SCI_STV CAL, 0x000000C5, STV = 0.
+SEP 29 21:09:06.324.706 cdaq_cmd[00285]: SCI_STV CAL, 0x00000105, DISABLE.
+SEP 29 21:09:06.324.719 cdaq_cmd[00286]: SCI_STV CAL, 0x00000105, STV = 0.
+SEP 29 21:09:06.324.732 cdaq_cmd[00287]: SCI_STV CAL, 0x00000145, DISABLE.
+SEP 29 21:09:06.324.746 cdaq_cmd[00288]: SCI_STV CAL, 0x00000145, STV = 0.
+SEP 29 21:09:06.324.758 cdaq_cmd[00289]: SCI_STV CAL, 0x00000185, DISABLE.
+SEP 29 21:09:06.324.771 cdaq_cmd[00290]: SCI_STV CAL, 0x00000185, STV = 0.
+SEP 29 21:09:06.324.785 cdaq_cmd[00291]: SCI_STV CAL, 0x000001C5, DISABLE.
+SEP 29 21:09:06.324.798 cdaq_cmd[00292]: SCI_STV CAL, 0x000001C5, STV = 0.
+SEP 29 21:09:06.324.810 cdaq_cmd[00293]: SCI_STV CAL, 0x00000205, DISABLE.
+SEP 29 21:09:06.324.824 cdaq_cmd[00294]: SCI_STV CAL, 0x00000205, STV = 0.
+SEP 29 21:09:06.324.846 cdaq_cmd[00295]: SCI_STV CAL, 0x00000245, DISABLE.
+SEP 29 21:09:06.324.861 cdaq_cmd[00296]: SCI_STV CAL, 0x00000245, STV = 0.
+SEP 29 21:09:06.324.873 cdaq_cmd[00297]: SCI_STV CAL, 0x00000285, DISABLE.
+SEP 29 21:09:06.324.889 cdaq_cmd[00298]: SCI_STV CAL, 0x00000285, STV = 0.
+SEP 29 21:09:06.324.901 cdaq_cmd[00299]: SCI_STV CAL, 0x000002C5, DISABLE.
+SEP 29 21:09:06.324.915 cdaq_cmd[00300]: SCI_STV CAL, 0x000002C5, STV = 0.
+SEP 29 21:09:06.324.928 cdaq_cmd[00301]: SCI_STV CAL, 0x00000305, DISABLE.
+SEP 29 21:09:06.324.940 cdaq_cmd[00302]: SCI_STV CAL, 0x00000305, STV = 0.
+SEP 29 21:09:06.324.954 cdaq_cmd[00303]: SCI_STV CAL, 0x00000345, DISABLE.
+SEP 29 21:09:06.324.967 cdaq_cmd[00304]: SCI_STV CAL, 0x00000345, STV = 0.
+SEP 29 21:09:06.324.980 cdaq_cmd[00305]: SCI_STV CAL, 0x00000385, DISABLE.
+SEP 29 21:09:06.324.993 cdaq_cmd[00306]: SCI_STV CAL, 0x00000385, STV = 0.
+SEP 29 21:09:06.325.006 cdaq_cmd[00307]: SCI_STV CAL, 0x000003C5, DISABLE.
+SEP 29 21:09:06.325.019 cdaq_cmd[00308]: SCI_STV CAL, 0x000003C5, STV = 0.
+SEP 29 21:09:06.325.031 cdaq_cmd[00309]: SCI_STV CAL, 0x00000405, DISABLE.
+SEP 29 21:09:06.325.044 cdaq_cmd[00310]: SCI_STV CAL, 0x00000405, STV = 0.
+SEP 29 21:09:06.325.057 cdaq_cmd[00311]: SCI_STV CAL, 0x00000445, DISABLE.
+SEP 29 21:09:06.325.070 cdaq_cmd[00312]: SCI_STV CAL, 0x00000445, STV = 0.
+SEP 29 21:09:06.325.083 cdaq_cmd[00313]: SCI_STV CAL, 0x00000485, DISABLE.
+SEP 29 21:09:06.325.097 cdaq_cmd[00314]: SCI_STV CAL, 0x00000485, STV = 0.
+SEP 29 21:09:06.325.109 cdaq_cmd[00315]: SCI_STV CAL, 0x000004C5, DISABLE.
+SEP 29 21:09:06.325.123 cdaq_cmd[00316]: SCI_STV CAL, 0x000004C5, STV = 0.
+SEP 29 21:09:06.325.136 cdaq_cmd[00317]: SCI_STV CAL, 0x00000505, DISABLE.
+SEP 29 21:09:06.325.149 cdaq_cmd[00318]: SCI_STV CAL, 0x00000505, STV = 0.
+SEP 29 21:09:06.325.162 cdaq_cmd[00319]: SCI_STV CAL, 0x00000545, DISABLE.
+SEP 29 21:09:06.325.174 cdaq_cmd[00320]: SCI_STV CAL, 0x00000545, STV = 0.
+SEP 29 21:09:06.325.187 cdaq_cmd[00321]: SCI_STV CAL, 0x00000585, DISABLE.
+SEP 29 21:09:06.325.200 cdaq_cmd[00322]: SCI_STV CAL, 0x00000585, STV = 0.
+SEP 29 21:09:06.325.212 cdaq_cmd[00323]: SCI_STV CAL, 0x000005C5, DISABLE.
+SEP 29 21:09:06.325.226 cdaq_cmd[00324]: SCI_STV CAL, 0x000005C5, STV = 0.
+SEP 29 21:09:06.325.239 cdaq_cmd[00325]: SCI_STV CAL, 0x00000605, DISABLE.
+SEP 29 21:09:06.325.254 cdaq_cmd[00326]: SCI_STV CAL, 0x00000605, STV = 0.
+SEP 29 21:09:06.325.267 cdaq_cmd[00327]: SCI_STV CAL, 0x00000645, DISABLE.
+SEP 29 21:09:06.325.280 cdaq_cmd[00328]: SCI_STV CAL, 0x00000645, STV = 0.
+SEP 29 21:09:06.325.293 cdaq_cmd[00329]: SCI_STV CAL, 0x00000685, DISABLE.
+SEP 29 21:09:06.325.306 cdaq_cmd[00330]: SCI_STV CAL, 0x00000685, STV = 0.
+SEP 29 21:09:06.325.318 cdaq_cmd[00331]: SCI_STV CAL, 0x000006C5, DISABLE.
+SEP 29 21:09:06.325.331 cdaq_cmd[00332]: SCI_STV CAL, 0x000006C5, STV = 0.
+SEP 29 21:09:06.325.344 cdaq_cmd[00333]: SCI_STV CAL, 0x00000705, DISABLE.
+SEP 29 21:09:06.325.357 cdaq_cmd[00334]: SCI_STV CAL, 0x00000705, STV = 0.
+SEP 29 21:09:06.325.370 cdaq_cmd[00335]: SCI_STV CAL, 0x00000745, DISABLE.
+SEP 29 21:09:06.325.383 cdaq_cmd[00336]: SCI_STV CAL, 0x00000745, STV = 0.
+SEP 29 21:09:06.325.395 cdaq_cmd[00337]: SCI_STV CAL, 0x00000785, DISABLE.
+SEP 29 21:09:06.325.409 cdaq_cmd[00338]: SCI_STV CAL, 0x00000785, STV = 0.
+SEP 29 21:09:06.325.421 cdaq_cmd[00339]: SCI_STV CAL, 0x000007C5, DISABLE.
+SEP 29 21:09:06.325.435 cdaq_cmd[00340]: SCI_STV CAL, 0x000007C5, STV = 0.
+SEP 29 21:09:06.325.447 cdaq_cmd[00341]: SCI_STV CAL, 0x00000805, DISABLE.
+SEP 29 21:09:06.325.460 cdaq_cmd[00342]: SCI_STV CAL, 0x00000805, STV = 0.
+SEP 29 21:09:06.325.473 cdaq_cmd[00343]: SCI_STV CAL, 0x00000845, DISABLE.
+SEP 29 21:09:06.325.486 cdaq_cmd[00344]: SCI_STV CAL, 0x00000845, STV = 0.
+SEP 29 21:09:06.325.498 cdaq_cmd[00345]: SCI_STV CAL, 0x00000885, DISABLE.
+SEP 29 21:09:06.325.511 cdaq_cmd[00346]: SCI_STV CAL, 0x00000885, STV = 0.
+SEP 29 21:09:06.325.524 cdaq_cmd[00347]: SCI_STV CAL, 0x000008C5, DISABLE.
+SEP 29 21:09:06.325.537 cdaq_cmd[00348]: SCI_STV CAL, 0x000008C5, STV = 0.
+SEP 29 21:09:06.325.549 cdaq_cmd[00349]: SCI_STV CAL, 0x00000905, DISABLE.
+SEP 29 21:09:06.325.562 cdaq_cmd[00350]: SCI_STV CAL, 0x00000905, STV = 0.
+SEP 29 21:09:06.325.575 cdaq_cmd[00351]: SCI_STV CAL, 0x00000945, DISABLE.
+SEP 29 21:09:06.325.588 cdaq_cmd[00352]: SCI_STV CAL, 0x00000945, STV = 0.
+SEP 29 21:09:06.325.600 cdaq_cmd[00353]: SCI_STV CAL, 0x00000985, DISABLE.
+SEP 29 21:09:06.325.614 cdaq_cmd[00354]: SCI_STV CAL, 0x00000985, STV = 0.
+SEP 29 21:09:06.325.626 cdaq_cmd[00355]: SCI_STV CAL, 0x000009C5, DISABLE.
+SEP 29 21:09:06.325.640 cdaq_cmd[00356]: SCI_STV CAL, 0x000009C5, STV = 0.
+SEP 29 21:09:06.762.795 cdaq_evt[00290]: disable_auto_update[C]: channel 5.
+SEP 29 21:09:06.762.813 cdaq_evt[00291]: blind_set_stv[C]: ch 5, val 0.
+SEP 29 21:09:06.762.886 cdaq_evt[00292]: disable_auto_update[C]: channel 69.
+SEP 29 21:09:06.762.897 cdaq_evt[00293]: blind_set_stv[C]: ch 69, val 0.
+SEP 29 21:09:06.763.006 cdaq_evt[00294]: disable_auto_update[C]: channel 133.
+SEP 29 21:09:06.763.017 cdaq_evt[00295]: blind_set_stv[C]: ch 133, val 0.
+SEP 29 21:09:06.763.130 cdaq_evt[00296]: disable_auto_update[C]: channel 197.
+SEP 29 21:09:06.763.141 cdaq_evt[00297]: blind_set_stv[C]: ch 197, val 0.
+SEP 29 21:09:06.763.255 cdaq_evt[00298]: disable_auto_update[C]: channel 261.
+SEP 29 21:09:06.763.266 cdaq_evt[00299]: blind_set_stv[C]: ch 261, val 0.
+SEP 29 21:09:06.763.379 cdaq_evt[00300]: disable_auto_update[C]: channel 325.
+SEP 29 21:09:06.763.389 cdaq_evt[00301]: blind_set_stv[C]: ch 325, val 0.
+SEP 29 21:09:06.763.505 cdaq_evt[00302]: disable_auto_update[C]: channel 389.
+SEP 29 21:09:06.763.516 cdaq_evt[00303]: blind_set_stv[C]: ch 389, val 0.
+SEP 29 21:09:06.763.631 cdaq_evt[00304]: disable_auto_update[C]: channel 453.
+SEP 29 21:09:06.763.642 cdaq_evt[00305]: blind_set_stv[C]: ch 453, val 0.
+SEP 29 21:09:06.763.754 cdaq_evt[00306]: disable_auto_update[C]: channel 517.
+SEP 29 21:09:06.763.780 cdaq_evt[00307]: blind_set_stv[C]: ch 517, val 0.
+SEP 29 21:09:06.763.881 cdaq_evt[00308]: disable_auto_update[C]: channel 581.
+SEP 29 21:09:06.763.893 cdaq_evt[00309]: blind_set_stv[C]: ch 581, val 0.
+SEP 29 21:09:06.764.004 cdaq_evt[00310]: disable_auto_update[C]: channel 645.
+SEP 29 21:09:06.764.014 cdaq_evt[00311]: blind_set_stv[C]: ch 645, val 0.
+SEP 29 21:09:06.764.130 cdaq_evt[00312]: disable_auto_update[C]: channel 709.
+SEP 29 21:09:06.764.142 cdaq_evt[00313]: blind_set_stv[C]: ch 709, val 0.
+SEP 29 21:09:06.764.254 cdaq_evt[00314]: disable_auto_update[C]: channel 773.
+SEP 29 21:09:06.764.266 cdaq_evt[00315]: blind_set_stv[C]: ch 773, val 0.
+SEP 29 21:09:06.764.380 cdaq_evt[00316]: disable_auto_update[C]: channel 837.
+SEP 29 21:09:06.764.391 cdaq_evt[00317]: blind_set_stv[C]: ch 837, val 0.
+SEP 29 21:09:06.764.504 cdaq_evt[00318]: disable_auto_update[C]: channel 901.
+SEP 29 21:09:06.764.515 cdaq_evt[00319]: blind_set_stv[C]: ch 901, val 0.
+SEP 29 21:09:06.764.629 cdaq_evt[00320]: disable_auto_update[C]: channel 965.
+SEP 29 21:09:06.764.640 cdaq_evt[00321]: blind_set_stv[C]: ch 965, val 0.
+SEP 29 21:09:06.764.754 cdaq_evt[00322]: disable_auto_update[C]: channel 1029.
+SEP 29 21:09:06.764.777 cdaq_evt[00323]: blind_set_stv[C]: ch 1029, val 0.
+SEP 29 21:09:06.764.879 cdaq_evt[00324]: disable_auto_update[C]: channel 1093.
+SEP 29 21:09:06.764.889 cdaq_evt[00325]: blind_set_stv[C]: ch 1093, val 0.
+SEP 29 21:09:06.765.012 cdaq_evt[00326]: disable_auto_update[C]: channel 1157.
+SEP 29 21:09:06.765.023 cdaq_evt[00327]: blind_set_stv[C]: ch 1157, val 0.
+SEP 29 21:09:06.765.129 cdaq_evt[00328]: disable_auto_update[C]: channel 1221.
+SEP 29 21:09:06.765.140 cdaq_evt[00329]: blind_set_stv[C]: ch 1221, val 0.
+SEP 29 21:09:06.765.255 cdaq_evt[00330]: disable_auto_update[C]: channel 1285.
+SEP 29 21:09:06.765.265 cdaq_evt[00331]: blind_set_stv[C]: ch 1285, val 0.
+SEP 29 21:09:06.765.380 cdaq_evt[00332]: disable_auto_update[C]: channel 1349.
+SEP 29 21:09:06.765.390 cdaq_evt[00333]: blind_set_stv[C]: ch 1349, val 0.
+SEP 29 21:09:06.765.504 cdaq_evt[00334]: disable_auto_update[C]: channel 1413.
+SEP 29 21:09:06.765.515 cdaq_evt[00335]: blind_set_stv[C]: ch 1413, val 0.
+SEP 29 21:09:06.765.630 cdaq_evt[00336]: disable_auto_update[C]: channel 1477.
+SEP 29 21:09:06.765.641 cdaq_evt[00337]: blind_set_stv[C]: ch 1477, val 0.
+SEP 29 21:09:06.765.754 cdaq_evt[00338]: disable_auto_update[C]: channel 1541.
+SEP 29 21:09:06.765.777 cdaq_evt[00339]: blind_set_stv[C]: ch 1541, val 0.
+SEP 29 21:09:06.765.882 cdaq_evt[00340]: disable_auto_update[C]: channel 1605.
+SEP 29 21:09:06.765.892 cdaq_evt[00341]: blind_set_stv[C]: ch 1605, val 0.
+SEP 29 21:09:06.766.005 cdaq_evt[00342]: disable_auto_update[C]: channel 1669.
+SEP 29 21:09:06.766.016 cdaq_evt[00343]: blind_set_stv[C]: ch 1669, val 0.
+SEP 29 21:09:06.766.129 cdaq_evt[00344]: disable_auto_update[C]: channel 1733.
+SEP 29 21:09:06.766.140 cdaq_evt[00345]: blind_set_stv[C]: ch 1733, val 0.
+SEP 29 21:09:06.766.254 cdaq_evt[00346]: disable_auto_update[C]: channel 1797.
+SEP 29 21:09:06.766.266 cdaq_evt[00347]: blind_set_stv[C]: ch 1797, val 0.
+SEP 29 21:09:06.766.379 cdaq_evt[00348]: disable_auto_update[C]: channel 1861.
+SEP 29 21:09:06.766.391 cdaq_evt[00349]: blind_set_stv[C]: ch 1861, val 0.
+SEP 29 21:09:06.766.504 cdaq_evt[00350]: disable_auto_update[C]: channel 1925.
+SEP 29 21:09:06.766.515 cdaq_evt[00351]: blind_set_stv[C]: ch 1925, val 0.
+SEP 29 21:09:06.766.629 cdaq_evt[00352]: disable_auto_update[C]: channel 1989.
+SEP 29 21:09:06.766.639 cdaq_evt[00353]: blind_set_stv[C]: ch 1989, val 0.
+SEP 29 21:09:06.766.755 cdaq_evt[00354]: disable_auto_update[C]: channel 2053.
+SEP 29 21:09:06.766.777 cdaq_evt[00355]: blind_set_stv[C]: ch 2053, val 0.
+SEP 29 21:09:06.766.879 cdaq_evt[00356]: disable_auto_update[C]: channel 2117.
+SEP 29 21:09:06.766.890 cdaq_evt[00357]: blind_set_stv[C]: ch 2117, val 0.
+SEP 29 21:09:06.767.004 cdaq_evt[00358]: disable_auto_update[C]: channel 2181.
+SEP 29 21:09:06.767.015 cdaq_evt[00359]: blind_set_stv[C]: ch 2181, val 0.
+SEP 29 21:09:06.767.130 cdaq_evt[00360]: disable_auto_update[C]: channel 2245.
+SEP 29 21:09:06.767.142 cdaq_evt[00361]: blind_set_stv[C]: ch 2245, val 0.
+SEP 29 21:09:06.767.254 cdaq_evt[00362]: disable_auto_update[C]: channel 2309.
+SEP 29 21:09:06.767.265 cdaq_evt[00363]: blind_set_stv[C]: ch 2309, val 0.
+SEP 29 21:09:06.767.380 cdaq_evt[00364]: disable_auto_update[C]: channel 2373.
+SEP 29 21:09:06.767.390 cdaq_evt[00365]: blind_set_stv[C]: ch 2373, val 0.
+SEP 29 21:09:06.767.504 cdaq_evt[00366]: disable_auto_update[C]: channel 2437.
+SEP 29 21:09:06.767.515 cdaq_evt[00367]: blind_set_stv[C]: ch 2437, val 0.
+SEP 29 21:09:06.767.629 cdaq_evt[00368]: disable_auto_update[C]: channel 2501.
+SEP 29 21:09:06.767.639 cdaq_evt[00369]: blind_set_stv[C]: ch 2501, val 0.
+SEP 29 21:09:13.217.803 cdaq_cmd[00357]: SCI_SCRIPT 0x00000034.
+SEP 29 21:09:13.217.831 cdaq_cmd[00358]: checkpoint 52.
+SEP 29 21:09:13.217.838 cdaq_cmd[00359]: Executing 052.scd_ch_mask.crm.
+SEP 29 21:09:13.222.454 cdaq_cmd[00360]: cdaq_exec returned 13749.
+SEP 29 21:09:13.224.321 cdaq_cmd[00361]: termination of child.
+SEP 29 21:09:13.224.339 cdaq_cmd[00362]: resuming.
+SEP 29 21:09:13.224.355 cdaq_cmd[00363]: SCI_STV SCD2, 0x00000493, DISABLE.
+SEP 29 21:09:13.224.369 cdaq_cmd[00364]: SCI_STV SCD2, 0x00000493, STV = 65535.
+SEP 29 21:09:13.224.382 cdaq_cmd[00365]: SCI_STV SCD2, 0x00000495, DISABLE.
+SEP 29 21:09:13.224.395 cdaq_cmd[00366]: SCI_STV SCD2, 0x00000495, STV = 65535.
+SEP 29 21:09:13.224.407 cdaq_cmd[00367]: SCI_STV SCD2, 0x00000496, DISABLE.
+SEP 29 21:09:13.224.419 cdaq_cmd[00368]: SCI_STV SCD2, 0x00000496, STV = 65535.
+SEP 29 21:09:13.224.431 cdaq_cmd[00369]: SCI_STV SCD2, 0x00000497, DISABLE.
+SEP 29 21:09:13.224.443 cdaq_cmd[00370]: SCI_STV SCD2, 0x00000497, STV = 65535.
+SEP 29 21:09:13.224.456 cdaq_cmd[00371]: SCI_STV SCD2, 0x00000498, DISABLE.
+SEP 29 21:09:13.224.468 cdaq_cmd[00372]: SCI_STV SCD2, 0x00000498, STV = 65535.
+SEP 29 21:09:13.224.480 cdaq_cmd[00373]: SCI_STV SCD2, 0x00000499, DISABLE.
+SEP 29 21:09:13.224.493 cdaq_cmd[00374]: SCI_STV SCD2, 0x00000499, STV = 65535.
+SEP 29 21:09:13.224.505 cdaq_cmd[00375]: SCI_STV SCD2, 0x0000049D, DISABLE.
+SEP 29 21:09:13.224.518 cdaq_cmd[00376]: SCI_STV SCD2, 0x0000049D, STV = 65535.
+SEP 29 21:09:13.224.530 cdaq_cmd[00377]: SCI_STV SCD2, 0x00000AF0, DISABLE.
+SEP 29 21:09:13.224.543 cdaq_cmd[00378]: SCI_STV SCD2, 0x00000AF0, STV = 65535.
+SEP 29 21:09:13.224.556 cdaq_cmd[00379]: SCI_STV SCD3, 0x00000002, DISABLE.
+SEP 29 21:09:13.224.568 cdaq_cmd[00380]: SCI_STV SCD3, 0x00000002, STV = 65535.
+SEP 29 21:09:13.224.581 cdaq_cmd[00381]: SCI_STV SCD3, 0x00000006, DISABLE.
+SEP 29 21:09:13.224.593 cdaq_cmd[00382]: SCI_STV SCD3, 0x00000006, STV = 65535.
+SEP 29 21:09:13.224.606 cdaq_cmd[00383]: SCI_STV SCD3, 0x00000009, DISABLE.
+SEP 29 21:09:13.224.618 cdaq_cmd[00384]: SCI_STV SCD3, 0x00000009, STV = 65535.
+SEP 29 21:09:13.224.630 cdaq_cmd[00385]: SCI_STV SCD3, 0x0000000C, DISABLE.
+SEP 29 21:09:13.224.643 cdaq_cmd[00386]: SCI_STV SCD3, 0x0000000C, STV = 65535.
+SEP 29 21:09:13.224.655 cdaq_cmd[00387]: SCI_STV SCD3, 0x0000000D, DISABLE.
+SEP 29 21:09:13.224.667 cdaq_cmd[00388]: SCI_STV SCD3, 0x0000000D, STV = 65535.
+SEP 29 21:09:13.224.679 cdaq_cmd[00389]: SCI_STV SCD3, 0x000000A0, DISABLE.
+SEP 29 21:09:13.224.692 cdaq_cmd[00390]: SCI_STV SCD3, 0x000000A0, STV = 65535.
+SEP 29 21:09:13.224.704 cdaq_cmd[00391]: SCI_STV SCD3, 0x000000A3, DISABLE.
+SEP 29 21:09:13.224.716 cdaq_cmd[00392]: SCI_STV SCD3, 0x000000A3, STV = 65535.
+SEP 29 21:09:13.224.728 cdaq_cmd[00393]: SCI_STV SCD3, 0x000000A7, DISABLE.
+SEP 29 21:09:13.224.743 cdaq_cmd[00394]: SCI_STV SCD3, 0x000000A7, STV = 65535.
+SEP 29 21:09:13.224.756 cdaq_cmd[00395]: SCI_STV SCD3, 0x000000A8, DISABLE.
+SEP 29 21:09:13.224.768 cdaq_cmd[00396]: SCI_STV SCD3, 0x000000A8, STV = 65535.
+SEP 29 21:09:13.224.792 cdaq_cmd[00397]: SCI_STV SCD3, 0x000000AB, DISABLE.
+SEP 29 21:09:13.224.805 cdaq_cmd[00398]: SCI_STV SCD3, 0x000000AB, STV = 65535.
+SEP 29 21:09:13.224.817 cdaq_cmd[00399]: SCI_STV SCD3, 0x000000AC, DISABLE.
+SEP 29 21:09:13.224.830 cdaq_cmd[00400]: SCI_STV SCD3, 0x000000AC, STV = 65535.
+SEP 29 21:09:13.224.842 cdaq_cmd[00401]: SCI_STV SCD3, 0x000000AD, DISABLE.
+SEP 29 21:09:13.224.855 cdaq_cmd[00402]: SCI_STV SCD3, 0x000000AD, STV = 65535.
+SEP 29 21:09:13.224.867 cdaq_cmd[00403]: SCI_STV SCD3, 0x000000AE, DISABLE.
+SEP 29 21:09:13.224.880 cdaq_cmd[00404]: SCI_STV SCD3, 0x000000AE, STV = 65535.
+SEP 29 21:09:13.224.892 cdaq_cmd[00405]: SCI_STV SCD3, 0x000000AF, DISABLE.
+SEP 29 21:09:13.224.905 cdaq_cmd[00406]: SCI_STV SCD3, 0x000000AF, STV = 65535.
+SEP 29 21:09:13.224.917 cdaq_cmd[00407]: SCI_STV SCD3, 0x000000C3, DISABLE.
+SEP 29 21:09:13.224.930 cdaq_cmd[00408]: SCI_STV SCD3, 0x000000C3, STV = 65535.
+SEP 29 21:09:13.224.942 cdaq_cmd[00409]: SCI_STV SCD3, 0x000000C8, DISABLE.
+SEP 29 21:09:13.224.955 cdaq_cmd[00410]: SCI_STV SCD3, 0x000000C8, STV = 65535.
+SEP 29 21:09:13.224.968 cdaq_cmd[00411]: SCI_STV SCD3, 0x000000C9, DISABLE.
+SEP 29 21:09:13.224.980 cdaq_cmd[00412]: SCI_STV SCD3, 0x000000C9, STV = 65535.
+SEP 29 21:09:13.224.992 cdaq_cmd[00413]: SCI_STV SCD3, 0x00000103, DISABLE.
+SEP 29 21:09:13.225.005 cdaq_cmd[00414]: SCI_STV SCD3, 0x00000103, STV = 65535.
+SEP 29 21:09:13.225.017 cdaq_cmd[00415]: SCI_STV SCD3, 0x00000108, DISABLE.
+SEP 29 21:09:13.225.030 cdaq_cmd[00416]: SCI_STV SCD3, 0x00000108, STV = 65535.
+SEP 29 21:09:13.225.042 cdaq_cmd[00417]: SCI_STV SCD3, 0x0000010F, DISABLE.
+SEP 29 21:09:13.225.054 cdaq_cmd[00418]: SCI_STV SCD3, 0x0000010F, STV = 65535.
+SEP 29 21:09:13.225.066 cdaq_cmd[00419]: SCI_STV SCD3, 0x00000130, DISABLE.
+SEP 29 21:09:13.225.079 cdaq_cmd[00420]: SCI_STV SCD3, 0x00000130, STV = 65535.
+SEP 29 21:09:13.225.091 cdaq_cmd[00421]: SCI_STV SCD3, 0x00000132, DISABLE.
+SEP 29 21:09:13.225.104 cdaq_cmd[00422]: SCI_STV SCD3, 0x00000132, STV = 65535.
+SEP 29 21:09:13.225.116 cdaq_cmd[00423]: SCI_STV SCD3, 0x00000134, DISABLE.
+SEP 29 21:09:13.225.129 cdaq_cmd[00424]: SCI_STV SCD3, 0x00000134, STV = 65535.
+SEP 29 21:09:13.225.141 cdaq_cmd[00425]: SCI_STV SCD3, 0x00000138, DISABLE.
+SEP 29 21:09:13.225.154 cdaq_cmd[00426]: SCI_STV SCD3, 0x00000138, STV = 65535.
+SEP 29 21:09:13.225.166 cdaq_cmd[00427]: SCI_STV SCD3, 0x00000161, DISABLE.
+SEP 29 21:09:13.225.179 cdaq_cmd[00428]: SCI_STV SCD3, 0x00000161, STV = 65535.
+SEP 29 21:09:13.225.191 cdaq_cmd[00429]: SCI_STV SCD3, 0x00000162, DISABLE.
+SEP 29 21:09:13.225.204 cdaq_cmd[00430]: SCI_STV SCD3, 0x00000162, STV = 65535.
+SEP 29 21:09:13.225.216 cdaq_cmd[00431]: SCI_STV SCD3, 0x00000163, DISABLE.
+SEP 29 21:09:13.225.229 cdaq_cmd[00432]: SCI_STV SCD3, 0x00000163, STV = 65535.
+SEP 29 21:09:13.225.241 cdaq_cmd[00433]: SCI_STV SCD3, 0x00000167, DISABLE.
+SEP 29 21:09:13.225.254 cdaq_cmd[00434]: SCI_STV SCD3, 0x00000167, STV = 65535.
+SEP 29 21:09:13.225.267 cdaq_cmd[00435]: SCI_STV SCD3, 0x00000168, DISABLE.
+SEP 29 21:09:13.225.279 cdaq_cmd[00436]: SCI_STV SCD3, 0x00000168, STV = 65535.
+SEP 29 21:09:13.225.292 cdaq_cmd[00437]: SCI_STV SCD3, 0x0000016D, DISABLE.
+SEP 29 21:09:13.225.304 cdaq_cmd[00438]: SCI_STV SCD3, 0x0000016D, STV = 65535.
+SEP 29 21:09:13.225.316 cdaq_cmd[00439]: SCI_STV SCD3, 0x0000016F, DISABLE.
+SEP 29 21:09:13.225.329 cdaq_cmd[00440]: SCI_STV SCD3, 0x0000016F, STV = 65535.
+SEP 29 21:09:13.225.341 cdaq_cmd[00441]: SCI_STV SCD3, 0x00000177, DISABLE.
+SEP 29 21:09:13.225.354 cdaq_cmd[00442]: SCI_STV SCD3, 0x00000177, STV = 65535.
+SEP 29 21:09:13.225.366 cdaq_cmd[00443]: SCI_STV SCD3, 0x0000017A, DISABLE.
+SEP 29 21:09:13.225.379 cdaq_cmd[00444]: SCI_STV SCD3, 0x0000017A, STV = 65535.
+SEP 29 21:09:13.225.391 cdaq_cmd[00445]: SCI_STV SCD3, 0x0000022E, DISABLE.
+SEP 29 21:09:13.225.404 cdaq_cmd[00446]: SCI_STV SCD3, 0x0000022E, STV = 65535.
+SEP 29 21:09:13.225.416 cdaq_cmd[00447]: SCI_STV SCD3, 0x00000246, DISABLE.
+SEP 29 21:09:13.225.429 cdaq_cmd[00448]: SCI_STV SCD3, 0x00000246, STV = 65535.
+SEP 29 21:09:13.225.441 cdaq_cmd[00449]: SCI_STV SCD3, 0x00000253, DISABLE.
+SEP 29 21:09:13.225.453 cdaq_cmd[00450]: SCI_STV SCD3, 0x00000253, STV = 65535.
+SEP 29 21:09:13.225.466 cdaq_cmd[00451]: SCI_STV SCD3, 0x00000257, DISABLE.
+SEP 29 21:09:13.225.478 cdaq_cmd[00452]: SCI_STV SCD3, 0x00000257, STV = 65535.
+SEP 29 21:09:13.225.491 cdaq_cmd[00453]: SCI_STV SCD3, 0x00000298, DISABLE.
+SEP 29 21:09:13.225.504 cdaq_cmd[00454]: SCI_STV SCD3, 0x00000298, STV = 65535.
+SEP 29 21:09:13.225.516 cdaq_cmd[00455]: SCI_STV SCD3, 0x0000029B, DISABLE.
+SEP 29 21:09:13.225.529 cdaq_cmd[00456]: SCI_STV SCD3, 0x0000029B, STV = 65535.
+SEP 29 21:09:13.225.541 cdaq_cmd[00457]: SCI_STV SCD3, 0x00000322, DISABLE.
+SEP 29 21:09:13.225.553 cdaq_cmd[00458]: SCI_STV SCD3, 0x00000322, STV = 65535.
+SEP 29 21:09:13.225.565 cdaq_cmd[00459]: SCI_STV SCD3, 0x00000362, DISABLE.
+SEP 29 21:09:13.225.580 cdaq_cmd[00460]: SCI_STV SCD3, 0x00000362, STV = 65535.
+SEP 29 21:09:13.225.592 cdaq_cmd[00461]: SCI_STV SCD3, 0x00000365, DISABLE.
+SEP 29 21:09:13.225.605 cdaq_cmd[00462]: SCI_STV SCD3, 0x00000365, STV = 65535.
+SEP 29 21:09:13.225.617 cdaq_cmd[00463]: SCI_STV SCD3, 0x00000366, DISABLE.
+SEP 29 21:09:13.225.630 cdaq_cmd[00464]: SCI_STV SCD3, 0x00000366, STV = 65535.
+SEP 29 21:09:13.225.642 cdaq_cmd[00465]: SCI_STV SCD3, 0x00000369, DISABLE.
+SEP 29 21:09:13.225.655 cdaq_cmd[00466]: SCI_STV SCD3, 0x00000369, STV = 65535.
+SEP 29 21:09:13.225.667 cdaq_cmd[00467]: SCI_STV SCD3, 0x0000036A, DISABLE.
+SEP 29 21:09:13.225.679 cdaq_cmd[00468]: SCI_STV SCD3, 0x0000036A, STV = 65535.
+SEP 29 21:09:13.225.692 cdaq_cmd[00469]: SCI_STV SCD3, 0x0000036D, DISABLE.
+SEP 29 21:09:13.225.704 cdaq_cmd[00470]: SCI_STV SCD3, 0x0000036D, STV = 65535.
+SEP 29 21:09:13.225.716 cdaq_cmd[00471]: SCI_STV SCD3, 0x0000036E, DISABLE.
+SEP 29 21:09:13.225.729 cdaq_cmd[00472]: SCI_STV SCD3, 0x0000036E, STV = 65535.
+SEP 29 21:09:13.225.741 cdaq_cmd[00473]: SCI_STV SCD3, 0x00000371, DISABLE.
+SEP 29 21:09:13.225.754 cdaq_cmd[00474]: SCI_STV SCD3, 0x00000371, STV = 65535.
+SEP 29 21:09:13.225.766 cdaq_cmd[00475]: SCI_STV SCD3, 0x0000039D, DISABLE.
+SEP 29 21:09:13.225.786 cdaq_cmd[00476]: SCI_STV SCD3, 0x0000039D, STV = 65535.
+SEP 29 21:09:13.225.799 cdaq_cmd[00477]: SCI_STV SCD3, 0x000003F7, DISABLE.
+SEP 29 21:09:13.225.811 cdaq_cmd[00478]: SCI_STV SCD3, 0x000003F7, STV = 65535.
+SEP 29 21:09:13.225.824 cdaq_cmd[00479]: SCI_STV SCD3, 0x0000041A, DISABLE.
+SEP 29 21:09:13.225.836 cdaq_cmd[00480]: SCI_STV SCD3, 0x0000041A, STV = 65535.
+SEP 29 21:09:13.225.848 cdaq_cmd[00481]: SCI_STV SCD3, 0x00000459, DISABLE.
+SEP 29 21:09:13.225.861 cdaq_cmd[00482]: SCI_STV SCD3, 0x00000459, STV = 65535.
+SEP 29 21:09:13.225.873 cdaq_cmd[00483]: SCI_STV SCD3, 0x0000045A, DISABLE.
+SEP 29 21:09:13.225.886 cdaq_cmd[00484]: SCI_STV SCD3, 0x0000045A, STV = 65535.
+SEP 29 21:09:13.225.898 cdaq_cmd[00485]: SCI_STV SCD3, 0x00000461, DISABLE.
+SEP 29 21:09:13.225.911 cdaq_cmd[00486]: SCI_STV SCD3, 0x00000461, STV = 65535.
+SEP 29 21:09:13.225.923 cdaq_cmd[00487]: SCI_STV SCD3, 0x00000462, DISABLE.
+SEP 29 21:09:13.225.936 cdaq_cmd[00488]: SCI_STV SCD3, 0x00000462, STV = 65535.
+SEP 29 21:09:13.225.948 cdaq_cmd[00489]: SCI_STV SCD3, 0x00000472, DISABLE.
+SEP 29 21:09:13.225.960 cdaq_cmd[00490]: SCI_STV SCD3, 0x00000472, STV = 65535.
+SEP 29 21:09:13.225.972 cdaq_cmd[00491]: SCI_STV SCD3, 0x00000475, DISABLE.
+SEP 29 21:09:13.225.985 cdaq_cmd[00492]: SCI_STV SCD3, 0x00000475, STV = 65535.
+SEP 29 21:09:13.225.997 cdaq_cmd[00493]: SCI_STV SCD3, 0x00000476, DISABLE.
+SEP 29 21:09:13.226.010 cdaq_cmd[00494]: SCI_STV SCD3, 0x00000476, STV = 65535.
+SEP 29 21:09:13.226.022 cdaq_cmd[00495]: SCI_STV SCD3, 0x0000047A, DISABLE.
+SEP 29 21:09:13.226.034 cdaq_cmd[00496]: SCI_STV SCD3, 0x0000047A, STV = 65535.
+SEP 29 21:09:13.226.046 cdaq_cmd[00497]: SCI_STV SCD3, 0x0000047E, DISABLE.
+SEP 29 21:09:13.226.059 cdaq_cmd[00498]: SCI_STV SCD3, 0x0000047E, STV = 65535.
+SEP 29 21:09:13.226.071 cdaq_cmd[00499]: SCI_STV SCD3, 0x00000500, DISABLE.
+SEP 29 21:09:13.226.084 cdaq_cmd[00500]: SCI_STV SCD3, 0x00000500, STV = 65535.
+SEP 29 21:09:13.226.096 cdaq_cmd[00501]: SCI_STV SCD3, 0x00000516, DISABLE.
+SEP 29 21:09:13.226.108 cdaq_cmd[00502]: SCI_STV SCD3, 0x00000516, STV = 65535.
+SEP 29 21:09:13.226.121 cdaq_cmd[00503]: SCI_STV SCD3, 0x00000517, DISABLE.
+SEP 29 21:09:13.226.133 cdaq_cmd[00504]: SCI_STV SCD3, 0x00000517, STV = 65535.
+SEP 29 21:09:13.226.145 cdaq_cmd[00505]: SCI_STV SCD3, 0x00000518, DISABLE.
+SEP 29 21:09:13.226.158 cdaq_cmd[00506]: SCI_STV SCD3, 0x00000518, STV = 65535.
+SEP 29 21:09:13.226.170 cdaq_cmd[00507]: SCI_STV SCD3, 0x00000528, DISABLE.
+SEP 29 21:09:13.226.182 cdaq_cmd[00508]: SCI_STV SCD3, 0x00000528, STV = 65535.
+SEP 29 21:09:13.226.194 cdaq_cmd[00509]: SCI_STV SCD3, 0x0000052F, DISABLE.
+SEP 29 21:09:13.226.207 cdaq_cmd[00510]: SCI_STV SCD3, 0x0000052F, STV = 65535.
+SEP 29 21:09:13.226.219 cdaq_cmd[00511]: SCI_STV SCD3, 0x00000533, DISABLE.
+SEP 29 21:09:13.226.231 cdaq_cmd[00512]: SCI_STV SCD3, 0x00000533, STV = 65535.
+SEP 29 21:09:13.226.243 cdaq_cmd[00513]: SCI_STV SCD3, 0x0000053A, DISABLE.
+SEP 29 21:09:13.226.256 cdaq_cmd[00514]: SCI_STV SCD3, 0x0000053A, STV = 65535.
+SEP 29 21:09:13.226.268 cdaq_cmd[00515]: SCI_STV SCD3, 0x0000053E, DISABLE.
+SEP 29 21:09:13.226.281 cdaq_cmd[00516]: SCI_STV SCD3, 0x0000053E, STV = 65535.
+SEP 29 21:09:13.226.293 cdaq_cmd[00517]: SCI_STV SCD3, 0x00000570, DISABLE.
+SEP 29 21:09:13.226.305 cdaq_cmd[00518]: SCI_STV SCD3, 0x00000570, STV = 65535.
+SEP 29 21:09:13.226.318 cdaq_cmd[00519]: SCI_STV SCD3, 0x00000575, DISABLE.
+SEP 29 21:09:13.226.330 cdaq_cmd[00520]: SCI_STV SCD3, 0x00000575, STV = 65535.
+SEP 29 21:09:13.226.342 cdaq_cmd[00521]: SCI_STV SCD3, 0x0000057A, DISABLE.
+SEP 29 21:09:13.226.355 cdaq_cmd[00522]: SCI_STV SCD3, 0x0000057A, STV = 65535.
+SEP 29 21:09:13.226.367 cdaq_cmd[00523]: SCI_STV SCD3, 0x0000057D, DISABLE.
+SEP 29 21:09:13.226.379 cdaq_cmd[00524]: SCI_STV SCD3, 0x0000057D, STV = 65535.
+SEP 29 21:09:13.226.392 cdaq_cmd[00525]: SCI_STV SCD3, 0x0000057E, DISABLE.
+SEP 29 21:09:13.226.405 cdaq_cmd[00526]: SCI_STV SCD3, 0x0000057E, STV = 65535.
+SEP 29 21:09:13.226.418 cdaq_cmd[00527]: SCI_STV SCD3, 0x000006A2, DISABLE.
+SEP 29 21:09:13.226.430 cdaq_cmd[00528]: SCI_STV SCD3, 0x000006A2, STV = 65535.
+SEP 29 21:09:13.226.443 cdaq_cmd[00529]: SCI_STV SCD3, 0x000006A6, DISABLE.
+SEP 29 21:09:13.226.455 cdaq_cmd[00530]: SCI_STV SCD3, 0x000006A6, STV = 65535.
+SEP 29 21:09:13.226.467 cdaq_cmd[00531]: SCI_STV SCD3, 0x000006AD, DISABLE.
+SEP 29 21:09:13.226.479 cdaq_cmd[00532]: SCI_STV SCD3, 0x000006AD, STV = 65535.
+SEP 29 21:09:13.226.494 cdaq_cmd[00533]: SCI_STV SCD3, 0x0000077B, DISABLE.
+SEP 29 21:09:13.226.506 cdaq_cmd[00534]: SCI_STV SCD3, 0x0000077B, STV = 65535.
+SEP 29 21:09:13.226.518 cdaq_cmd[00535]: SCI_STV SCD3, 0x0000077F, DISABLE.
+SEP 29 21:09:13.226.531 cdaq_cmd[00536]: SCI_STV SCD3, 0x0000077F, STV = 65535.
+SEP 29 21:09:13.226.543 cdaq_cmd[00537]: SCI_STV SCD3, 0x00000810, DISABLE.
+SEP 29 21:09:13.226.555 cdaq_cmd[00538]: SCI_STV SCD3, 0x00000810, STV = 65535.
+SEP 29 21:09:13.226.568 cdaq_cmd[00539]: SCI_STV SCD3, 0x00000811, DISABLE.
+SEP 29 21:09:13.226.580 cdaq_cmd[00540]: SCI_STV SCD3, 0x00000811, STV = 65535.
+SEP 29 21:09:13.226.593 cdaq_cmd[00541]: SCI_STV SCD3, 0x00000A6B, DISABLE.
+SEP 29 21:09:13.226.605 cdaq_cmd[00542]: SCI_STV SCD3, 0x00000A6B, STV = 65535.
+SEP 29 21:09:13.226.617 cdaq_cmd[00543]: SCI_STV SCD3, 0x00000A6E, DISABLE.
+SEP 29 21:09:13.226.631 cdaq_cmd[00544]: SCI_STV SCD3, 0x00000A6E, STV = 65535.
+SEP 29 21:09:13.226.643 cdaq_cmd[00545]: SCI_STV SCD4, 0x00000164, DISABLE.
+SEP 29 21:09:13.226.656 cdaq_cmd[00546]: SCI_STV SCD4, 0x00000164, STV = 65535.
+SEP 29 21:09:13.226.668 cdaq_cmd[00547]: SCI_STV SCD4, 0x0000024E, DISABLE.
+SEP 29 21:09:13.226.681 cdaq_cmd[00548]: SCI_STV SCD4, 0x0000024E, STV = 65535.
+SEP 29 21:09:13.226.693 cdaq_cmd[00549]: SCI_STV SCD4, 0x00000295, DISABLE.
+SEP 29 21:09:13.226.706 cdaq_cmd[00550]: SCI_STV SCD4, 0x00000295, STV = 65535.
+SEP 29 21:09:13.226.718 cdaq_cmd[00551]: SCI_STV SCD4, 0x000003A4, DISABLE.
+SEP 29 21:09:13.226.731 cdaq_cmd[00552]: SCI_STV SCD4, 0x000003A4, STV = 65535.
+SEP 29 21:09:13.226.743 cdaq_cmd[00553]: SCI_STV SCD4, 0x000003D2, DISABLE.
+SEP 29 21:09:13.226.756 cdaq_cmd[00554]: SCI_STV SCD4, 0x000003D2, STV = 65535.
+SEP 29 21:09:13.226.768 cdaq_cmd[00555]: SCI_STV SCD4, 0x0000045B, DISABLE.
+SEP 29 21:09:13.226.788 cdaq_cmd[00556]: SCI_STV SCD4, 0x0000045B, STV = 65535.
+SEP 29 21:09:13.226.802 cdaq_cmd[00557]: SCI_STV SCD4, 0x00000924, DISABLE.
+SEP 29 21:09:13.226.814 cdaq_cmd[00558]: SCI_STV SCD4, 0x00000924, STV = 65535.
+SEP 29 21:09:13.226.827 cdaq_cmd[00559]: SCI_STV SCD4, 0x00000953, DISABLE.
+SEP 29 21:09:13.226.839 cdaq_cmd[00560]: SCI_STV SCD4, 0x00000953, STV = 65535.
+SEP 29 21:09:13.226.851 cdaq_cmd[00561]: SCI_STV SCD4, 0x00000980, DISABLE.
+SEP 29 21:09:13.226.864 cdaq_cmd[00562]: SCI_STV SCD4, 0x00000980, STV = 65535.
+SEP 29 21:09:13.226.877 cdaq_cmd[00563]: SCI_STV SCD4, 0x00000981, DISABLE.
+SEP 29 21:09:13.226.889 cdaq_cmd[00564]: SCI_STV SCD4, 0x00000981, STV = 65535.
+SEP 29 21:09:13.226.902 cdaq_cmd[00565]: SCI_STV SCD4, 0x00000983, DISABLE.
+SEP 29 21:09:13.226.914 cdaq_cmd[00566]: SCI_STV SCD4, 0x00000983, STV = 65535.
+SEP 29 21:09:13.226.927 cdaq_cmd[00567]: SCI_STV SCD4, 0x00000985, DISABLE.
+SEP 29 21:09:13.226.939 cdaq_cmd[00568]: SCI_STV SCD4, 0x00000985, STV = 65535.
+SEP 29 21:09:13.226.952 cdaq_cmd[00569]: SCI_STV SCD4, 0x00000987, DISABLE.
+SEP 29 21:09:13.226.964 cdaq_cmd[00570]: SCI_STV SCD4, 0x00000987, STV = 65535.
+SEP 29 21:09:13.226.977 cdaq_cmd[00571]: SCI_STV SCD4, 0x00000989, DISABLE.
+SEP 29 21:09:13.226.989 cdaq_cmd[00572]: SCI_STV SCD4, 0x00000989, STV = 65535.
+SEP 29 21:09:13.227.002 cdaq_cmd[00573]: SCI_STV SCD4, 0x0000098B, DISABLE.
+SEP 29 21:09:13.227.015 cdaq_cmd[00574]: SCI_STV SCD4, 0x0000098B, STV = 65535.
+SEP 29 21:09:13.227.027 cdaq_cmd[00575]: SCI_STV SCD4, 0x0000098D, DISABLE.
+SEP 29 21:09:13.227.040 cdaq_cmd[00576]: SCI_STV SCD4, 0x0000098D, STV = 65535.
+SEP 29 21:09:13.227.052 cdaq_cmd[00577]: SCI_STV SCD4, 0x0000098F, DISABLE.
+SEP 29 21:09:13.227.065 cdaq_cmd[00578]: SCI_STV SCD4, 0x0000098F, STV = 65535.
+SEP 29 21:09:13.227.077 cdaq_cmd[00579]: SCI_STV SCD4, 0x000009A0, DISABLE.
+SEP 29 21:09:13.227.090 cdaq_cmd[00580]: SCI_STV SCD4, 0x000009A0, STV = 65535.
+SEP 29 21:09:13.227.102 cdaq_cmd[00581]: SCI_STV SCD4, 0x000009A1, DISABLE.
+SEP 29 21:09:13.227.115 cdaq_cmd[00582]: SCI_STV SCD4, 0x000009A1, STV = 65535.
+SEP 29 21:09:13.227.127 cdaq_cmd[00583]: SCI_STV SCD4, 0x000009A3, DISABLE.
+SEP 29 21:09:13.227.140 cdaq_cmd[00584]: SCI_STV SCD4, 0x000009A3, STV = 65535.
+SEP 29 21:09:13.227.152 cdaq_cmd[00585]: SCI_STV SCD4, 0x000009A5, DISABLE.
+SEP 29 21:09:13.227.165 cdaq_cmd[00586]: SCI_STV SCD4, 0x000009A5, STV = 65535.
+SEP 29 21:09:13.227.177 cdaq_cmd[00587]: SCI_STV SCD4, 0x000009A7, DISABLE.
+SEP 29 21:09:13.227.190 cdaq_cmd[00588]: SCI_STV SCD4, 0x000009A7, STV = 65535.
+SEP 29 21:09:13.227.202 cdaq_cmd[00589]: SCI_STV SCD4, 0x000009A9, DISABLE.
+SEP 29 21:09:13.227.215 cdaq_cmd[00590]: SCI_STV SCD4, 0x000009A9, STV = 65535.
+SEP 29 21:09:13.227.227 cdaq_cmd[00591]: SCI_STV SCD4, 0x000009AD, DISABLE.
+SEP 29 21:09:13.227.241 cdaq_cmd[00592]: SCI_STV SCD4, 0x000009AD, STV = 65535.
+SEP 29 21:09:13.227.254 cdaq_cmd[00593]: SCI_STV SCD4, 0x000009B1, DISABLE.
+SEP 29 21:09:13.227.267 cdaq_cmd[00594]: SCI_STV SCD4, 0x000009B1, STV = 65535.
+SEP 29 21:09:13.227.279 cdaq_cmd[00595]: SCI_STV SCD4, 0x000009B2, DISABLE.
+SEP 29 21:09:13.227.291 cdaq_cmd[00596]: SCI_STV SCD4, 0x000009B2, STV = 65535.
+SEP 29 21:09:13.227.304 cdaq_cmd[00597]: SCI_STV SCD4, 0x000009B3, DISABLE.
+SEP 29 21:09:13.227.316 cdaq_cmd[00598]: SCI_STV SCD4, 0x000009B3, STV = 65535.
+SEP 29 21:09:13.227.328 cdaq_cmd[00599]: SCI_STV SCD4, 0x000009B5, DISABLE.
+SEP 29 21:09:13.227.341 cdaq_cmd[00600]: SCI_STV SCD4, 0x000009B5, STV = 65535.
+SEP 29 21:09:13.227.353 cdaq_cmd[00601]: SCI_STV SCD4, 0x000009B7, DISABLE.
+SEP 29 21:09:13.227.366 cdaq_cmd[00602]: SCI_STV SCD4, 0x000009B7, STV = 65535.
+SEP 29 21:09:13.227.378 cdaq_cmd[00603]: SCI_STV SCD4, 0x000009B9, DISABLE.
+SEP 29 21:09:13.227.391 cdaq_cmd[00604]: SCI_STV SCD4, 0x000009B9, STV = 65535.
+SEP 29 21:09:13.227.403 cdaq_cmd[00605]: SCI_STV SCD4, 0x000009BB, DISABLE.
+SEP 29 21:09:13.227.416 cdaq_cmd[00606]: SCI_STV SCD4, 0x000009BB, STV = 65535.
+SEP 29 21:09:13.227.428 cdaq_cmd[00607]: SCI_STV SCD4, 0x000009BD, DISABLE.
+SEP 29 21:09:13.227.441 cdaq_cmd[00608]: SCI_STV SCD4, 0x000009BD, STV = 65535.
+SEP 29 21:09:13.227.453 cdaq_cmd[00609]: SCI_STV SCD4, 0x000009BE, DISABLE.
+SEP 29 21:09:13.227.466 cdaq_cmd[00610]: SCI_STV SCD4, 0x000009BE, STV = 65535.
+SEP 29 21:09:13.227.478 cdaq_cmd[00611]: SCI_STV SCD4, 0x000009BF, DISABLE.
+SEP 29 21:09:13.227.491 cdaq_cmd[00612]: SCI_STV SCD4, 0x000009BF, STV = 65535.
+SEP 29 21:09:13.227.503 cdaq_cmd[00613]: SCI_STV SCD4, 0x000009C1, DISABLE.
+SEP 29 21:09:13.227.516 cdaq_cmd[00614]: SCI_STV SCD4, 0x000009C1, STV = 65535.
+SEP 29 21:09:13.227.528 cdaq_cmd[00615]: SCI_STV SCD4, 0x000009C2, DISABLE.
+SEP 29 21:09:13.227.541 cdaq_cmd[00616]: SCI_STV SCD4, 0x000009C2, STV = 65535.
+SEP 29 21:09:13.227.553 cdaq_cmd[00617]: SCI_STV SCD4, 0x000009C3, DISABLE.
+SEP 29 21:09:13.227.565 cdaq_cmd[00618]: SCI_STV SCD4, 0x000009C3, STV = 65535.
+SEP 29 21:09:13.227.577 cdaq_cmd[00619]: SCI_STV SCD4, 0x000009C5, DISABLE.
+SEP 29 21:09:13.227.590 cdaq_cmd[00620]: SCI_STV SCD4, 0x000009C5, STV = 65535.
+SEP 29 21:09:13.227.602 cdaq_cmd[00621]: SCI_STV SCD4, 0x000009C6, DISABLE.
+SEP 29 21:09:13.227.615 cdaq_cmd[00622]: SCI_STV SCD4, 0x000009C6, STV = 65535.
+SEP 29 21:09:13.227.627 cdaq_cmd[00623]: SCI_STV SCD4, 0x000009C7, DISABLE.
+SEP 29 21:09:13.227.640 cdaq_cmd[00624]: SCI_STV SCD4, 0x000009C7, STV = 65535.
+SEP 29 21:09:13.227.652 cdaq_cmd[00625]: SCI_STV SCD4, 0x000009C9, DISABLE.
+SEP 29 21:09:13.227.665 cdaq_cmd[00626]: SCI_STV SCD4, 0x000009C9, STV = 65535.
+SEP 29 21:09:13.227.677 cdaq_cmd[00627]: SCI_STV SCD4, 0x000009CB, DISABLE.
+SEP 29 21:09:13.227.690 cdaq_cmd[00628]: SCI_STV SCD4, 0x000009CB, STV = 65535.
+SEP 29 21:09:13.227.702 cdaq_cmd[00629]: SCI_STV SCD4, 0x000009CD, DISABLE.
+SEP 29 21:09:13.227.715 cdaq_cmd[00630]: SCI_STV SCD4, 0x000009CD, STV = 65535.
+SEP 29 21:09:13.227.727 cdaq_cmd[00631]: SCI_STV SCD4, 0x000009CF, DISABLE.
+SEP 29 21:09:13.227.739 cdaq_cmd[00632]: SCI_STV SCD4, 0x000009CF, STV = 65535.
+SEP 29 21:09:13.227.752 cdaq_cmd[00633]: SCI_STV SCD4, 0x000009D1, DISABLE.
+SEP 29 21:09:13.227.764 cdaq_cmd[00634]: SCI_STV SCD4, 0x000009D1, STV = 65535.
+SEP 29 21:09:13.227.776 cdaq_cmd[00635]: SCI_STV SCD4, 0x000009D2, DISABLE.
+SEP 29 21:09:13.227.796 cdaq_cmd[00636]: SCI_STV SCD4, 0x000009D2, STV = 65535.
+SEP 29 21:09:13.227.808 cdaq_cmd[00637]: SCI_STV SCD4, 0x000009D3, DISABLE.
+SEP 29 21:09:13.227.820 cdaq_cmd[00638]: SCI_STV SCD4, 0x000009D3, STV = 65535.
+SEP 29 21:09:13.227.832 cdaq_cmd[00639]: SCI_STV SCD4, 0x000009D5, DISABLE.
+SEP 29 21:09:13.227.845 cdaq_cmd[00640]: SCI_STV SCD4, 0x000009D5, STV = 65535.
+SEP 29 21:09:13.227.857 cdaq_cmd[00641]: SCI_STV SCD4, 0x000009D6, DISABLE.
+SEP 29 21:09:13.227.870 cdaq_cmd[00642]: SCI_STV SCD4, 0x000009D6, STV = 65535.
+SEP 29 21:09:13.227.882 cdaq_cmd[00643]: SCI_STV SCD4, 0x000009D7, DISABLE.
+SEP 29 21:09:13.227.895 cdaq_cmd[00644]: SCI_STV SCD4, 0x000009D7, STV = 65535.
+SEP 29 21:09:13.227.907 cdaq_cmd[00645]: SCI_STV SCD4, 0x000009D9, DISABLE.
+SEP 29 21:09:13.227.920 cdaq_cmd[00646]: SCI_STV SCD4, 0x000009D9, STV = 65535.
+SEP 29 21:09:13.227.932 cdaq_cmd[00647]: SCI_STV SCD4, 0x000009DA, DISABLE.
+SEP 29 21:09:13.227.945 cdaq_cmd[00648]: SCI_STV SCD4, 0x000009DA, STV = 65535.
+SEP 29 21:09:13.227.957 cdaq_cmd[00649]: SCI_STV SCD4, 0x000009DB, DISABLE.
+SEP 29 21:09:13.227.969 cdaq_cmd[00650]: SCI_STV SCD4, 0x000009DB, STV = 65535.
+SEP 29 21:09:13.227.982 cdaq_cmd[00651]: SCI_STV SCD4, 0x000009DC, DISABLE.
+SEP 29 21:09:13.227.994 cdaq_cmd[00652]: SCI_STV SCD4, 0x000009DC, STV = 65535.
+SEP 29 21:09:13.228.007 cdaq_cmd[00653]: SCI_STV SCD4, 0x000009DD, DISABLE.
+SEP 29 21:09:13.228.019 cdaq_cmd[00654]: SCI_STV SCD4, 0x000009DD, STV = 65535.
+SEP 29 21:09:13.228.032 cdaq_cmd[00655]: SCI_STV SCD4, 0x000009DF, DISABLE.
+SEP 29 21:09:13.228.044 cdaq_cmd[00656]: SCI_STV SCD4, 0x000009DF, STV = 65535.
+SEP 29 21:09:13.228.057 cdaq_cmd[00657]: SCI_STV SCD4, 0x00000A07, DISABLE.
+SEP 29 21:09:13.228.071 cdaq_cmd[00658]: SCI_STV SCD4, 0x00000A07, STV = 65535.
+SEP 29 21:09:13.228.083 cdaq_cmd[00659]: SCI_STV SCD4, 0x00000A0B, DISABLE.
+SEP 29 21:09:13.228.096 cdaq_cmd[00660]: SCI_STV SCD4, 0x00000A0B, STV = 65535.
+SEP 29 21:09:13.228.108 cdaq_cmd[00661]: SCI_STV SCD4, 0x00000A0F, DISABLE.
+SEP 29 21:09:13.228.120 cdaq_cmd[00662]: SCI_STV SCD4, 0x00000A0F, STV = 65535.
+SEP 29 21:09:13.228.133 cdaq_cmd[00663]: SCI_STV SCD4, 0x00000A16, DISABLE.
+SEP 29 21:09:13.228.146 cdaq_cmd[00664]: SCI_STV SCD4, 0x00000A16, STV = 65535.
+SEP 29 21:09:13.228.158 cdaq_cmd[00665]: SCI_STV SCD4, 0x00000A6D, DISABLE.
+SEP 29 21:09:13.228.170 cdaq_cmd[00666]: SCI_STV SCD4, 0x00000A6D, STV = 65535.
+SEP 29 21:09:13.228.182 cdaq_cmd[00667]: SCI_STV SCD4, 0x00000AF9, DISABLE.
+SEP 29 21:09:13.228.195 cdaq_cmd[00668]: SCI_STV SCD4, 0x00000AF9, STV = 65535.
+SEP 29 21:09:13.228.207 cdaq_cmd[00669]: SCI_STV SCD4, 0x00000AFA, DISABLE.
+SEP 29 21:09:13.228.219 cdaq_cmd[00670]: SCI_STV SCD4, 0x00000AFA, STV = 65535.
+SEP 29 21:09:13.780.733 cdaq_evt[00370]: disable_auto_update[2]: channel 1171.
+SEP 29 21:09:13.780.750 cdaq_evt[00371]: blind_set_stv[2]: ch 1171, val 65535.
+SEP 29 21:09:13.781.685 cdaq_evt[00372]: disable_auto_update[2]: channel 1173.
+SEP 29 21:09:13.781.705 cdaq_evt[00373]: blind_set_stv[2]: ch 1173, val 65535.
+SEP 29 21:09:13.781.804 cdaq_evt[00374]: disable_auto_update[2]: channel 1174.
+SEP 29 21:09:13.781.814 cdaq_evt[00375]: blind_set_stv[2]: ch 1174, val 65535.
+SEP 29 21:09:13.781.928 cdaq_evt[00376]: disable_auto_update[2]: channel 1175.
+SEP 29 21:09:13.781.939 cdaq_evt[00377]: blind_set_stv[2]: ch 1175, val 65535.
+SEP 29 21:09:13.782.052 cdaq_evt[00378]: disable_auto_update[2]: channel 1176.
+SEP 29 21:09:13.782.063 cdaq_evt[00379]: blind_set_stv[2]: ch 1176, val 65535.
+SEP 29 21:09:13.782.177 cdaq_evt[00380]: disable_auto_update[2]: channel 1177.
+SEP 29 21:09:13.782.187 cdaq_evt[00381]: blind_set_stv[2]: ch 1177, val 65535.
+SEP 29 21:09:13.782.303 cdaq_evt[00382]: disable_auto_update[2]: channel 1181.
+SEP 29 21:09:13.782.313 cdaq_evt[00383]: blind_set_stv[2]: ch 1181, val 65535.
+SEP 29 21:09:13.782.427 cdaq_evt[00384]: disable_auto_update[2]: channel 2800.
+SEP 29 21:09:13.782.438 cdaq_evt[00385]: blind_set_stv[2]: ch 2800, val 65535.
+SEP 29 21:09:13.782.553 cdaq_evt[00386]: disable_auto_update[3]: channel 2.
+SEP 29 21:09:13.782.563 cdaq_evt[00387]: blind_set_stv[3]: ch 2, val 65535.
+SEP 29 21:09:13.782.681 cdaq_evt[00388]: disable_auto_update[3]: channel 6.
+SEP 29 21:09:13.782.691 cdaq_evt[00389]: blind_set_stv[3]: ch 6, val 65535.
+SEP 29 21:09:13.782.802 cdaq_evt[00390]: disable_auto_update[3]: channel 9.
+SEP 29 21:09:13.782.813 cdaq_evt[00391]: blind_set_stv[3]: ch 9, val 65535.
+SEP 29 21:09:13.782.928 cdaq_evt[00392]: disable_auto_update[3]: channel 12.
+SEP 29 21:09:13.782.938 cdaq_evt[00393]: blind_set_stv[3]: ch 12, val 65535.
+SEP 29 21:09:13.783.052 cdaq_evt[00394]: disable_auto_update[3]: channel 13.
+SEP 29 21:09:13.783.062 cdaq_evt[00395]: blind_set_stv[3]: ch 13, val 65535.
+SEP 29 21:09:13.783.179 cdaq_evt[00396]: disable_auto_update[3]: channel 160.
+SEP 29 21:09:13.783.189 cdaq_evt[00397]: blind_set_stv[3]: ch 160, val 65535.
+SEP 29 21:09:13.783.303 cdaq_evt[00398]: disable_auto_update[3]: channel 163.
+SEP 29 21:09:13.783.313 cdaq_evt[00399]: blind_set_stv[3]: ch 163, val 65535.
+SEP 29 21:09:13.783.427 cdaq_evt[00400]: disable_auto_update[3]: channel 167.
+SEP 29 21:09:13.783.437 cdaq_evt[00401]: blind_set_stv[3]: ch 167, val 65535.
+SEP 29 21:09:13.783.553 cdaq_evt[00402]: disable_auto_update[3]: channel 168.
+SEP 29 21:09:13.783.563 cdaq_evt[00403]: blind_set_stv[3]: ch 168, val 65535.
+SEP 29 21:09:13.783.678 cdaq_evt[00404]: disable_auto_update[3]: channel 171.
+SEP 29 21:09:13.783.688 cdaq_evt[00405]: blind_set_stv[3]: ch 171, val 65535.
+SEP 29 21:09:13.783.804 cdaq_evt[00406]: disable_auto_update[3]: channel 172.
+SEP 29 21:09:13.783.813 cdaq_evt[00407]: blind_set_stv[3]: ch 172, val 65535.
+SEP 29 21:09:13.783.928 cdaq_evt[00408]: disable_auto_update[3]: channel 173.
+SEP 29 21:09:13.783.938 cdaq_evt[00409]: blind_set_stv[3]: ch 173, val 65535.
+SEP 29 21:09:13.784.054 cdaq_evt[00410]: disable_auto_update[3]: channel 174.
+SEP 29 21:09:13.784.063 cdaq_evt[00411]: blind_set_stv[3]: ch 174, val 65535.
+SEP 29 21:09:13.784.178 cdaq_evt[00412]: disable_auto_update[3]: channel 175.
+SEP 29 21:09:13.784.189 cdaq_evt[00413]: blind_set_stv[3]: ch 175, val 65535.
+SEP 29 21:09:13.784.302 cdaq_evt[00414]: disable_auto_update[3]: channel 195.
+SEP 29 21:09:13.784.313 cdaq_evt[00415]: blind_set_stv[3]: ch 195, val 65535.
+SEP 29 21:09:13.784.428 cdaq_evt[00416]: disable_auto_update[3]: channel 200.
+SEP 29 21:09:13.784.438 cdaq_evt[00417]: blind_set_stv[3]: ch 200, val 65535.
+SEP 29 21:09:13.784.551 cdaq_evt[00418]: disable_auto_update[3]: channel 201.
+SEP 29 21:09:13.784.562 cdaq_evt[00419]: blind_set_stv[3]: ch 201, val 65535.
+SEP 29 21:09:13.784.678 cdaq_evt[00420]: disable_auto_update[3]: channel 259.
+SEP 29 21:09:13.784.688 cdaq_evt[00421]: blind_set_stv[3]: ch 259, val 65535.
+SEP 29 21:09:13.784.802 cdaq_evt[00422]: disable_auto_update[3]: channel 264.
+SEP 29 21:09:13.784.812 cdaq_evt[00423]: blind_set_stv[3]: ch 264, val 65535.
+SEP 29 21:09:13.784.927 cdaq_evt[00424]: disable_auto_update[3]: channel 271.
+SEP 29 21:09:13.784.938 cdaq_evt[00425]: blind_set_stv[3]: ch 271, val 65535.
+SEP 29 21:09:13.785.053 cdaq_evt[00426]: disable_auto_update[3]: channel 304.
+SEP 29 21:09:13.785.063 cdaq_evt[00427]: blind_set_stv[3]: ch 304, val 65535.
+SEP 29 21:09:13.785.177 cdaq_evt[00428]: disable_auto_update[3]: channel 306.
+SEP 29 21:09:13.785.187 cdaq_evt[00429]: blind_set_stv[3]: ch 306, val 65535.
+SEP 29 21:09:13.785.302 cdaq_evt[00430]: disable_auto_update[3]: channel 308.
+SEP 29 21:09:13.785.312 cdaq_evt[00431]: blind_set_stv[3]: ch 308, val 65535.
+SEP 29 21:09:13.785.426 cdaq_evt[00432]: disable_auto_update[3]: channel 312.
+SEP 29 21:09:13.785.437 cdaq_evt[00433]: blind_set_stv[3]: ch 312, val 65535.
+SEP 29 21:09:13.785.552 cdaq_evt[00434]: disable_auto_update[3]: channel 353.
+SEP 29 21:09:13.785.562 cdaq_evt[00435]: blind_set_stv[3]: ch 353, val 65535.
+SEP 29 21:09:13.785.678 cdaq_evt[00436]: disable_auto_update[3]: channel 354.
+SEP 29 21:09:13.785.688 cdaq_evt[00437]: blind_set_stv[3]: ch 354, val 65535.
+SEP 29 21:09:13.785.802 cdaq_evt[00438]: disable_auto_update[3]: channel 355.
+SEP 29 21:09:13.785.812 cdaq_evt[00439]: blind_set_stv[3]: ch 355, val 65535.
+SEP 29 21:09:13.785.928 cdaq_evt[00440]: disable_auto_update[3]: channel 359.
+SEP 29 21:09:13.785.938 cdaq_evt[00441]: blind_set_stv[3]: ch 359, val 65535.
+SEP 29 21:09:13.786.052 cdaq_evt[00442]: disable_auto_update[3]: channel 360.
+SEP 29 21:09:13.786.062 cdaq_evt[00443]: blind_set_stv[3]: ch 360, val 65535.
+SEP 29 21:09:13.786.177 cdaq_evt[00444]: disable_auto_update[3]: channel 365.
+SEP 29 21:09:13.786.187 cdaq_evt[00445]: blind_set_stv[3]: ch 365, val 65535.
+SEP 29 21:09:13.786.301 cdaq_evt[00446]: disable_auto_update[3]: channel 367.
+SEP 29 21:09:13.786.311 cdaq_evt[00447]: blind_set_stv[3]: ch 367, val 65535.
+SEP 29 21:09:13.786.428 cdaq_evt[00448]: disable_auto_update[3]: channel 375.
+SEP 29 21:09:13.786.437 cdaq_evt[00449]: blind_set_stv[3]: ch 375, val 65535.
+SEP 29 21:09:13.786.553 cdaq_evt[00450]: disable_auto_update[3]: channel 378.
+SEP 29 21:09:13.786.562 cdaq_evt[00451]: blind_set_stv[3]: ch 378, val 65535.
+SEP 29 21:09:13.786.677 cdaq_evt[00452]: disable_auto_update[3]: channel 558.
+SEP 29 21:09:13.786.687 cdaq_evt[00453]: blind_set_stv[3]: ch 558, val 65535.
+SEP 29 21:09:13.786.927 cdaq_evt[00454]: disable_auto_update[3]: channel 582.
+SEP 29 21:09:13.786.937 cdaq_evt[00455]: blind_set_stv[3]: ch 582, val 65535.
+SEP 29 21:09:13.787.053 cdaq_evt[00456]: disable_auto_update[3]: channel 595.
+SEP 29 21:09:13.787.063 cdaq_evt[00457]: blind_set_stv[3]: ch 595, val 65535.
+SEP 29 21:09:13.787.177 cdaq_evt[00458]: disable_auto_update[3]: channel 599.
+SEP 29 21:09:13.787.187 cdaq_evt[00459]: blind_set_stv[3]: ch 599, val 65535.
+SEP 29 21:09:13.787.303 cdaq_evt[00460]: disable_auto_update[3]: channel 664.
+SEP 29 21:09:13.787.312 cdaq_evt[00461]: blind_set_stv[3]: ch 664, val 65535.
+SEP 29 21:09:13.787.427 cdaq_evt[00462]: disable_auto_update[3]: channel 667.
+SEP 29 21:09:13.787.437 cdaq_evt[00463]: blind_set_stv[3]: ch 667, val 65535.
+SEP 29 21:09:13.787.551 cdaq_evt[00464]: disable_auto_update[3]: channel 802.
+SEP 29 21:09:13.787.561 cdaq_evt[00465]: blind_set_stv[3]: ch 802, val 65535.
+SEP 29 21:09:13.787.677 cdaq_evt[00466]: disable_auto_update[3]: channel 866.
+SEP 29 21:09:13.787.687 cdaq_evt[00467]: blind_set_stv[3]: ch 866, val 65535.
+SEP 29 21:09:13.787.801 cdaq_evt[00468]: disable_auto_update[3]: channel 869.
+SEP 29 21:09:13.787.813 cdaq_evt[00469]: blind_set_stv[3]: ch 869, val 65535.
+SEP 29 21:09:13.787.927 cdaq_evt[00470]: disable_auto_update[3]: channel 870.
+SEP 29 21:09:13.787.938 cdaq_evt[00471]: blind_set_stv[3]: ch 870, val 65535.
+SEP 29 21:09:13.788.052 cdaq_evt[00472]: disable_auto_update[3]: channel 873.
+SEP 29 21:09:13.788.062 cdaq_evt[00473]: blind_set_stv[3]: ch 873, val 65535.
+SEP 29 21:09:13.788.176 cdaq_evt[00474]: disable_auto_update[3]: channel 874.
+SEP 29 21:09:13.788.187 cdaq_evt[00475]: blind_set_stv[3]: ch 874, val 65535.
+SEP 29 21:09:13.788.302 cdaq_evt[00476]: disable_auto_update[3]: channel 877.
+SEP 29 21:09:13.788.312 cdaq_evt[00477]: blind_set_stv[3]: ch 877, val 65535.
+SEP 29 21:09:13.788.426 cdaq_evt[00478]: disable_auto_update[3]: channel 878.
+SEP 29 21:09:13.788.436 cdaq_evt[00479]: blind_set_stv[3]: ch 878, val 65535.
+SEP 29 21:09:13.788.552 cdaq_evt[00480]: disable_auto_update[3]: channel 881.
+SEP 29 21:09:13.788.562 cdaq_evt[00481]: blind_set_stv[3]: ch 881, val 65535.
+SEP 29 21:09:13.788.676 cdaq_evt[00482]: disable_auto_update[3]: channel 925.
+SEP 29 21:09:13.788.687 cdaq_evt[00483]: blind_set_stv[3]: ch 925, val 65535.
+SEP 29 21:09:13.788.802 cdaq_evt[00484]: disable_auto_update[3]: channel 1015.
+SEP 29 21:09:13.788.812 cdaq_evt[00485]: blind_set_stv[3]: ch 1015, val 65535.
+SEP 29 21:09:13.788.928 cdaq_evt[00486]: disable_auto_update[3]: channel 1050.
+SEP 29 21:09:13.788.938 cdaq_evt[00487]: blind_set_stv[3]: ch 1050, val 65535.
+SEP 29 21:09:13.789.051 cdaq_evt[00488]: disable_auto_update[3]: channel 1113.
+SEP 29 21:09:13.789.063 cdaq_evt[00489]: blind_set_stv[3]: ch 1113, val 65535.
+SEP 29 21:09:13.789.177 cdaq_evt[00490]: disable_auto_update[3]: channel 1114.
+SEP 29 21:09:13.789.187 cdaq_evt[00491]: blind_set_stv[3]: ch 1114, val 65535.
+SEP 29 21:09:13.789.301 cdaq_evt[00492]: disable_auto_update[3]: channel 1121.
+SEP 29 21:09:13.789.311 cdaq_evt[00493]: blind_set_stv[3]: ch 1121, val 65535.
+SEP 29 21:09:13.789.427 cdaq_evt[00494]: disable_auto_update[3]: channel 1122.
+SEP 29 21:09:13.789.437 cdaq_evt[00495]: blind_set_stv[3]: ch 1122, val 65535.
+SEP 29 21:09:13.789.551 cdaq_evt[00496]: disable_auto_update[3]: channel 1138.
+SEP 29 21:09:13.789.561 cdaq_evt[00497]: blind_set_stv[3]: ch 1138, val 65535.
+SEP 29 21:09:13.789.677 cdaq_evt[00498]: disable_auto_update[3]: channel 1141.
+SEP 29 21:09:13.789.687 cdaq_evt[00499]: blind_set_stv[3]: ch 1141, val 65535.
+SEP 29 21:09:13.789.802 cdaq_evt[00500]: disable_auto_update[3]: channel 1142.
+SEP 29 21:09:13.789.812 cdaq_evt[00501]: blind_set_stv[3]: ch 1142, val 65535.
+SEP 29 21:09:13.789.926 cdaq_evt[00502]: disable_auto_update[3]: channel 1146.
+SEP 29 21:09:13.789.936 cdaq_evt[00503]: blind_set_stv[3]: ch 1146, val 65535.
+SEP 29 21:09:13.790.052 cdaq_evt[00504]: disable_auto_update[3]: channel 1150.
+SEP 29 21:09:13.790.062 cdaq_evt[00505]: blind_set_stv[3]: ch 1150, val 65535.
+SEP 29 21:09:13.790.176 cdaq_evt[00506]: disable_auto_update[3]: channel 1280.
+SEP 29 21:09:13.790.186 cdaq_evt[00507]: blind_set_stv[3]: ch 1280, val 65535.
+SEP 29 21:09:13.790.302 cdaq_evt[00508]: disable_auto_update[3]: channel 1302.
+SEP 29 21:09:13.790.312 cdaq_evt[00509]: blind_set_stv[3]: ch 1302, val 65535.
+SEP 29 21:09:13.790.427 cdaq_evt[00510]: disable_auto_update[3]: channel 1303.
+SEP 29 21:09:13.790.437 cdaq_evt[00511]: blind_set_stv[3]: ch 1303, val 65535.
+SEP 29 21:09:13.790.550 cdaq_evt[00512]: disable_auto_update[3]: channel 1304.
+SEP 29 21:09:13.790.561 cdaq_evt[00513]: blind_set_stv[3]: ch 1304, val 65535.
+SEP 29 21:09:13.792.062 cdaq_evt[00514]: disable_auto_update[3]: channel 1320.
+SEP 29 21:09:13.792.073 cdaq_evt[00515]: blind_set_stv[3]: ch 1320, val 65535.
+SEP 29 21:09:13.792.177 cdaq_evt[00516]: disable_auto_update[3]: channel 1327.
+SEP 29 21:09:13.792.187 cdaq_evt[00517]: blind_set_stv[3]: ch 1327, val 65535.
+SEP 29 21:09:13.792.302 cdaq_evt[00518]: disable_auto_update[3]: channel 1331.
+SEP 29 21:09:13.792.312 cdaq_evt[00519]: blind_set_stv[3]: ch 1331, val 65535.
+SEP 29 21:09:13.792.427 cdaq_evt[00520]: disable_auto_update[3]: channel 1338.
+SEP 29 21:09:13.792.437 cdaq_evt[00521]: blind_set_stv[3]: ch 1338, val 65535.
+SEP 29 21:09:13.792.550 cdaq_evt[00522]: disable_auto_update[3]: channel 1342.
+SEP 29 21:09:13.792.560 cdaq_evt[00523]: blind_set_stv[3]: ch 1342, val 65535.
+SEP 29 21:09:13.792.676 cdaq_evt[00524]: disable_auto_update[3]: channel 1392.
+SEP 29 21:09:13.792.686 cdaq_evt[00525]: blind_set_stv[3]: ch 1392, val 65535.
+SEP 29 21:09:13.793.198 cdaq_evt[00526]: disable_auto_update[3]: channel 1397.
+SEP 29 21:09:13.793.208 cdaq_evt[00527]: blind_set_stv[3]: ch 1397, val 65535.
+SEP 29 21:09:13.793.302 cdaq_evt[00528]: disable_auto_update[3]: channel 1402.
+SEP 29 21:09:13.793.312 cdaq_evt[00529]: blind_set_stv[3]: ch 1402, val 65535.
+SEP 29 21:09:13.793.426 cdaq_evt[00530]: disable_auto_update[3]: channel 1405.
+SEP 29 21:09:13.793.436 cdaq_evt[00531]: blind_set_stv[3]: ch 1405, val 65535.
+SEP 29 21:09:13.793.552 cdaq_evt[00532]: disable_auto_update[3]: channel 1406.
+SEP 29 21:09:13.793.561 cdaq_evt[00533]: blind_set_stv[3]: ch 1406, val 65535.
+SEP 29 21:09:13.793.677 cdaq_evt[00534]: disable_auto_update[3]: channel 1698.
+SEP 29 21:09:13.793.686 cdaq_evt[00535]: blind_set_stv[3]: ch 1698, val 65535.
+SEP 29 21:09:13.794.302 cdaq_evt[00536]: disable_auto_update[3]: channel 1702.
+SEP 29 21:09:13.794.312 cdaq_evt[00537]: blind_set_stv[3]: ch 1702, val 65535.
+SEP 29 21:09:13.794.427 cdaq_evt[00538]: disable_auto_update[3]: channel 1709.
+SEP 29 21:09:13.794.440 cdaq_evt[00539]: blind_set_stv[3]: ch 1709, val 65535.
+SEP 29 21:09:13.794.552 cdaq_evt[00540]: disable_auto_update[3]: channel 1915.
+SEP 29 21:09:13.794.562 cdaq_evt[00541]: blind_set_stv[3]: ch 1915, val 65535.
+SEP 29 21:09:13.794.676 cdaq_evt[00542]: disable_auto_update[3]: channel 1919.
+SEP 29 21:09:13.794.686 cdaq_evt[00543]: blind_set_stv[3]: ch 1919, val 65535.
+SEP 29 21:09:13.794.801 cdaq_evt[00544]: disable_auto_update[3]: channel 2064.
+SEP 29 21:09:13.794.812 cdaq_evt[00545]: blind_set_stv[3]: ch 2064, val 65535.
+SEP 29 21:09:13.794.926 cdaq_evt[00546]: disable_auto_update[3]: channel 2065.
+SEP 29 21:09:13.794.936 cdaq_evt[00547]: blind_set_stv[3]: ch 2065, val 65535.
+SEP 29 21:09:13.795.051 cdaq_evt[00548]: disable_auto_update[3]: channel 2667.
+SEP 29 21:09:13.795.061 cdaq_evt[00549]: blind_set_stv[3]: ch 2667, val 65535.
+SEP 29 21:09:13.795.176 cdaq_evt[00550]: disable_auto_update[3]: channel 2670.
+SEP 29 21:09:13.795.186 cdaq_evt[00551]: blind_set_stv[3]: ch 2670, val 65535.
+SEP 29 21:09:13.795.301 cdaq_evt[00552]: disable_auto_update[4]: channel 356.
+SEP 29 21:09:13.795.311 cdaq_evt[00553]: blind_set_stv[4]: ch 356, val 65535.
+SEP 29 21:09:13.795.429 cdaq_evt[00554]: disable_auto_update[4]: channel 590.
+SEP 29 21:09:13.795.439 cdaq_evt[00555]: blind_set_stv[4]: ch 590, val 65535.
+SEP 29 21:09:13.795.550 cdaq_evt[00556]: disable_auto_update[4]: channel 661.
+SEP 29 21:09:13.795.561 cdaq_evt[00557]: blind_set_stv[4]: ch 661, val 65535.
+SEP 29 21:09:13.795.676 cdaq_evt[00558]: disable_auto_update[4]: channel 932.
+SEP 29 21:09:13.795.686 cdaq_evt[00559]: blind_set_stv[4]: ch 932, val 65535.
+SEP 29 21:09:13.796.303 cdaq_evt[00560]: disable_auto_update[4]: channel 978.
+SEP 29 21:09:13.796.313 cdaq_evt[00561]: blind_set_stv[4]: ch 978, val 65535.
+SEP 29 21:09:13.796.425 cdaq_evt[00562]: disable_auto_update[4]: channel 1115.
+SEP 29 21:09:13.796.435 cdaq_evt[00563]: blind_set_stv[4]: ch 1115, val 65535.
+SEP 29 21:09:13.796.551 cdaq_evt[00564]: disable_auto_update[4]: channel 2340.
+SEP 29 21:09:13.796.561 cdaq_evt[00565]: blind_set_stv[4]: ch 2340, val 65535.
+SEP 29 21:09:13.796.675 cdaq_evt[00566]: disable_auto_update[4]: channel 2387.
+SEP 29 21:09:13.796.685 cdaq_evt[00567]: blind_set_stv[4]: ch 2387, val 65535.
+SEP 29 21:09:13.796.800 cdaq_evt[00568]: disable_auto_update[4]: channel 2432.
+SEP 29 21:09:13.796.810 cdaq_evt[00569]: blind_set_stv[4]: ch 2432, val 65535.
+SEP 29 21:09:13.796.926 cdaq_evt[00570]: disable_auto_update[4]: channel 2433.
+SEP 29 21:09:13.796.936 cdaq_evt[00571]: blind_set_stv[4]: ch 2433, val 65535.
+SEP 29 21:09:13.797.050 cdaq_evt[00572]: disable_auto_update[4]: channel 2435.
+SEP 29 21:09:13.797.060 cdaq_evt[00573]: blind_set_stv[4]: ch 2435, val 65535.
+SEP 29 21:09:13.797.176 cdaq_evt[00574]: disable_auto_update[4]: channel 2437.
+SEP 29 21:09:13.797.186 cdaq_evt[00575]: blind_set_stv[4]: ch 2437, val 65535.
+SEP 29 21:09:13.797.300 cdaq_evt[00576]: disable_auto_update[4]: channel 2439.
+SEP 29 21:09:13.797.309 cdaq_evt[00577]: blind_set_stv[4]: ch 2439, val 65535.
+SEP 29 21:09:13.797.426 cdaq_evt[00578]: disable_auto_update[4]: channel 2441.
+SEP 29 21:09:13.797.435 cdaq_evt[00579]: blind_set_stv[4]: ch 2441, val 65535.
+SEP 29 21:09:13.797.550 cdaq_evt[00580]: disable_auto_update[4]: channel 2443.
+SEP 29 21:09:13.797.560 cdaq_evt[00581]: blind_set_stv[4]: ch 2443, val 65535.
+SEP 29 21:09:13.797.675 cdaq_evt[00582]: disable_auto_update[4]: channel 2445.
+SEP 29 21:09:13.797.685 cdaq_evt[00583]: blind_set_stv[4]: ch 2445, val 65535.
+SEP 29 21:09:13.797.801 cdaq_evt[00584]: disable_auto_update[4]: channel 2447.
+SEP 29 21:09:13.797.811 cdaq_evt[00585]: blind_set_stv[4]: ch 2447, val 65535.
+SEP 29 21:09:13.797.925 cdaq_evt[00586]: disable_auto_update[4]: channel 2464.
+SEP 29 21:09:13.797.935 cdaq_evt[00587]: blind_set_stv[4]: ch 2464, val 65535.
+SEP 29 21:09:13.798.050 cdaq_evt[00588]: disable_auto_update[4]: channel 2465.
+SEP 29 21:09:13.798.061 cdaq_evt[00589]: blind_set_stv[4]: ch 2465, val 65535.
+SEP 29 21:09:13.798.175 cdaq_evt[00590]: disable_auto_update[4]: channel 2467.
+SEP 29 21:09:13.798.185 cdaq_evt[00591]: blind_set_stv[4]: ch 2467, val 65535.
+SEP 29 21:09:13.798.301 cdaq_evt[00592]: disable_auto_update[4]: channel 2469.
+SEP 29 21:09:13.798.313 cdaq_evt[00593]: blind_set_stv[4]: ch 2469, val 65535.
+SEP 29 21:09:13.798.426 cdaq_evt[00594]: disable_auto_update[4]: channel 2471.
+SEP 29 21:09:13.798.435 cdaq_evt[00595]: blind_set_stv[4]: ch 2471, val 65535.
+SEP 29 21:09:13.798.550 cdaq_evt[00596]: disable_auto_update[4]: channel 2473.
+SEP 29 21:09:13.798.560 cdaq_evt[00597]: blind_set_stv[4]: ch 2473, val 65535.
+SEP 29 21:09:13.798.677 cdaq_evt[00598]: disable_auto_update[4]: channel 2477.
+SEP 29 21:09:13.798.686 cdaq_evt[00599]: blind_set_stv[4]: ch 2477, val 65535.
+SEP 29 21:09:13.798.800 cdaq_evt[00600]: disable_auto_update[4]: channel 2481.
+SEP 29 21:09:13.798.810 cdaq_evt[00601]: blind_set_stv[4]: ch 2481, val 65535.
+SEP 29 21:09:13.798.926 cdaq_evt[00602]: disable_auto_update[4]: channel 2482.
+SEP 29 21:09:13.798.936 cdaq_evt[00603]: blind_set_stv[4]: ch 2482, val 65535.
+SEP 29 21:09:13.799.050 cdaq_evt[00604]: disable_auto_update[4]: channel 2483.
+SEP 29 21:09:13.799.060 cdaq_evt[00605]: blind_set_stv[4]: ch 2483, val 65535.
+SEP 29 21:09:13.799.174 cdaq_evt[00606]: disable_auto_update[4]: channel 2485.
+SEP 29 21:09:13.799.185 cdaq_evt[00607]: blind_set_stv[4]: ch 2485, val 65535.
+SEP 29 21:09:13.799.301 cdaq_evt[00608]: disable_auto_update[4]: channel 2487.
+SEP 29 21:09:13.799.311 cdaq_evt[00609]: blind_set_stv[4]: ch 2487, val 65535.
+SEP 29 21:09:13.799.425 cdaq_evt[00610]: disable_auto_update[4]: channel 2489.
+SEP 29 21:09:13.799.436 cdaq_evt[00611]: blind_set_stv[4]: ch 2489, val 65535.
+SEP 29 21:09:13.799.550 cdaq_evt[00612]: disable_auto_update[4]: channel 2491.
+SEP 29 21:09:13.799.560 cdaq_evt[00613]: blind_set_stv[4]: ch 2491, val 65535.
+SEP 29 21:09:13.799.675 cdaq_evt[00614]: disable_auto_update[4]: channel 2493.
+SEP 29 21:09:13.799.685 cdaq_evt[00615]: blind_set_stv[4]: ch 2493, val 65535.
+SEP 29 21:09:13.799.925 cdaq_evt[00616]: disable_auto_update[4]: channel 2494.
+SEP 29 21:09:13.799.935 cdaq_evt[00617]: blind_set_stv[4]: ch 2494, val 65535.
+SEP 29 21:09:13.800.050 cdaq_evt[00618]: disable_auto_update[4]: channel 2495.
+SEP 29 21:09:13.800.060 cdaq_evt[00619]: blind_set_stv[4]: ch 2495, val 65535.
+SEP 29 21:09:13.800.177 cdaq_evt[00620]: disable_auto_update[4]: channel 2497.
+SEP 29 21:09:13.800.187 cdaq_evt[00621]: blind_set_stv[4]: ch 2497, val 65535.
+SEP 29 21:09:13.800.300 cdaq_evt[00622]: disable_auto_update[4]: channel 2498.
+SEP 29 21:09:13.800.310 cdaq_evt[00623]: blind_set_stv[4]: ch 2498, val 65535.
+SEP 29 21:09:13.800.426 cdaq_evt[00624]: disable_auto_update[4]: channel 2499.
+SEP 29 21:09:13.800.435 cdaq_evt[00625]: blind_set_stv[4]: ch 2499, val 65535.
+SEP 29 21:09:13.800.549 cdaq_evt[00626]: disable_auto_update[4]: channel 2501.
+SEP 29 21:09:13.800.560 cdaq_evt[00627]: blind_set_stv[4]: ch 2501, val 65535.
+SEP 29 21:09:13.801.371 cdaq_evt[00628]: disable_auto_update[4]: channel 2502.
+SEP 29 21:09:13.801.381 cdaq_evt[00629]: blind_set_stv[4]: ch 2502, val 65535.
+SEP 29 21:09:13.801.550 cdaq_evt[00630]: disable_auto_update[4]: channel 2503.
+SEP 29 21:09:13.801.560 cdaq_evt[00631]: blind_set_stv[4]: ch 2503, val 65535.
+SEP 29 21:09:13.801.675 cdaq_evt[00632]: disable_auto_update[4]: channel 2505.
+SEP 29 21:09:13.801.685 cdaq_evt[00633]: blind_set_stv[4]: ch 2505, val 65535.
+SEP 29 21:09:13.802.203 cdaq_evt[00634]: disable_auto_update[4]: channel 2507.
+SEP 29 21:09:13.802.213 cdaq_evt[00635]: blind_set_stv[4]: ch 2507, val 65535.
+SEP 29 21:09:13.802.300 cdaq_evt[00636]: disable_auto_update[4]: channel 2509.
+SEP 29 21:09:13.802.310 cdaq_evt[00637]: blind_set_stv[4]: ch 2509, val 65535.
+SEP 29 21:09:13.802.424 cdaq_evt[00638]: disable_auto_update[4]: channel 2511.
+SEP 29 21:09:13.802.434 cdaq_evt[00639]: blind_set_stv[4]: ch 2511, val 65535.
+SEP 29 21:09:13.802.550 cdaq_evt[00640]: disable_auto_update[4]: channel 2513.
+SEP 29 21:09:13.802.560 cdaq_evt[00641]: blind_set_stv[4]: ch 2513, val 65535.
+SEP 29 21:09:13.802.674 cdaq_evt[00642]: disable_auto_update[4]: channel 2514.
+SEP 29 21:09:13.802.684 cdaq_evt[00643]: blind_set_stv[4]: ch 2514, val 65535.
+SEP 29 21:09:13.802.801 cdaq_evt[00644]: disable_auto_update[4]: channel 2515.
+SEP 29 21:09:13.802.810 cdaq_evt[00645]: blind_set_stv[4]: ch 2515, val 65535.
+SEP 29 21:09:13.802.924 cdaq_evt[00646]: disable_auto_update[4]: channel 2517.
+SEP 29 21:09:13.802.935 cdaq_evt[00647]: blind_set_stv[4]: ch 2517, val 65535.
+SEP 29 21:09:13.803.050 cdaq_evt[00648]: disable_auto_update[4]: channel 2518.
+SEP 29 21:09:13.803.060 cdaq_evt[00649]: blind_set_stv[4]: ch 2518, val 65535.
+SEP 29 21:09:13.803.175 cdaq_evt[00650]: disable_auto_update[4]: channel 2519.
+SEP 29 21:09:13.803.185 cdaq_evt[00651]: blind_set_stv[4]: ch 2519, val 65535.
+SEP 29 21:09:13.803.299 cdaq_evt[00652]: disable_auto_update[4]: channel 2521.
+SEP 29 21:09:13.803.310 cdaq_evt[00653]: blind_set_stv[4]: ch 2521, val 65535.
+SEP 29 21:09:13.803.425 cdaq_evt[00654]: disable_auto_update[4]: channel 2522.
+SEP 29 21:09:13.803.435 cdaq_evt[00655]: blind_set_stv[4]: ch 2522, val 65535.
+SEP 29 21:09:13.803.549 cdaq_evt[00656]: disable_auto_update[4]: channel 2523.
+SEP 29 21:09:13.803.559 cdaq_evt[00657]: blind_set_stv[4]: ch 2523, val 65535.
+SEP 29 21:09:13.803.675 cdaq_evt[00658]: disable_auto_update[4]: channel 2524.
+SEP 29 21:09:13.803.685 cdaq_evt[00659]: blind_set_stv[4]: ch 2524, val 65535.
+SEP 29 21:09:13.804.300 cdaq_evt[00660]: disable_auto_update[4]: channel 2525.
+SEP 29 21:09:13.804.310 cdaq_evt[00661]: blind_set_stv[4]: ch 2525, val 65535.
+SEP 29 21:09:13.804.424 cdaq_evt[00662]: disable_auto_update[4]: channel 2527.
+SEP 29 21:09:13.804.434 cdaq_evt[00663]: blind_set_stv[4]: ch 2527, val 65535.
+SEP 29 21:09:13.804.549 cdaq_evt[00664]: disable_auto_update[4]: channel 2567.
+SEP 29 21:09:13.804.559 cdaq_evt[00665]: blind_set_stv[4]: ch 2567, val 65535.
+SEP 29 21:09:13.804.674 cdaq_evt[00666]: disable_auto_update[4]: channel 2571.
+SEP 29 21:09:13.804.684 cdaq_evt[00667]: blind_set_stv[4]: ch 2571, val 65535.
+SEP 29 21:09:13.804.924 cdaq_evt[00668]: disable_auto_update[4]: channel 2575.
+SEP 29 21:09:13.804.934 cdaq_evt[00669]: blind_set_stv[4]: ch 2575, val 65535.
+SEP 29 21:09:13.805.050 cdaq_evt[00670]: disable_auto_update[4]: channel 2582.
+SEP 29 21:09:13.805.059 cdaq_evt[00671]: blind_set_stv[4]: ch 2582, val 65535.
+SEP 29 21:09:13.805.175 cdaq_evt[00672]: disable_auto_update[4]: channel 2669.
+SEP 29 21:09:13.805.185 cdaq_evt[00673]: blind_set_stv[4]: ch 2669, val 65535.
+SEP 29 21:09:13.805.298 cdaq_evt[00674]: disable_auto_update[4]: channel 2809.
+SEP 29 21:09:13.805.308 cdaq_evt[00675]: blind_set_stv[4]: ch 2809, val 65535.
+SEP 29 21:09:13.805.425 cdaq_evt[00676]: disable_auto_update[4]: channel 2810.
+SEP 29 21:09:13.805.434 cdaq_evt[00677]: blind_set_stv[4]: ch 2810, val 65535.
+SEP 29 21:09:18.116.072 cdaq_cmd[00671]: SCI_BSD SET, TRIG_MODE, 0x0000.
+SEP 29 21:09:18.811.973 cdaq_evt[00678]: BSD: cmd 2 item 0x27  value 0 (0x0).
+SEP 29 21:09:20.412.710 cdaq_cmd[00672]: SCI_BSD SET, PULSE1_ON, 0x0000.
+SEP 29 21:09:20.813.674 cdaq_evt[00679]: BSD: cmd 2 item 0x32  value 0 (0x0).
+SEP 29 21:09:24.417.099 cdaq_cmd[00673]: SCI_BSD SET, PULSE2_ON, 0x0000.
+SEP 29 21:09:24.820.039 cdaq_evt[00680]: BSD: cmd 2 item 0x33  value 0 (0x0).
+SEP 29 21:09:28.516.477 cdaq_cmd[00674]: SCI_BSD SET, PED1L, 0x0708.
+SEP 29 21:09:28.827.442 cdaq_evt[00681]: BSD: cmd 2 item 0x81  value 1800 (0x708).
+SEP 29 21:09:31.814.967 cdaq_cmd[00675]: SCI_IIU_GROUND SCI_WATCHDOG.
+SEP 29 21:09:31.829.986 cdaq_evt[00682]: Ground WatchDog Received.
+SEP 29 21:09:32.514.871 cdaq_cmd[00676]: SCI_BSD SET, PED2L, 0x06A4.
+SEP 29 21:09:32.833.836 cdaq_evt[00683]: BSD: cmd 2 item 0x82  value 1700 (0x6a4).
+SEP 29 21:09:36.516.254 cdaq_cmd[00677]: SCI_BSD SET, PED3L, 0x06A4.
+SEP 29 21:09:36.841.221 cdaq_evt[00684]: BSD: cmd 2 item 0x83  value 1700 (0x6a4).
+SEP 29 21:09:40.516.642 cdaq_cmd[00678]: SCI_BSD SET, PED4L, 0x0708.
+SEP 29 21:09:40.849.621 cdaq_evt[00685]: BSD: cmd 2 item 0x84  value 1800 (0x708).
+SEP 29 21:09:44.515.033 cdaq_cmd[00679]: SCI_BSD SET, PED5L, 0x0672.
+SEP 29 21:09:44.852.996 cdaq_evt[00686]: BSD: cmd 2 item 0x86  value 1650 (0x672).
+SEP 29 21:09:48.516.423 cdaq_cmd[00680]: SCI_BSD SET, PED6L, 0x06D6.
+SEP 29 21:09:48.860.379 cdaq_evt[00687]: BSD: cmd 2 item 0x88  value 1750 (0x6d6).
+SEP 29 21:09:52.513.816 cdaq_cmd[00681]: SCI_BSD SET, PED7L, 0x06D6.
+SEP 29 21:09:52.869.772 cdaq_evt[00688]: BSD: cmd 2 item 0x8a  value 1750 (0x6d6).
+SEP 29 21:09:56.514.203 cdaq_cmd[00682]: SCI_BSD SET, PED8L, 0x0708.
+SEP 29 21:09:56.876.164 cdaq_evt[00689]: BSD: cmd 2 item 0x8c  value 1800 (0x708).
+SEP 29 21:10:00.515.601 cdaq_cmd[00683]: SCI_BSD SET, PED9L, 0x06A4.
+SEP 29 21:10:00.882.530 cdaq_evt[00690]: BSD: cmd 2 item 0x8e  value 1700 (0x6a4).
+SEP 29 21:10:04.512.985 cdaq_cmd[00684]: SCI_BSD SET, PED10L, 0x06A4.
+SEP 29 21:10:04.889.928 cdaq_evt[00691]: BSD: cmd 2 item 0x90  value 1700 (0x6a4).
+SEP 29 21:10:08.510.382 cdaq_cmd[00685]: SCI_BSD SET, PED11L, 0x0708.
+SEP 29 21:10:08.894.313 cdaq_evt[00692]: BSD: cmd 2 item 0x92  value 1800 (0x708).
+SEP 29 21:10:12.509.762 cdaq_cmd[00686]: SCI_BSD SET, PED12L, 0x0672.
+SEP 29 21:10:12.902.719 cdaq_evt[00693]: BSD: cmd 2 item 0x94  value 1650 (0x672).
+SEP 29 21:10:16.508.153 cdaq_cmd[00687]: SCI_BSD SET, PED13L, 0x0708.
+SEP 29 21:10:16.910.109 cdaq_evt[00694]: BSD: cmd 2 item 0x96  value 1800 (0x708).
+SEP 29 21:10:20.613.526 cdaq_cmd[00688]: SCI_BSD SET, PED14L, 0x06A4.
+SEP 29 21:10:20.914.477 cdaq_evt[00695]: BSD: cmd 2 item 0x98  value 1700 (0x6a4).
+SEP 29 21:10:24.613.921 cdaq_cmd[00689]: SCI_BSD SET, PED15L, 0x06D6.
+SEP 29 21:10:24.921.880 cdaq_evt[00696]: BSD: cmd 2 item 0x9a  value 1750 (0x6d6).
+SEP 29 21:10:28.611.314 cdaq_cmd[00690]: SCI_BSD SET, PED16L, 0x06A4.
+SEP 29 21:10:28.928.270 cdaq_evt[00697]: BSD: cmd 2 item 0x9c  value 1700 (0x6a4).
+SEP 29 21:10:32.611.695 cdaq_cmd[00691]: SCI_BSD SET, PEDT1L, 0x06D6.
+SEP 29 21:10:32.934.657 cdaq_evt[00698]: BSD: cmd 2 item 0x9d  value 1750 (0x6d6).
+SEP 29 21:10:36.613.082 cdaq_cmd[00692]: SCI_BSD SET, PEDT2L, 0x06D6.
+SEP 29 21:10:36.942.051 cdaq_evt[00699]: BSD: cmd 2 item 0x9e  value 1750 (0x6d6).
+SEP 29 21:10:40.611.474 cdaq_cmd[00693]: SCI_BSD SET, PED1H, 0x0578.
+SEP 29 21:10:40.948.438 cdaq_evt[00700]: BSD: cmd 2 item 0x1  value 1400 (0x578).
+SEP 29 21:10:44.611.865 cdaq_cmd[00694]: SCI_BSD SET, PED2H, 0x08FC.
+SEP 29 21:10:44.954.825 cdaq_evt[00701]: BSD: cmd 2 item 0x2  value 2300 (0x8fc).
+SEP 29 21:10:48.610.257 cdaq_cmd[00695]: SCI_BSD SET, PED3H, 0x076C.
+SEP 29 21:10:48.964.215 cdaq_evt[00702]: BSD: cmd 2 item 0x3  value 1900 (0x76c).
+SEP 29 21:10:52.611.654 cdaq_cmd[00696]: SCI_BSD SET, PED4H, 0x0640.
+SEP 29 21:10:52.971.605 cdaq_evt[00703]: BSD: cmd 2 item 0x4  value 1600 (0x640).
+SEP 29 21:10:56.708.020 cdaq_cmd[00697]: SCI_BSD SET, PED5H, 0x0960.
+SEP 29 21:10:56.978.997 cdaq_evt[00704]: BSD: cmd 2 item 0x85  value 2400 (0x960).
+SEP 29 21:11:00.705.411 cdaq_cmd[00698]: SCI_BSD SET, PED6H, 0x06D6.
+SEP 29 21:11:00.986.382 cdaq_evt[00705]: BSD: cmd 2 item 0x87  value 1750 (0x6d6).
+SEP 29 21:11:04.610.814 cdaq_cmd[00699]: SCI_BSD SET, PED7H, 0x06D6.
+SEP 29 21:11:04.991.780 cdaq_evt[00706]: BSD: cmd 2 item 0x89  value 1750 (0x6d6).
+SEP 29 21:11:08.707.189 cdaq_cmd[00700]: SCI_BSD SET, PED8H, 0x04B0.
+SEP 29 21:11:08.999.139 cdaq_evt[00707]: BSD: cmd 2 item 0x8b  value 1200 (0x4b0).
+SEP 29 21:11:12.704.579 cdaq_cmd[00701]: SCI_BSD SET, PED9H, 0x08FC.
+SEP 29 21:11:13.005.560 cdaq_evt[00708]: BSD: cmd 2 item 0x8d  value 2300 (0x8fc).
+SEP 29 21:11:16.704.969 cdaq_cmd[00702]: SCI_BSD SET, PED10H, 0x0802.
+SEP 29 21:11:17.009.936 cdaq_evt[00709]: BSD: cmd 2 item 0x8f  value 2050 (0x802).
+SEP 29 21:11:20.705.360 cdaq_cmd[00703]: SCI_BSD SET, PED11H, 0x0672.
+SEP 29 21:11:21.017.329 cdaq_evt[00710]: BSD: cmd 2 item 0x91  value 1650 (0x672).
+SEP 29 21:11:24.703.758 cdaq_cmd[00704]: SCI_BSD SET, PED12H, 0x08FC.
+SEP 29 21:11:25.022.715 cdaq_evt[00711]: BSD: cmd 2 item 0x93  value 2300 (0x8fc).
+SEP 29 21:11:28.703.141 cdaq_cmd[00705]: SCI_BSD SET, PED13H, 0x0514.
+SEP 29 21:11:29.027.109 cdaq_evt[00712]: BSD: cmd 2 item 0x95  value 1300 (0x514).
+SEP 29 21:11:32.705.524 cdaq_cmd[00706]: SCI_BSD SET, PED14H, 0x07D0.
+SEP 29 21:11:33.034.491 cdaq_evt[00713]: BSD: cmd 2 item 0x97  value 2000 (0x7d0).
+SEP 29 21:11:36.703.912 cdaq_cmd[00707]: SCI_BSD SET, PED15H, 0x0672.
+SEP 29 21:11:37.042.859 cdaq_evt[00714]: BSD: cmd 2 item 0x99  value 1650 (0x672).
+SEP 29 21:11:40.703.302 cdaq_cmd[00708]: SCI_BSD SET, PED16H, 0x0866.
+SEP 29 21:11:41.049.271 cdaq_evt[00715]: BSD: cmd 2 item 0x9b  value 2150 (0x866).
+SEP 29 21:11:44.703.700 cdaq_cmd[00709]: SCI_BSD SET, PEDT1H, 0x079E.
+SEP 29 21:11:45.057.655 cdaq_evt[00716]: BSD: cmd 2 item 0x42  value 1950 (0x79e).
+SEP 29 21:11:48.702.084 cdaq_cmd[00710]: SCI_BSD SET, PEDT2H, 0x09C4.
+SEP 29 21:11:49.064.056 cdaq_evt[00717]: BSD: cmd 2 item 0x43  value 2500 (0x9c4).
+SEP 29 21:11:52.804.458 cdaq_cmd[00711]: SCI_BSD SET, THR1, 0x07E7.
+SEP 29 21:11:53.069.435 cdaq_evt[00718]: BSD: cmd 2 item 0x5  value 2023 (0x7e7).
+SEP 29 21:11:56.803.845 cdaq_cmd[00712]: SCI_BSD SET, THR2, 0x07E7.
+SEP 29 21:11:57.076.821 cdaq_evt[00719]: BSD: cmd 2 item 0x6  value 2023 (0x7e7).
+SEP 29 21:12:00.801.246 cdaq_cmd[00713]: SCI_BSD SET, D1A_DL, 0x0000.
+SEP 29 21:12:01.082.213 cdaq_evt[00720]: BSD: cmd 2 item 0x7  value 0 (0x0).
+SEP 29 21:12:04.799.634 cdaq_cmd[00714]: SCI_BSD SET, D1B_DL, 0x0000.
+SEP 29 21:12:05.087.584 cdaq_evt[00721]: BSD: cmd 2 item 0xa  value 0 (0x0).
+SEP 29 21:12:08.803.021 cdaq_cmd[00715]: SCI_BSD SET, D1C_DL, 0x0000.
+SEP 29 21:12:09.095.002 cdaq_evt[00722]: BSD: cmd 2 item 0xd  value 0 (0x0).
+SEP 29 21:12:12.802.405 cdaq_cmd[00716]: SCI_BSD SET, D1D_DL, 0x0000.
+SEP 29 21:12:13.100.360 cdaq_evt[00723]: BSD: cmd 2 item 0x10  value 0 (0x0).
+SEP 29 21:12:16.800.797 cdaq_cmd[00717]: SCI_BSD SET, D1T1_DL, 0x0000.
+SEP 29 21:12:17.107.754 cdaq_evt[00724]: BSD: cmd 2 item 0x44  value 0 (0x0).
+SEP 29 21:12:20.801.195 cdaq_cmd[00718]: SCI_BSD SET, D1T2_DL, 0x0000.
+SEP 29 21:12:21.116.147 cdaq_evt[00725]: BSD: cmd 2 item 0x47  value 0 (0x0).
+SEP 29 21:12:24.799.578 cdaq_cmd[00719]: SCI_BSD SET, D1A_WD, 0x09C4.
+SEP 29 21:12:25.122.550 cdaq_evt[00726]: BSD: cmd 2 item 0x13  value 2500 (0x9c4).
+SEP 29 21:12:28.801.972 cdaq_cmd[00720]: SCI_BSD SET, D1B_WD, 0x09C4.
+SEP 29 21:12:29.129.930 cdaq_evt[00727]: BSD: cmd 2 item 0x16  value 2500 (0x9c4).
+SEP 29 21:12:32.799.356 cdaq_cmd[00721]: SCI_BSD SET, D1C_WD, 0x09C4.
+SEP 29 21:12:33.136.325 cdaq_evt[00728]: BSD: cmd 2 item 0x19  value 2500 (0x9c4).
+SEP 29 21:12:36.798.756 cdaq_cmd[00722]: SCI_BSD SET, D1D_WD, 0x09C4.
+SEP 29 21:12:37.139.721 cdaq_evt[00729]: BSD: cmd 2 item 0x1c  value 2500 (0x9c4).
+SEP 29 21:12:40.896.120 cdaq_cmd[00723]: SCI_BSD SET, D1T1_WD, 0x09C4.
+SEP 29 21:12:41.146.105 cdaq_evt[00730]: BSD: cmd 2 item 0x4a  value 2500 (0x9c4).
+SEP 29 21:12:44.894.526 cdaq_cmd[00724]: SCI_BSD SET, D1T2_WD, 0x09C4.
+SEP 29 21:12:45.152.499 cdaq_evt[00731]: BSD: cmd 2 item 0x4d  value 2500 (0x9c4).
+SEP 29 21:12:48.893.907 cdaq_cmd[00725]: SCI_BSD SET, D2A_DL, 0x00FA.
+SEP 29 21:12:49.157.867 cdaq_evt[00732]: BSD: cmd 2 item 0x8  value 250 (0xfa).
+SEP 29 21:12:52.896.290 cdaq_cmd[00726]: SCI_BSD SET, D2B_DL, 0x00FA.
+SEP 29 21:12:53.164.265 cdaq_evt[00733]: BSD: cmd 2 item 0xb  value 250 (0xfa).
+SEP 29 21:12:56.895.679 cdaq_cmd[00727]: SCI_BSD SET, D2C_DL, 0x00FA.
+SEP 29 21:12:57.171.654 cdaq_evt[00734]: BSD: cmd 2 item 0xe  value 250 (0xfa).
+SEP 29 21:13:00.894.067 cdaq_cmd[00728]: SCI_BSD SET, D2D_DL, 0x00FA.
+SEP 29 21:13:01.179.047 cdaq_evt[00735]: BSD: cmd 2 item 0x11  value 250 (0xfa).
+SEP 29 21:13:04.893.462 cdaq_cmd[00729]: SCI_BSD SET, D2T1_DL, 0x004B.
+SEP 29 21:13:05.187.440 cdaq_evt[00736]: BSD: cmd 2 item 0x45  value 75 (0x4b).
+SEP 29 21:13:08.892.851 cdaq_cmd[00730]: SCI_BSD SET, D2T2_DL, 0x004B.
+SEP 29 21:13:09.193.830 cdaq_evt[00737]: BSD: cmd 2 item 0x48  value 75 (0x4b).
+SEP 29 21:13:12.892.240 cdaq_cmd[00731]: SCI_BSD SET, D2A_WD, 0x09C4.
+SEP 29 21:13:13.197.212 cdaq_evt[00738]: BSD: cmd 2 item 0x14  value 2500 (0x9c4).
+SEP 29 21:13:16.894.629 cdaq_cmd[00732]: SCI_BSD SET, D2B_WD, 0x09C4.
+SEP 29 21:13:17.204.580 cdaq_evt[00739]: BSD: cmd 2 item 0x17  value 2500 (0x9c4).
+SEP 29 21:13:20.994.003 cdaq_cmd[00733]: SCI_BSD SET, D2C_WD, 0x09C4.
+SEP 29 21:13:21.210.993 cdaq_evt[00740]: BSD: cmd 2 item 0x1a  value 2500 (0x9c4).
+SEP 29 21:13:24.992.402 cdaq_cmd[00734]: SCI_BSD SET, D2D_WD, 0x09C4.
+SEP 29 21:13:25.218.378 cdaq_evt[00741]: BSD: cmd 2 item 0x1d  value 2500 (0x9c4).
+SEP 29 21:13:28.993.788 cdaq_cmd[00735]: SCI_BSD SET, D2T1_WD, 0x09C4.
+SEP 29 21:13:29.226.745 cdaq_evt[00742]: BSD: cmd 2 item 0x4b  value 2500 (0x9c4).
+SEP 29 21:13:32.991.173 cdaq_cmd[00736]: SCI_BSD SET, D2T2_WD, 0x09C4.
+SEP 29 21:13:33.233.164 cdaq_evt[00743]: BSD: cmd 2 item 0x4e  value 2500 (0x9c4).
+SEP 29 21:13:36.991.563 cdaq_cmd[00737]: SCI_BSD SET, RECOV_WD, 0x00C8.
+SEP 29 21:13:37.237.543 cdaq_evt[00744]: BSD: cmd 2 item 0x2a  value 200 (0xc8).
+SEP 29 21:13:40.991.957 cdaq_cmd[00738]: SCI_BSD SET, DIG_DL, 0x01F4.
+SEP 29 21:13:41.245.929 cdaq_evt[00745]: BSD: cmd 2 item 0x2b  value 500 (0x1f4).
+SEP 29 21:13:44.990.348 cdaq_cmd[00739]: SCI_BSD SET, DONA_CM, 0x0001.
+SEP 29 21:13:45.250.321 cdaq_evt[00746]: BSD: cmd 2 item 0x62  value 1 (0x1).
+SEP 29 21:13:48.991.733 cdaq_cmd[00740]: SCI_BSD SET, DONA_ON, 0x0001.
+SEP 29 21:13:49.256.714 cdaq_evt[00747]: BSD: cmd 2 item 0x78  value 1 (0x1).
+SEP 29 21:13:52.991.130 cdaq_cmd[00741]: SCI_BSD SET, DONA_DL, 0x0000.
+SEP 29 21:13:53.264.108 cdaq_evt[00748]: BSD: cmd 2 item 0x1f  value 0 (0x0).
+SEP 29 21:13:57.089.504 cdaq_cmd[00742]: SCI_BSD SET, DONA_WD, 0x09C4.
+SEP 29 21:13:57.267.492 cdaq_evt[00749]: BSD: cmd 2 item 0x23  value 2500 (0x9c4).
+SEP 29 21:14:00.988.912 cdaq_cmd[00743]: SCI_BSD SET, DONB_CM, 0x0001.
+SEP 29 21:14:01.272.858 cdaq_evt[00750]: BSD: cmd 2 item 0x63  value 1 (0x1).
+SEP 29 21:14:04.990.291 cdaq_cmd[00744]: SCI_BSD SET, DONB_ON, 0x0001.
+SEP 29 21:14:05.281.248 cdaq_evt[00751]: BSD: cmd 2 item 0x79  value 1 (0x1).
+SEP 29 21:14:08.990.682 cdaq_cmd[00745]: SCI_BSD SET, DONB_DL, 0x0000.
+SEP 29 21:14:09.287.643 cdaq_evt[00752]: BSD: cmd 2 item 0x20  value 0 (0x0).
+SEP 29 21:14:12.990.071 cdaq_cmd[00746]: SCI_BSD SET, DONB_WD, 0x09C4.
+SEP 29 21:14:13.294.038 cdaq_evt[00753]: BSD: cmd 2 item 0x24  value 2500 (0x9c4).
+SEP 29 21:14:16.988.471 cdaq_cmd[00747]: SCI_BSD SET, DONC_CM, 0x0001.
+SEP 29 21:14:17.301.435 cdaq_evt[00754]: BSD: cmd 2 item 0x64  value 1 (0x1).
+SEP 29 21:14:20.987.858 cdaq_cmd[00748]: SCI_BSD SET, DONC_ON, 0x0001.
+SEP 29 21:14:21.304.818 cdaq_evt[00755]: BSD: cmd 2 item 0x7a  value 1 (0x1).
+SEP 29 21:14:25.090.225 cdaq_cmd[00749]: SCI_BSD SET, DONC_DL, 0x0000.
+SEP 29 21:14:25.311.213 cdaq_evt[00756]: BSD: cmd 2 item 0x21  value 0 (0x0).
+SEP 29 21:14:29.087.624 cdaq_cmd[00750]: SCI_BSD SET, DONC_WD, 0x09C4.
+SEP 29 21:14:29.318.591 cdaq_evt[00757]: BSD: cmd 2 item 0x25  value 2500 (0x9c4).
+SEP 29 21:14:33.087.005 cdaq_cmd[00751]: SCI_BSD SET, DOND_CM, 0x0001.
+SEP 29 21:14:33.321.996 cdaq_evt[00758]: BSD: cmd 2 item 0x65  value 1 (0x1).
+SEP 29 21:14:37.088.395 cdaq_cmd[00752]: SCI_BSD SET, DOND_ON, 0x0001.
+SEP 29 21:14:37.329.380 cdaq_evt[00759]: BSD: cmd 2 item 0x7b  value 1 (0x1).
+SEP 29 21:14:41.086.791 cdaq_cmd[00753]: SCI_BSD SET, DOND_DL, 0x0000.
+SEP 29 21:14:41.334.776 cdaq_evt[00760]: BSD: cmd 2 item 0x22  value 0 (0x0).
+SEP 29 21:14:45.086.184 cdaq_cmd[00754]: SCI_BSD SET, DOND_WD, 0x09C4.
+SEP 29 21:14:45.338.155 cdaq_evt[00761]: BSD: cmd 2 item 0x26  value 2500 (0x9c4).
+SEP 29 21:14:49.087.564 cdaq_cmd[00755]: SCI_BSD SET, CONF_MODE, 0x0001.
+SEP 29 21:14:49.345.523 cdaq_evt[00762]: BSD: cmd 2 item 0x28  value 1 (0x1).
+SEP 29 21:14:53.086.962 cdaq_cmd[00756]: SCI_BSD SET, COINC_WD, 0x0005.
+SEP 29 21:14:53.352.938 cdaq_evt[00763]: BSD: cmd 2 item 0x29  value 5 (0x5).
+SEP 29 21:14:57.086.340 cdaq_cmd[00757]: SCI_BSD SET, TRIG_MODE, 0x0009.
+SEP 29 21:14:57.360.325 cdaq_evt[00764]: BSD: cmd 2 item 0x27  value 9 (0x9).
+SEP 29 21:16:10.078.212 cdaq_cmd[00758]: SCI_SCRIPT 0x00000003.
+SEP 29 21:16:10.078.233 cdaq_cmd[00759]: checkpoint 3.
+SEP 29 21:16:10.078.239 cdaq_cmd[00760]: Executing 003.daq_restart.crm.
+SEP 29 21:16:10.079.203 cdaq_cmd[00761]: cdaq_exec returned 15426.
+SEP 29 21:16:10.083.545 cdaq_cmd[00762]: termination of child.
+SEP 29 21:16:10.083.563 cdaq_cmd[00763]: resuming.
+SEP 29 21:16:10.083.579 cdaq_cmd[00764]: SCI_MTR DISABLE = 0x1F.
+SEP 29 21:16:10.083.593 cdaq_cmd[00765]: SCI_OPMODE 54178, 2.
+SEP 29 21:16:10.083.599 cdaq_cmd[00766]: flight mode.
+SEP 29 21:16:10.083.615 cdaq_cmd[00767]: DCommand: SCI_PEDESTAL_RUN CAL, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 29 21:16:10.083.626 cdaq_cmd[00768]: DCommand: SCI_PEDESTAL_RUN SCD2, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 29 21:16:10.083.637 cdaq_cmd[00769]: DCommand: SCI_PEDESTAL_RUN SCD1, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 29 21:16:10.083.648 cdaq_cmd[00770]: DCommand: SCI_PEDESTAL_RUN SCD3, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 29 21:16:10.083.659 cdaq_cmd[00771]: DCommand: SCI_PEDESTAL_RUN SCD4, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 29 21:16:10.083.670 cdaq_cmd[00772]: DCommand: SCI_PEDESTAL_RUN TCD/BCD, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 29 21:16:10.083.684 cdaq_cmd[00773]: SCI_MTR DISABLE = 0x00.
+SEP 29 21:16:10.470.783 cdaq_evt[00765]: CAL calibration event sending: on.
+SEP 29 21:16:10.470.792 cdaq_evt[00766]: cal ped autoupdate.
+SEP 29 21:16:10.470.804 cdaq_evt[00767]: cal_ped_update_run: 100 events to go.
+SEP 29 21:16:10.470.833 cdaq_evt[00768]: dispatch: 6043090100000000.
+SEP 29 21:16:10.471.896 cdaq_evt[00769]: dispatch: 60430C0200000005.
+SEP 29 21:16:11.001.186 cdaq_evt[00770]: ERROR: SprsBox[C]: no data after 1 secs/trials.
+SEP 29 21:16:13.439.022 cdaq_evt[00771]: STV autoupdate[C]: 40 disabled, 2520 accepted, 0 rejected.
+SEP 29 21:16:13.456.255 cdaq_evt[00772]: SprsBox[T]: garbage data is cleared.
+SEP 29 21:16:13.473.250 cdaq_evt[00773]: SprsBox[1]: garbage data is cleared.
+SEP 29 21:16:13.491.248 cdaq_evt[00774]: SprsBox[2]: garbage data is cleared.
+SEP 29 21:16:13.508.246 cdaq_evt[00775]: SprsBox[3]: garbage data is cleared.
+SEP 29 21:16:13.524.047 cdaq_evt[00776]: SprsBox[4]: garbage data is cleared.
+SEP 29 21:16:13.524.182 cdaq_evt[00777]: dispatch: 6043090100000001.
+SEP 29 21:16:13.525.630 cdaq_evt[00778]: dispatch: 60430C020000000C.
+SEP 29 21:16:13.528.765 cdaq_evt[00779]: end of stv autoupdate.
+SEP 29 21:16:13.528.866 cdaq_evt[00780]: CAL calibration event sending: on.
+SEP 29 21:16:13.528.883 cdaq_evt[00781]: scd_ped_update_run: 100 events to go.
+SEP 29 21:16:13.528.913 cdaq_evt[00782]: dispatch: 60430D0100000000.
+SEP 29 21:16:13.530.557 cdaq_evt[00783]: dispatch: 60430C0200000005.
+SEP 29 21:16:16.720.556 cdaq_evt[00784]: STV autoupdate[2]: 8 disabled, 2936 accepted, 0 rejected.
+SEP 29 21:16:16.735.556 cdaq_evt[00785]: SprsBox[T]: garbage data is cleared.
+SEP 29 21:16:16.750.553 cdaq_evt[00786]: SprsBox[1]: garbage data is cleared.
+SEP 29 21:16:16.769.549 cdaq_evt[00787]: SprsBox[3]: garbage data is cleared.
+SEP 29 21:16:16.784.548 cdaq_evt[00788]: SprsBox[4]: garbage data is cleared.
+SEP 29 21:16:16.784.679 cdaq_evt[00789]: dispatch: 60430D0100000001.
+SEP 29 21:16:16.785.675 cdaq_evt[00790]: dispatch: 60430C020000000C.
+SEP 29 21:16:16.788.211 cdaq_evt[00791]: end of stv autoupdate.
+SEP 29 21:16:16.788.323 cdaq_evt[00792]: CAL calibration event sending: on.
+SEP 29 21:16:16.788.334 cdaq_evt[00793]: scd_ped_update_run: 100 events to go.
+SEP 29 21:16:16.788.363 cdaq_evt[00794]: dispatch: 60430E0100000000.
+SEP 29 21:16:16.789.674 cdaq_evt[00795]: dispatch: 60430C0200000005.
+SEP 29 21:16:19.434.013 cdaq_evt[00796]: STV autoupdate[1]: 0 disabled, 2944 accepted, 0 rejected.
+SEP 29 21:16:19.451.137 cdaq_evt[00797]: SprsBox[T]: garbage data is cleared.
+SEP 29 21:16:19.474.634 cdaq_evt[00798]: SprsBox[3]: garbage data is cleared.
+SEP 29 21:16:19.492.131 cdaq_evt[00799]: SprsBox[4]: garbage data is cleared.
+SEP 29 21:16:19.492.266 cdaq_evt[00800]: dispatch: 60430E0100000001.
+SEP 29 21:16:19.494.773 cdaq_evt[00801]: dispatch: 60430C020000000C.
+SEP 29 21:16:19.499.240 cdaq_evt[00802]: end of stv autoupdate.
+SEP 29 21:16:19.499.424 cdaq_evt[00803]: CAL calibration event sending: on.
+SEP 29 21:16:19.499.436 cdaq_evt[00804]: scd_ped_update_run: 100 events to go.
+SEP 29 21:16:19.499.463 cdaq_evt[00805]: dispatch: 60430F0100000000.
+SEP 29 21:16:19.500.508 cdaq_evt[00806]: dispatch: 60430C0200000005.
+SEP 29 21:16:21.725.536 cdaq_evt[00807]: STV autoupdate[3]: 83 disabled, 2861 accepted, 0 rejected.
+SEP 29 21:16:21.743.787 cdaq_evt[00808]: SprsBox[T]: garbage data is cleared.
+SEP 29 21:16:21.768.782 cdaq_evt[00809]: SprsBox[4]: garbage data is cleared.
+SEP 29 21:16:21.768.913 cdaq_evt[00810]: dispatch: 60430F0100000001.
+SEP 29 21:16:21.770.437 cdaq_evt[00811]: dispatch: 60430C020000000C.
+SEP 29 21:16:21.774.894 cdaq_evt[00812]: end of stv autoupdate.
+SEP 29 21:16:21.774.992 cdaq_evt[00813]: CAL calibration event sending: on.
+SEP 29 21:16:21.775.004 cdaq_evt[00814]: scd_ped_update_run: 100 events to go.
+SEP 29 21:16:21.775.029 cdaq_evt[00815]: dispatch: 6043100100000000.
+SEP 29 21:16:21.776.033 cdaq_evt[00816]: dispatch: 60430C0200000005.
+SEP 29 21:16:24.364.509 cdaq_evt[00817]: STV autoupdate[4]: 63 disabled, 2881 accepted, 0 rejected.
+SEP 29 21:16:24.380.383 cdaq_evt[00818]: SprsBox[T]: garbage data is cleared.
+SEP 29 21:16:25.589.583 cdaq_evt[00819]: dispatch: 6043100100000001.
+SEP 29 21:16:25.590.698 cdaq_evt[00820]: dispatch: 60430C020000000C.
+SEP 29 21:16:25.592.869 cdaq_evt[00821]: end of stv autoupdate.
+SEP 29 21:16:25.593.049 cdaq_evt[00822]: CAL calibration event sending: on.
+SEP 29 21:16:25.593.065 cdaq_evt[00823]: cal ped autoupdate.
+SEP 29 21:16:25.593.072 cdaq_evt[00824]: cal_ped_update_run: 100 events to go.
+SEP 29 21:16:25.593.100 cdaq_evt[00825]: dispatch: 60431B0100000000.
+SEP 29 21:16:25.594.075 cdaq_evt[00826]: dispatch: 60430C0200000005.
+SEP 29 21:16:27.789.107 cdaq_evt[00827]: STV autoupdate[T]: 0 disabled, 1280 accepted, 0 rejected.
+SEP 29 21:16:29.611.582 cdaq_evt[00828]: SprsBox[4]: garbage data is cleared.
+SEP 29 21:16:29.611.714 cdaq_evt[00829]: dispatch: 60431B0100000001.
+SEP 29 21:16:29.612.709 cdaq_evt[00830]: dispatch: 60430C020000000C.
+SEP 29 21:16:29.615.264 cdaq_evt[00831]: end of stv autoupdate.
+SEP 29 21:16:29.615.339 cdaq_evt[00832]: select: avail 0xD3A2, active 0xD3A2.
+SEP 29 21:16:29.615.354 cdaq_evt[00833]: flight mode.
+SEP 29 21:16:29.615.383 cdaq_evt[00834]: dispatch: 60430C020000000C.
+SEP 29 21:16:30.001.197 cdaq_evt[00835]: ERROR: SprsBox[C]: no data after 1 secs/trials.
+SEP 29 21:16:31.000.010 cdaq_evt[00836]: ERROR: SprsBox[T]: no data after 1 secs/trials.
+SEP 29 21:16:32.000.339 cdaq_evt[00837]: ERROR: SprsBox[1]: no data after 1 secs/trials.
+SEP 29 21:16:33.000.059 cdaq_evt[00838]: ERROR: SprsBox[2]: no data after 1 secs/trials.
+SEP 29 21:16:34.000.159 cdaq_evt[00839]: ERROR: SprsBox[3]: no data after 1 secs/trials.
+SEP 29 21:16:35.000.133 cdaq_evt[00840]: ERROR: SprsBox[4]: no data after 1 secs/trials.
+SEP 29 21:16:40.569.288 cdaq_evt[00841]: 200 events [35.9 Hz].
+SEP 29 21:16:49.203.087 cdaq_evt[00842]: 400 events [23.2 Hz].
+SEP 29 21:16:58.436.793 cdaq_evt[00843]: 600 events [21.7 Hz].
+SEP 29 21:17:02.873.867 cdaq_evt[00844]: 800 events [45.1 Hz].
+SEP 29 21:17:11.878.983 cdaq_evt[00845]: 1000 events [22.2 Hz].
+SEP 29 21:17:16.329.924 cdaq_evt[00846]: 1200 events [44.9 Hz].
+SEP 29 21:17:24.138.937 cdaq_evt[00847]: 1400 events [25.6 Hz].
+SEP 29 21:17:30.412.890 cdaq_evt[00848]: 1600 events [31.9 Hz].
+SEP 29 21:17:36.894.146 cdaq_evt[00849]: 1800 events [30.9 Hz].
+SEP 29 21:17:47.523.397 cdaq_evt[00850]: 2000 events [18.8 Hz].
+SEP 29 21:17:56.664.015 cdaq_evt[00851]: 2200 events [21.9 Hz].
+SEP 29 21:18:01.597.538 cdaq_evt[00852]: 2400 events [40.5 Hz].
+SEP 29 21:18:11.438.159 cdaq_evt[00853]: 2600 events [20.3 Hz].
+SEP 29 21:18:43.355.840 cdaq_evt[00854]: 2800 events [6.3 Hz].
+SEP 29 21:18:56.432.876 cdaq_evt[00855]: 3000 events [15.3 Hz].
+SEP 29 21:19:08.134.070 cdaq_evt[00856]: 3200 events [17.1 Hz].
+SEP 29 21:19:21.809.812 cdaq_evt[00857]: 3400 events [14.6 Hz].
+SEP 29 21:19:39.636.953 cdaq_evt[00858]: 3600 events [11.2 Hz].
+SEP 29 21:19:45.836.253 cdaq_evt[00859]: 3800 events [32.3 Hz].
+SEP 29 21:20:03.185.966 cdaq_evt[00860]: 4000 events [11.5 Hz].
+SEP 29 21:20:07.653.968 cdaq_cmd[00774]: SCI_TCRDTR THRESHOLD = 15, 15, 16234.
+SEP 29 21:20:07.683.032 cdaq_evt[00861]: dispatch: 60431C0B00000ED4.
+SEP 29 21:20:07.684.428 cdaq_evt[00862]: dispatch: 60431C0C00000ED4.
+SEP 29 21:20:07.685.891 cdaq_evt[00863]: dispatch: 60431C0D00000ED4.
+SEP 29 21:20:07.686.889 cdaq_evt[00864]: dispatch: 60431C0F00000ED4.
+SEP 29 21:20:07.688.390 cdaq_evt[00865]: dispatch: 60431C1000000ED4.
+SEP 29 21:20:07.689.890 cdaq_evt[00866]: dispatch: 60431C1100000ED4.
+SEP 29 21:20:07.690.889 cdaq_evt[00867]: dispatch: 60431C1200000ED4.
+SEP 29 21:20:07.692.467 cdaq_evt[00868]: dispatch: 60431D0B00000ED4.
+SEP 29 21:20:07.693.889 cdaq_evt[00869]: dispatch: 60431D0C00000ED4.
+SEP 29 21:20:07.694.890 cdaq_evt[00870]: dispatch: 60431D0D00000ED4.
+SEP 29 21:20:07.696.390 cdaq_evt[00871]: dispatch: 60431D0F00000ED4.
+SEP 29 21:20:07.697.889 cdaq_evt[00872]: dispatch: 60431D1000000ED4.
+SEP 29 21:20:07.698.888 cdaq_evt[00873]: dispatch: 60431D1100000ED4.
+SEP 29 21:20:07.700.389 cdaq_evt[00874]: dispatch: 60431D1200000ED4.
+SEP 29 21:20:07.701.889 cdaq_evt[00875]: dispatch: 60431E0B00000ED4.
+SEP 29 21:20:07.703.460 cdaq_evt[00876]: dispatch: 60431E0C00000ED4.
+SEP 29 21:20:07.704.513 cdaq_evt[00877]: dispatch: 60431E0D00000ED4.
+SEP 29 21:20:07.707.016 cdaq_evt[00878]: dispatch: 60431E0F00000ED4.
+SEP 29 21:20:07.708.170 cdaq_evt[00879]: dispatch: 60431E1000000ED4.
+SEP 29 21:20:07.709.751 cdaq_evt[00880]: dispatch: 60431E1100000ED4.
+SEP 29 21:20:07.710.761 cdaq_evt[00881]: dispatch: 60431E1200000ED4.
+SEP 29 21:20:07.712.263 cdaq_evt[00882]: dispatch: 60431F0B00000ED4.
+SEP 29 21:20:07.713.761 cdaq_evt[00883]: dispatch: 60431F0C00000ED4.
+SEP 29 21:20:07.714.761 cdaq_evt[00884]: dispatch: 60431F0D00000ED4.
+SEP 29 21:20:07.716.264 cdaq_evt[00885]: dispatch: 60431F0F00000ED4.
+SEP 29 21:20:07.717.762 cdaq_evt[00886]: dispatch: 60431F1000000ED4.
+SEP 29 21:20:07.718.761 cdaq_evt[00887]: dispatch: 60431F1100000ED4.
+SEP 29 21:20:07.720.261 cdaq_evt[00888]: dispatch: 60431F1200000ED4.
+SEP 29 21:20:17.381.662 cdaq_evt[00889]: 4200 events [14.1 Hz].
+SEP 29 21:20:48.852.681 cdaq_cmd[00775]: SCI_CTR THRESHOLD = 15, 15, 16349.
+SEP 29 21:20:48.872.738 cdaq_evt[00890]: dispatch: 6043010B00000FBA.
+SEP 29 21:20:48.873.710 cdaq_evt[00891]: dispatch: 6043010C00000FBA.
+SEP 29 21:20:48.875.720 cdaq_evt[00892]: dispatch: 6043010D00000FBA.
+SEP 29 21:20:48.877.721 cdaq_evt[00893]: dispatch: 6043010E00000FBA.
+SEP 29 21:20:48.878.676 cdaq_evt[00894]: dispatch: 6043010F00000FBA.
+SEP 29 21:20:48.879.720 cdaq_evt[00895]: dispatch: 6043011000000FBA.
+SEP 29 21:20:48.880.823 cdaq_evt[00896]: dispatch: 6043011100000FBA.
+SEP 29 21:20:48.881.823 cdaq_evt[00897]: dispatch: 6043011200000FBA.
+SEP 29 21:20:48.882.823 cdaq_evt[00898]: dispatch: 6043011300000FBA.
+SEP 29 21:20:48.883.823 cdaq_evt[00899]: dispatch: 6043011400000FBA.
+SEP 29 21:20:48.884.947 cdaq_evt[00900]: dispatch: 6043020B00000FBA.
+SEP 29 21:20:48.885.947 cdaq_evt[00901]: dispatch: 6043020C00000FBA.
+SEP 29 21:20:48.886.947 cdaq_evt[00902]: dispatch: 6043020D00000FBA.
+SEP 29 21:20:48.887.949 cdaq_evt[00903]: dispatch: 6043020E00000FBA.
+SEP 29 21:20:48.888.948 cdaq_evt[00904]: dispatch: 6043020F00000FBA.
+SEP 29 21:20:48.889.947 cdaq_evt[00905]: dispatch: 6043021000000FBA.
+SEP 29 21:20:48.891.072 cdaq_evt[00906]: dispatch: 6043021100000FBA.
+SEP 29 21:20:48.892.071 cdaq_evt[00907]: dispatch: 6043021200000FBA.
+SEP 29 21:20:48.893.072 cdaq_evt[00908]: dispatch: 6043021300000FBA.
+SEP 29 21:20:48.894.070 cdaq_evt[00909]: dispatch: 6043021400000FBA.
+SEP 29 21:20:48.895.071 cdaq_evt[00910]: dispatch: 6043030B00000FBA.
+SEP 29 21:20:48.896.071 cdaq_evt[00911]: dispatch: 6043030C00000FBA.
+SEP 29 21:20:48.897.070 cdaq_evt[00912]: dispatch: 6043030D00000FBA.
+SEP 29 21:20:48.898.070 cdaq_evt[00913]: dispatch: 6043030E00000FBA.
+SEP 29 21:20:48.899.069 cdaq_evt[00914]: dispatch: 6043030F00000FBA.
+SEP 29 21:20:48.900.071 cdaq_evt[00915]: dispatch: 6043031000000FBA.
+SEP 29 21:20:48.901.196 cdaq_evt[00916]: dispatch: 6043031100000FBA.
+SEP 29 21:20:48.902.196 cdaq_evt[00917]: dispatch: 6043031200000FBA.
+SEP 29 21:20:48.903.196 cdaq_evt[00918]: dispatch: 6043031300000FBA.
+SEP 29 21:20:48.904.194 cdaq_evt[00919]: dispatch: 6043031400000FBA.
+SEP 29 21:20:48.905.194 cdaq_evt[00920]: dispatch: 6043040B00000FBA.
+SEP 29 21:20:48.906.195 cdaq_evt[00921]: dispatch: 6043040C00000FBA.
+SEP 29 21:20:48.907.195 cdaq_evt[00922]: dispatch: 6043040D00000FBA.
+SEP 29 21:20:48.908.195 cdaq_evt[00923]: dispatch: 6043040E00000FBA.
+SEP 29 21:20:48.909.194 cdaq_evt[00924]: dispatch: 6043040F00000FBA.
+SEP 29 21:20:48.910.195 cdaq_evt[00925]: dispatch: 6043041000000FBA.
+SEP 29 21:20:48.911.819 cdaq_evt[00926]: dispatch: 6043041100000FBA.
+SEP 29 21:20:48.912.819 cdaq_evt[00927]: dispatch: 6043041200000FBA.
+SEP 29 21:20:48.913.819 cdaq_evt[00928]: dispatch: 6043041300000FBA.
+SEP 29 21:20:48.914.943 cdaq_evt[00929]: dispatch: 6043041400000FBA.
+SEP 29 21:20:48.916.194 cdaq_evt[00930]: dispatch: 6043050B00000FBA.
+SEP 29 21:20:48.917.194 cdaq_evt[00931]: dispatch: 6043050C00000FBA.
+SEP 29 21:20:48.918.192 cdaq_evt[00932]: dispatch: 6043050D00000FBA.
+SEP 29 21:20:48.919.193 cdaq_evt[00933]: dispatch: 6043050E00000FBA.
+SEP 29 21:20:48.920.194 cdaq_evt[00934]: dispatch: 6043050F00000FBA.
+SEP 29 21:20:48.921.318 cdaq_evt[00935]: dispatch: 6043051000000FBA.
+SEP 29 21:20:48.922.317 cdaq_evt[00936]: dispatch: 6043051100000FBA.
+SEP 29 21:20:48.923.317 cdaq_evt[00937]: dispatch: 6043051200000FBA.
+SEP 29 21:20:48.924.316 cdaq_evt[00938]: dispatch: 6043051300000FBA.
+SEP 29 21:20:48.925.319 cdaq_evt[00939]: dispatch: 6043051400000FBA.
+SEP 29 21:20:48.926.317 cdaq_evt[00940]: dispatch: 6043060B00000FBA.
+SEP 29 21:20:48.927.316 cdaq_evt[00941]: dispatch: 6043060C00000FBA.
+SEP 29 21:20:48.928.316 cdaq_evt[00942]: dispatch: 6043060D00000FBA.
+SEP 29 21:20:48.929.315 cdaq_evt[00943]: dispatch: 6043060E00000FBA.
+SEP 29 21:20:48.930.316 cdaq_evt[00944]: dispatch: 6043060F00000FBA.
+SEP 29 21:20:48.931.440 cdaq_evt[00945]: dispatch: 6043061000000FBA.
+SEP 29 21:20:48.932.440 cdaq_evt[00946]: dispatch: 6043061100000FBA.
+SEP 29 21:20:48.933.440 cdaq_evt[00947]: dispatch: 6043061200000FBA.
+SEP 29 21:20:48.934.440 cdaq_evt[00948]: dispatch: 6043061300000FBA.
+SEP 29 21:20:48.935.440 cdaq_evt[00949]: dispatch: 6043061400000FBA.
+SEP 29 21:20:48.936.441 cdaq_evt[00950]: dispatch: 6043070B00000FBA.
+SEP 29 21:20:48.937.441 cdaq_evt[00951]: dispatch: 6043070C00000FBA.
+SEP 29 21:20:48.938.439 cdaq_evt[00952]: dispatch: 6043070D00000FBA.
+SEP 29 21:20:48.939.439 cdaq_evt[00953]: dispatch: 6043070E00000FBA.
+SEP 29 21:20:48.940.442 cdaq_evt[00954]: dispatch: 6043070F00000FBA.
+SEP 29 21:20:48.942.066 cdaq_evt[00955]: dispatch: 6043071000000FBA.
+SEP 29 21:20:48.943.064 cdaq_evt[00956]: dispatch: 6043071100000FBA.
+SEP 29 21:20:48.944.063 cdaq_evt[00957]: dispatch: 6043071200000FBA.
+SEP 29 21:20:48.945.064 cdaq_evt[00958]: dispatch: 6043071300000FBA.
+SEP 29 21:20:48.946.064 cdaq_evt[00959]: dispatch: 6043071400000FBA.
+SEP 29 21:20:48.947.064 cdaq_evt[00960]: dispatch: 6043080B00000FBA.
+SEP 29 21:20:48.948.065 cdaq_evt[00961]: dispatch: 6043080C00000FBA.
+SEP 29 21:20:48.949.062 cdaq_evt[00962]: dispatch: 6043080D00000FBA.
+SEP 29 21:20:48.950.064 cdaq_evt[00963]: dispatch: 6043080E00000FBA.
+SEP 29 21:20:48.951.188 cdaq_evt[00964]: dispatch: 6043080F00000FBA.
+SEP 29 21:20:48.952.187 cdaq_evt[00965]: dispatch: 6043081000000FBA.
+SEP 29 21:20:48.953.188 cdaq_evt[00966]: dispatch: 6043081100000FBA.
+SEP 29 21:20:48.954.187 cdaq_evt[00967]: dispatch: 6043081200000FBA.
+SEP 29 21:20:48.955.187 cdaq_evt[00968]: dispatch: 6043081300000FBA.
+SEP 29 21:20:48.956.186 cdaq_evt[00969]: dispatch: 6043081400000FBA.
+SEP 29 21:20:50.201.135 cdaq_evt[00970]: 4400 events [6.1 Hz].
+SEP 29 21:20:57.687.480 cdaq_evt[00971]: 4600 events [26.7 Hz].
+SEP 29 21:21:07.668.842 cdaq_evt[00972]: 4800 events [20.0 Hz].
+SEP 29 21:21:31.290.214 cdaq_evt[00973]: 5000 events [8.5 Hz].
+SEP 29 21:22:09.963.649 cdaq_evt[00974]: 5200 events [5.2 Hz].
+SEP 29 21:22:24.240.131 cdaq_cmd[00776]: SCI_CTR THRESHOLD = 15, 15, 16359.
+SEP 29 21:22:24.443.072 cdaq_evt[00975]: dispatch: 6043010B00000FCE.
+SEP 29 21:22:24.444.045 cdaq_evt[00976]: dispatch: 6043010C00000FCE.
+SEP 29 21:22:24.445.045 cdaq_evt[00977]: dispatch: 6043010D00000FCE.
+SEP 29 21:22:24.446.044 cdaq_evt[00978]: dispatch: 6043010E00000FCE.
+SEP 29 21:22:24.447.044 cdaq_evt[00979]: dispatch: 6043010F00000FCE.
+SEP 29 21:22:24.448.120 cdaq_evt[00980]: dispatch: 6043011000000FCE.
+SEP 29 21:22:24.449.044 cdaq_evt[00981]: dispatch: 6043011100000FCE.
+SEP 29 21:22:24.450.044 cdaq_evt[00982]: dispatch: 6043011200000FCE.
+SEP 29 21:22:24.451.043 cdaq_evt[00983]: dispatch: 6043011300000FCE.
+SEP 29 21:22:24.452.045 cdaq_evt[00984]: dispatch: 6043011400000FCE.
+SEP 29 21:22:24.453.294 cdaq_evt[00985]: dispatch: 6043020B00000FCE.
+SEP 29 21:22:24.454.294 cdaq_evt[00986]: dispatch: 6043020C00000FCE.
+SEP 29 21:22:24.455.292 cdaq_evt[00987]: dispatch: 6043020D00000FCE.
+SEP 29 21:22:24.456.294 cdaq_evt[00988]: dispatch: 6043020E00000FCE.
+SEP 29 21:22:24.457.293 cdaq_evt[00989]: dispatch: 6043020F00000FCE.
+SEP 29 21:22:24.458.294 cdaq_evt[00990]: dispatch: 6043021000000FCE.
+SEP 29 21:22:24.459.292 cdaq_evt[00991]: dispatch: 6043021100000FCE.
+SEP 29 21:22:24.460.292 cdaq_evt[00992]: dispatch: 6043021200000FCE.
+SEP 29 21:22:24.461.292 cdaq_evt[00993]: dispatch: 6043021300000FCE.
+SEP 29 21:22:24.462.291 cdaq_evt[00994]: dispatch: 6043021400000FCE.
+SEP 29 21:22:24.463.417 cdaq_evt[00995]: dispatch: 6043030B00000FCE.
+SEP 29 21:22:24.464.416 cdaq_evt[00996]: dispatch: 6043030C00000FCE.
+SEP 29 21:22:24.465.416 cdaq_evt[00997]: dispatch: 6043030D00000FCE.
+SEP 29 21:22:24.466.416 cdaq_evt[00998]: dispatch: 6043030E00000FCE.
+SEP 29 21:22:24.467.415 cdaq_evt[00999]: dispatch: 6043030F00000FCE.
+SEP 29 21:22:24.468.416 cdaq_evt[01000]: dispatch: 6043031000000FCE.
+SEP 29 21:22:24.469.415 cdaq_evt[01001]: dispatch: 6043031100000FCE.
+SEP 29 21:22:24.470.423 cdaq_evt[01002]: dispatch: 6043031200000FCE.
+SEP 29 21:22:24.471.416 cdaq_evt[01003]: dispatch: 6043031300000FCE.
+SEP 29 21:22:24.472.415 cdaq_evt[01004]: dispatch: 6043031400000FCE.
+SEP 29 21:22:24.474.041 cdaq_evt[01005]: dispatch: 6043040B00000FCE.
+SEP 29 21:22:24.475.043 cdaq_evt[01006]: dispatch: 6043040C00000FCE.
+SEP 29 21:22:24.476.041 cdaq_evt[01007]: dispatch: 6043040D00000FCE.
+SEP 29 21:22:24.477.039 cdaq_evt[01008]: dispatch: 6043040E00000FCE.
+SEP 29 21:22:24.478.039 cdaq_evt[01009]: dispatch: 6043040F00000FCE.
+SEP 29 21:22:24.479.048 cdaq_evt[01010]: dispatch: 6043041000000FCE.
+SEP 29 21:22:24.480.041 cdaq_evt[01011]: dispatch: 6043041100000FCE.
+SEP 29 21:22:24.481.039 cdaq_evt[01012]: dispatch: 6043041200000FCE.
+SEP 29 21:22:24.482.038 cdaq_evt[01013]: dispatch: 6043041300000FCE.
+SEP 29 21:22:24.483.137 cdaq_evt[01014]: dispatch: 6043041400000FCE.
+SEP 29 21:22:24.485.130 cdaq_evt[01015]: dispatch: 6043050B00000FCE.
+SEP 29 21:22:24.486.039 cdaq_evt[01016]: dispatch: 6043050C00000FCE.
+SEP 29 21:22:24.487.038 cdaq_evt[01017]: dispatch: 6043050D00000FCE.
+SEP 29 21:22:24.488.038 cdaq_evt[01018]: dispatch: 6043050E00000FCE.
+SEP 29 21:22:24.489.038 cdaq_evt[01019]: dispatch: 6043050F00000FCE.
+SEP 29 21:22:24.490.037 cdaq_evt[01020]: dispatch: 6043051000000FCE.
+SEP 29 21:22:24.491.038 cdaq_evt[01021]: dispatch: 6043051100000FCE.
+SEP 29 21:22:24.492.037 cdaq_evt[01022]: dispatch: 6043051200000FCE.
+SEP 29 21:22:24.494.152 cdaq_evt[01023]: dispatch: 6043051300000FCE.
+SEP 29 21:22:24.496.127 cdaq_evt[01024]: dispatch: 6043051400000FCE.
+SEP 29 21:22:24.497.036 cdaq_evt[01025]: dispatch: 6043060B00000FCE.
+SEP 29 21:22:24.498.037 cdaq_evt[01026]: dispatch: 6043060C00000FCE.
+SEP 29 21:22:24.499.037 cdaq_evt[01027]: dispatch: 6043060D00000FCE.
+SEP 29 21:22:24.500.036 cdaq_evt[01028]: dispatch: 6043060E00000FCE.
+SEP 29 21:22:24.501.036 cdaq_evt[01029]: dispatch: 6043060F00000FCE.
+SEP 29 21:22:24.502.035 cdaq_evt[01030]: dispatch: 6043061000000FCE.
+SEP 29 21:22:24.504.137 cdaq_evt[01031]: dispatch: 6043061100000FCE.
+SEP 29 21:22:48.288.492 cdaq_evt[01056]: 5600 events [8.5 Hz].
+SEP 29 21:23:08.330.428 cdaq_evt[01057]: 5800 events [10.0 Hz].
+SEP 29 21:23:28.890.300 cdaq_evt[01058]: 6000 events [9.7 Hz].
+SEP 29 21:23:37.035.036 cdaq_cmd[00777]: SCI_TCRDTR THRESHOLD = 15, 15, 16224.
+SEP 29 21:23:37.060.689 cdaq_evt[01059]: dispatch: 60431C0B00000EC0.
+SEP 29 21:23:37.061.786 cdaq_evt[01060]: dispatch: 60431C0C00000EC0.
+SEP 29 21:23:37.062.784 cdaq_evt[01061]: dispatch: 60431C0D00000EC0.
+SEP 29 21:23:37.063.784 cdaq_evt[01062]: dispatch: 60431C0F00000EC0.
+SEP 29 21:23:37.064.784 cdaq_evt[01063]: dispatch: 60431C1000000EC0.
+SEP 29 21:23:37.065.783 cdaq_evt[01064]: dispatch: 60431C1100000EC0.
+SEP 29 21:23:37.066.783 cdaq_evt[01065]: dispatch: 60431C1200000EC0.
+SEP 29 21:23:37.067.783 cdaq_evt[01066]: dispatch: 60431D0B00000EC0.
+SEP 29 21:23:37.068.783 cdaq_evt[01067]: dispatch: 60431D0C00000EC0.
+SEP 29 21:23:37.069.908 cdaq_evt[01068]: dispatch: 60431D0D00000EC0.
+SEP 29 21:23:37.070.908 cdaq_evt[01069]: dispatch: 60431D0F00000EC0.
+SEP 29 21:23:37.071.908 cdaq_evt[01070]: dispatch: 60431D1000000EC0.
+SEP 29 21:23:37.073.035 cdaq_evt[01071]: dispatch: 60431D1100000EC0.
+SEP 29 21:23:37.074.052 cdaq_evt[01072]: dispatch: 60431D1200000EC0.
+SEP 29 21:23:37.075.067 cdaq_evt[01073]: dispatch: 60431E0B00000EC0.
+SEP 29 21:23:37.076.059 cdaq_evt[01074]: dispatch: 60431E0C00000EC0.
+SEP 29 21:23:37.077.045 cdaq_evt[01075]: dispatch: 60431E0D00000EC0.
+SEP 29 21:23:37.078.054 cdaq_evt[01076]: dispatch: 60431E0F00000EC0.
+SEP 29 21:23:37.080.450 cdaq_evt[01077]: dispatch: 60431E1000000EC0.
+SEP 29 21:23:37.081.934 cdaq_evt[01078]: dispatch: 60431E1100000EC0.
+SEP 29 21:23:37.083.078 cdaq_evt[01079]: dispatch: 60431E1200000EC0.
+SEP 29 21:23:37.084.197 cdaq_evt[01080]: dispatch: 60431F0B00000EC0.
+SEP 29 21:23:37.085.290 cdaq_evt[01081]: dispatch: 60431F0C00000EC0.
+SEP 29 21:23:37.086.779 cdaq_evt[01082]: dispatch: 60431F0D00000EC0.
+SEP 29 21:23:37.087.778 cdaq_evt[01083]: dispatch: 60431F0F00000EC0.
+SEP 29 21:23:37.088.778 cdaq_evt[01084]: dispatch: 60431F1000000EC0.
+SEP 29 21:23:37.090.278 cdaq_evt[01085]: dispatch: 60431F1100000EC0.
+SEP 29 21:23:37.091.282 cdaq_evt[01086]: dispatch: 60431F1200000EC0.
+SEP 29 21:23:59.451.860 cdaq_evt[01087]: 6200 events [6.5 Hz].
+SEP 29 21:24:41.621.020 cdaq_evt[01088]: 6400 events [4.7 Hz].
+SEP 29 21:25:04.425.701 cdaq_cmd[00778]: SCI_CTR THRESHOLD = 15, 15, 16369.
+SEP 29 21:25:04.430.536 cdaq_evt[01089]: dispatch: 6043010B00000FE2.
+SEP 29 21:25:04.431.513 cdaq_evt[01090]: dispatch: 6043010C00000FE2.
+SEP 29 21:25:04.432.511 cdaq_evt[01091]: dispatch: 6043010D00000FE2.
+SEP 29 21:25:04.433.512 cdaq_evt[01092]: dispatch: 6043010E00000FE2.
+SEP 29 21:25:04.434.512 cdaq_evt[01093]: dispatch: 6043010F00000FE2.
+SEP 29 21:25:04.435.512 cdaq_evt[01094]: dispatch: 6043011000000FE2.
+SEP 29 21:25:04.436.511 cdaq_evt[01095]: dispatch: 6043011100000FE2.
+SEP 29 21:25:04.437.636 cdaq_evt[01096]: dispatch: 6043011200000FE2.
+SEP 29 21:25:04.438.636 cdaq_evt[01097]: dispatch: 6043011300000FE2.
+SEP 29 21:25:04.439.635 cdaq_evt[01098]: dispatch: 6043011400000FE2.
+SEP 29 21:25:04.440.636 cdaq_evt[01099]: dispatch: 6043020B00000FE2.
+SEP 29 21:25:04.441.637 cdaq_evt[01100]: dispatch: 6043020C00000FE2.
+SEP 29 21:25:04.442.635 cdaq_evt[01101]: dispatch: 6043020D00000FE2.
+SEP 29 21:25:04.443.636 cdaq_evt[01102]: dispatch: 6043020E00000FE2.
+SEP 29 21:25:04.444.635 cdaq_evt[01103]: dispatch: 6043020F00000FE2.
+SEP 29 21:25:04.445.635 cdaq_evt[01104]: dispatch: 6043021000000FE2.
+SEP 29 21:25:04.446.635 cdaq_evt[01105]: dispatch: 6043021100000FE2.
+SEP 29 21:25:04.447.635 cdaq_evt[01106]: dispatch: 6043021200000FE2.
+SEP 29 21:25:04.448.634 cdaq_evt[01107]: dispatch: 6043021300000FE2.
+SEP 29 21:25:04.449.634 cdaq_evt[01108]: dispatch: 6043021400000FE2.
+SEP 29 21:25:04.450.635 cdaq_evt[01109]: dispatch: 6043030B00000FE2.
+SEP 29 21:25:04.451.635 cdaq_evt[01110]: dispatch: 6043030C00000FE2.
+SEP 29 21:25:04.452.634 cdaq_evt[01111]: dispatch: 6043030D00000FE2.
+SEP 29 21:25:04.453.635 cdaq_evt[01112]: dispatch: 6043030E00000FE2.
+SEP 29 21:25:04.454.633 cdaq_evt[01113]: dispatch: 6043030F00000FE2.
+SEP 29 21:25:04.455.633 cdaq_evt[01114]: dispatch: 6043031000000FE2.
+SEP 29 21:25:04.456.634 cdaq_evt[01115]: dispatch: 6043031100000FE2.
+SEP 29 21:25:04.458.742 cdaq_evt[01116]: dispatch: 6043031200000FE2.
+SEP 29 21:25:04.459.633 cdaq_evt[01117]: dispatch: 6043031300000FE2.
+SEP 29 21:25:04.460.632 cdaq_evt[01118]: dispatch: 6043031400000FE2.
+SEP 29 21:25:04.461.633 cdaq_evt[01119]: dispatch: 6043040B00000FE2.
+SEP 29 21:25:04.462.633 cdaq_evt[01120]: dispatch: 6043040C00000FE2.
+SEP 29 21:25:04.463.632 cdaq_evt[01121]: dispatch: 6043040D00000FE2.
+SEP 29 21:25:04.464.632 cdaq_evt[01122]: dispatch: 6043040E00000FE2.
+SEP 29 21:25:04.465.633 cdaq_evt[01123]: dispatch: 6043040F00000FE2.
+SEP 29 21:25:04.466.650 cdaq_evt[01124]: dispatch: 6043041000000FE2.
+SEP 29 21:25:04.468.218 cdaq_evt[01125]: dispatch: 6043041100000FE2.
+SEP 29 21:25:04.469.258 cdaq_evt[01126]: dispatch: 6043041200000FE2.
+SEP 29 21:25:04.470.257 cdaq_evt[01127]: dispatch: 6043041300000FE2.
+SEP 29 21:25:04.471.257 cdaq_evt[01128]: dispatch: 6043041400000FE2.
+SEP 29 21:25:04.472.256 cdaq_evt[01129]: dispatch: 6043050B00000FE2.
+SEP 29 21:25:04.473.256 cdaq_evt[01130]: dispatch: 6043050C00000FE2.
+SEP 29 21:25:04.474.255 cdaq_evt[01131]: dispatch: 6043050D00000FE2.
+SEP 29 21:25:04.475.255 cdaq_evt[01132]: dispatch: 6043050E00000FE2.
+SEP 29 21:25:04.476.256 cdaq_evt[01133]: dispatch: 6043050F00000FE2.
+SEP 29 21:25:04.477.381 cdaq_evt[01134]: dispatch: 6043051000000FE2.
+SEP 29 21:25:04.478.382 cdaq_evt[01135]: dispatch: 6043051100000FE2.
+SEP 29 21:25:04.479.381 cdaq_evt[01136]: dispatch: 6043051200000FE2.
+SEP 29 21:25:04.481.255 cdaq_evt[01137]: dispatch: 6043051300000FE2.
+SEP 29 21:25:04.482.256 cdaq_evt[01138]: dispatch: 6043051400000FE2.
+SEP 29 21:25:04.483.255 cdaq_evt[01139]: dispatch: 6043060B00000FE2.
+SEP 29 21:25:04.484.255 cdaq_evt[01140]: dispatch: 6043060C00000FE2.
+SEP 29 21:25:04.485.254 cdaq_evt[01141]: dispatch: 6043060D00000FE2.
+SEP 29 21:25:04.486.255 cdaq_evt[01142]: dispatch: 6043060E00000FE2.
+SEP 29 21:25:04.487.379 cdaq_evt[01143]: dispatch: 6043060F00000FE2.
+SEP 29 21:25:04.488.378 cdaq_evt[01144]: dispatch: 6043061000000FE2.
+SEP 29 21:25:04.489.378 cdaq_evt[01145]: dispatch: 6043061100000FE2.
+SEP 29 21:25:04.490.378 cdaq_evt[01146]: dispatch: 6043061200000FE2.
+SEP 29 21:25:04.491.378 cdaq_evt[01147]: dispatch: 6043061300000FE2.
+SEP 29 21:25:04.492.378 cdaq_evt[01148]: dispatch: 6043061400000FE2.
+SEP 29 21:25:04.493.378 cdaq_evt[01149]: dispatch: 6043070B00000FE2.
+SEP 29 21:25:04.494.378 cdaq_evt[01150]: dispatch: 6043070C00000FE2.
+SEP 29 21:25:04.495.377 cdaq_evt[01151]: dispatch: 6043070D00000FE2.
+SEP 29 21:25:04.496.378 cdaq_evt[01152]: dispatch: 6043070E00000FE2.
+SEP 29 21:25:04.497.504 cdaq_evt[01153]: dispatch: 6043070F00000FE2.
+SEP 29 21:25:04.499.127 cdaq_evt[01154]: dispatch: 6043071000000FE2.
+SEP 29 21:25:04.500.127 cdaq_evt[01155]: dispatch: 6043071100000FE2.
+SEP 29 21:25:04.501.127 cdaq_evt[01156]: dispatch: 6043071200000FE2.
+SEP 29 21:25:04.502.126 cdaq_evt[01157]: dispatch: 6043071300000FE2.
+SEP 29 21:25:04.503.126 cdaq_evt[01158]: dispatch: 6043071400000FE2.
+SEP 29 21:25:04.504.126 cdaq_evt[01159]: dispatch: 6043080B00000FE2.
+SEP 29 21:25:04.505.126 cdaq_evt[01160]: dispatch: 6043080C00000FE2.
+SEP 29 21:25:04.506.126 cdaq_evt[01161]: dispatch: 6043080D00000FE2.
+SEP 29 21:25:04.507.250 cdaq_evt[01162]: dispatch: 6043080E00000FE2.
+SEP 29 21:25:04.508.250 cdaq_evt[01163]: dispatch: 6043080F00000FE2.
+SEP 29 21:25:04.509.250 cdaq_evt[01164]: dispatch: 6043081000000FE2.
+SEP 29 21:25:04.510.249 cdaq_evt[01165]: dispatch: 6043081100000FE2.
+SEP 29 21:25:04.511.251 cdaq_evt[01166]: dispatch: 6043081200000FE2.
+SEP 29 21:25:04.512.250 cdaq_evt[01167]: dispatch: 6043081300000FE2.
+SEP 29 21:25:04.513.250 cdaq_evt[01168]: dispatch: 6043081400000FE2.
+SEP 29 21:25:04.688.482 cdaq_evt[01169]: 6600 events [8.7 Hz].
+SEP 29 21:25:29.941.804 cdaq_evt[01170]: 6800 events [7.9 Hz].
+SEP 29 21:25:56.377.427 cdaq_evt[01171]: 7000 events [7.6 Hz].
+SEP 29 21:26:10.095.684 cdaq_cmd[00779]: DCommand: SCI_PEDESTAL_RUN SCD2, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 29 21:26:10.095.705 cdaq_cmd[00780]: DCommand: SCI_PEDESTAL_RUN SCD1, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 29 21:26:10.095.716 cdaq_cmd[00781]: DCommand: SCI_PEDESTAL_RUN SCD3, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 29 21:26:10.095.727 cdaq_cmd[00782]: DCommand: SCI_PEDESTAL_RUN SCD4, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 29 21:26:10.095.739 cdaq_cmd[00783]: DCommand: SCI_PEDESTAL_RUN TCD/BCD, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 29 21:26:10.284.801 cdaq_evt[01172]: CAL calibration event sending: on.
+SEP 29 21:26:10.284.815 cdaq_evt[01173]: scd_ped_update_run: 100 events to go.
+SEP 29 21:26:10.284.838 cdaq_evt[01174]: dispatch: 60430D0100000000.
+SEP 29 21:26:10.285.792 cdaq_evt[01175]: dispatch: 60430C0200000005.
+SEP 29 21:26:12.569.562 cdaq_evt[01176]: STV autoupdate[2]: 8 disabled, 2936 accepted, 0 rejected.
+SEP 29 21:26:14.397.409 cdaq_evt[01177]: SprsBox[4]: garbage data is cleared.
+SEP 29 21:26:14.397.543 cdaq_evt[01178]: dispatch: 60430D0100000001.
+SEP 29 21:26:14.398.535 cdaq_evt[01179]: dispatch: 60430C020000000C.
+SEP 29 21:26:14.401.037 cdaq_evt[01180]: end of stv autoupdate.
+SEP 29 21:26:14.401.221 cdaq_evt[01181]: CAL calibration event sending: on.
+SEP 29 21:26:14.401.237 cdaq_evt[01182]: scd_ped_update_run: 100 events to go.
+SEP 29 21:26:14.401.261 cdaq_evt[01183]: dispatch: 60430E0100000000.
+SEP 29 21:26:14.402.285 cdaq_evt[01184]: dispatch: 60430C0200000005.
+SEP 29 21:26:16.711.551 cdaq_evt[01185]: STV autoupdate[1]: 0 disabled, 2944 accepted, 0 rejected.
+SEP 29 21:26:18.536.775 cdaq_evt[01186]: SprsBox[4]: garbage data is cleared.
+SEP 29 21:26:18.536.908 cdaq_evt[01187]: dispatch: 60430E0100000001.
+SEP 29 21:26:18.537.901 cdaq_evt[01188]: dispatch: 60430C020000000C.
+SEP 29 21:26:18.540.419 cdaq_evt[01189]: end of stv autoupdate.
+SEP 29 21:26:18.540.588 cdaq_evt[01190]: CAL calibration event sending: on.
+SEP 29 21:26:18.540.605 cdaq_evt[01191]: scd_ped_update_run: 100 events to go.
+SEP 29 21:26:18.540.627 cdaq_evt[01192]: dispatch: 60430F0100000000.
+SEP 29 21:26:18.541.649 cdaq_evt[01193]: dispatch: 60430C0200000005.
+SEP 29 21:26:20.720.685 cdaq_evt[01194]: STV autoupdate[3]: 83 disabled, 2861 accepted, 0 rejected.
+SEP 29 21:26:20.722.497 cdaq_evt[01195]: SprsBox[C]: garbage data is cleared.
+SEP 29 21:26:20.723.936 cdaq_evt[01196]: SprsBox[T]: garbage data is cleared.
+SEP 29 21:26:21.347.343 cdaq_evt[01197]: SprsBox[4]: garbage data is cleared.
+SEP 29 21:26:21.347.476 cdaq_evt[01198]: dispatch: 60430F0100000001.
+SEP 29 21:26:21.348.593 cdaq_evt[01199]: dispatch: 60430C020000000C.
+SEP 29 21:26:21.352.983 cdaq_evt[01200]: end of stv autoupdate.
+SEP 29 21:26:21.353.147 cdaq_evt[01201]: CAL calibration event sending: on.
+SEP 29 21:26:21.353.165 cdaq_evt[01202]: scd_ped_update_run: 100 events to go.
+SEP 29 21:26:21.353.185 cdaq_evt[01203]: dispatch: 6043100100000000.
+SEP 29 21:26:21.354.567 cdaq_evt[01204]: dispatch: 60430C0200000005.
+SEP 29 21:26:23.641.363 cdaq_evt[01205]: STV autoupdate[4]: 63 disabled, 2881 accepted, 0 rejected.
+SEP 29 21:26:26.655.036 cdaq_evt[01206]: dispatch: 6043100100000001.
+SEP 29 21:26:26.656.031 cdaq_evt[01207]: dispatch: 60430C020000000C.
+SEP 29 21:26:26.659.194 cdaq_evt[01208]: end of stv autoupdate.
+SEP 29 21:26:26.659.375 cdaq_evt[01209]: CAL calibration event sending: on.
+SEP 29 21:26:26.659.390 cdaq_evt[01210]: cal ped autoupdate.
+SEP 29 21:26:26.659.398 cdaq_evt[01211]: cal_ped_update_run: 100 events to go.
+SEP 29 21:26:26.659.422 cdaq_evt[01212]: dispatch: 60431B0100000000.
+SEP 29 21:26:26.660.405 cdaq_evt[01213]: dispatch: 60430C0200000005.
+SEP 29 21:26:28.700.713 cdaq_evt[01214]: STV autoupdate[T]: 0 disabled, 1280 accepted, 0 rejected.
+SEP 29 21:26:29.925.029 cdaq_evt[01215]: SprsBox[4]: garbage data is cleared.
+SEP 29 21:26:29.925.162 cdaq_evt[01216]: dispatch: 60431B0100000001.
+SEP 29 21:26:29.926.154 cdaq_evt[01217]: dispatch: 60430C020000000C.
+SEP 29 21:26:29.929.672 cdaq_evt[01218]: end of stv autoupdate.
+SEP 29 21:26:30.000.770 cdaq_evt[01219]: ERROR: SprsBox[C]: no data after 1 secs/trials.
+SEP 29 21:26:31.000.237 cdaq_evt[01220]: ERROR: SprsBox[T]: no data after 1 secs/trials.
+SEP 29 21:26:32.000.210 cdaq_evt[01221]: ERROR: SprsBox[1]: no data after 1 secs/trials.
+SEP 29 21:26:33.001.193 cdaq_evt[01222]: ERROR: SprsBox[2]: no data after 1 secs/trials.
+SEP 29 21:26:34.001.155 cdaq_evt[01223]: ERROR: SprsBox[3]: no data after 1 secs/trials.
+SEP 29 21:26:35.001.000 cdaq_evt[01224]: ERROR: SprsBox[4]: no data after 1 secs/trials.
+SEP 29 21:26:41.129.985 cdaq_evt[01225]: 200 events [13.9 Hz].
+SEP 29 21:27:05.550.449 cdaq_evt[01226]: 400 events [8.2 Hz].
+SEP 29 21:27:39.029.817 cdaq_evt[01227]: 600 events [6.0 Hz].
+SEP 29 21:28:09.929.329 cdaq_evt[01228]: 800 events [6.5 Hz].

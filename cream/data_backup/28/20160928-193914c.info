@@ -1,0 +1,3 @@
+# charge: start 100, end 100, step 50
+20 pedestal q = 100
+20 run q = 100

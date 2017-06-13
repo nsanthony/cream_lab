@@ -1,0 +1,98 @@
+SEP 29 15:52:40.875.041 cdaq_evt[01787]: 1400 events [1.0 Hz].
+SEP 29 15:53:20.380.970 cdaq_sissnio_playback[00001]: Throttle : 2200 : 1100 .
+SEP 29 15:53:49.183.533 cdaq_cmd[01584]: SCI_CLB_PULSE FREQ = CAL, 1, 5.
+SEP 29 15:53:49.507.475 cdaq_evt[01788]: calibration trigger frequency (dev 1, addr 1) set to level 5.
+SEP 29 15:53:52.183.070 cdaq_cmd[01585]: SCI_PEDESTAL_RUN CAL, 1000, UPDATE = ON, RAW = ON, SUMMARY = OFF.
+SEP 29 15:53:52.534.023 cdaq_evt[01789]: CAL calibration event sending: on.
+SEP 29 15:53:52.534.032 cdaq_evt[01790]: cal ped autoupdate.
+SEP 29 15:53:52.534.040 cdaq_evt[01791]: cal_ped_update_run: 1000 events to go.
+SEP 29 15:53:52.534.071 cdaq_evt[01792]: dispatch: 6043090100000000.
+SEP 29 15:53:52.535.669 cdaq_evt[01793]: dispatch: 60430C0200000005.
+SEP 29 15:53:55.814.421 cdaq_evt[01794]: 200 events [63.2 Hz].
+SEP 29 15:53:58.182.176 cdaq_cmd[01586]: SCI_CLB_PULSE FREQ = TCD/BCD, 1, 5.
+SEP 29 15:53:59.126.540 cdaq_evt[01795]: 400 events [60.4 Hz].
+SEP 29 15:54:00.678.781 cdaq_cmd[01587]: SCI_PEDESTAL_RUN TCD/BCD, 1000, UPDATE = ON, RAW = ON, SUMMARY = OFF.
+SEP 29 15:54:02.342.419 cdaq_evt[01796]: 600 events [62.2 Hz].
+SEP 29 15:54:04.678.211 cdaq_cmd[01588]: SCI_CLB_PULSE FREQ = SCD3, 1, 5.
+SEP 29 15:54:05.575.069 cdaq_evt[01797]: 800 events [61.9 Hz].
+SEP 29 15:54:08.677.566 cdaq_cmd[01589]: SCI_PEDESTAL_RUN SCD3, 1000, UPDATE = ON, RAW = ON, SUMMARY = OFF.
+SEP 29 15:54:08.805.428 cdaq_evt[01798]: 1000 events [61.9 Hz].
+SEP 29 15:54:10.443.819 cdaq_evt[01799]: STV autoupdate[C]: 40 disabled, 2520 accepted, 0 rejected.
+SEP 29 15:54:11.068.721 cdaq_evt[01800]: SprsBox[4]: garbage data is cleared.
+SEP 29 15:54:11.068.828 cdaq_evt[01801]: dispatch: 6043090100000001.
+SEP 29 15:54:11.070.573 cdaq_evt[01802]: dispatch: 60430C020000000C.
+SEP 29 15:54:11.074.242 cdaq_evt[01803]: end of stv autoupdate.
+SEP 29 15:54:11.074.403 cdaq_evt[01804]: calibration trigger frequency (dev 14, addr 1) set to level 5.
+SEP 29 15:54:11.074.421 cdaq_evt[01805]: CAL calibration event sending: on.
+SEP 29 15:54:11.074.427 cdaq_evt[01806]: cal ped autoupdate.
+SEP 29 15:54:11.074.434 cdaq_evt[01807]: cal_ped_update_run: 1000 events to go.
+SEP 29 15:54:11.074.462 cdaq_evt[01808]: dispatch: 60431B0100000000.
+SEP 29 15:54:11.076.771 cdaq_evt[01809]: dispatch: 60430C0200000005.
+SEP 29 15:54:12.677.984 cdaq_cmd[01590]: SCI_CLB_PULSE FREQ = SCD4, 1, 5.
+SEP 29 15:54:14.258.214 cdaq_evt[01810]: 200 events [65.1 Hz].
+SEP 29 15:54:16.678.357 cdaq_cmd[01591]: SCI_PEDESTAL_RUN SCD4, 1000, UPDATE = ON, RAW = ON, SUMMARY = OFF.
+SEP 29 15:54:17.231.011 cdaq_evt[01811]: 400 events [67.3 Hz].
+SEP 29 15:54:20.273.421 cdaq_evt[01812]: 600 events [65.7 Hz].
+SEP 29 15:54:20.677.743 cdaq_cmd[01592]: SCI_CLB_PULSE FREQ = SCD1, 1, 5.
+SEP 29 15:54:23.264.834 cdaq_evt[01813]: 800 events [66.9 Hz].
+SEP 29 15:54:24.678.123 cdaq_cmd[01593]: SCI_PEDESTAL_RUN SCD1, 1000, UPDATE = ON, RAW = ON, SUMMARY = OFF.
+SEP 29 15:54:26.305.365 cdaq_evt[01814]: 1000 events [65.8 Hz].
+SEP 29 15:54:28.097.456 cdaq_evt[01815]: STV autoupdate[T]: 0 disabled, 1280 accepted, 0 rejected.
+SEP 29 15:54:28.676.519 cdaq_cmd[01594]: SCI_CLB_PULSE FREQ = SCD2, 1, 5.
+SEP 29 15:54:28.715.062 cdaq_evt[01816]: SprsBox[1]: garbage data is cleared.
+SEP 29 15:54:29.932.679 cdaq_evt[01817]: SprsBox[4]: garbage data is cleared.
+SEP 29 15:54:29.932.810 cdaq_evt[01818]: dispatch: 60431B0100000001.
+SEP 29 15:54:29.934.857 cdaq_evt[01819]: dispatch: 60430C020000000C.
+SEP 29 15:54:29.938.371 cdaq_evt[01820]: end of stv autoupdate.
+SEP 29 15:54:29.938.461 cdaq_evt[01821]: calibration trigger frequency (dev 11, addr 1) set to level 5.
+SEP 29 15:54:29.938.471 cdaq_evt[01822]: CAL calibration event sending: on.
+SEP 29 15:54:29.938.479 cdaq_evt[01823]: scd_ped_update_run: 1000 events to go.
+SEP 29 15:54:29.938.506 cdaq_evt[01824]: dispatch: 60430F0100000000.
+SEP 29 15:54:29.940.379 cdaq_evt[01825]: dispatch: 60430C0200000005.
+SEP 29 15:54:32.675.913 cdaq_cmd[01595]: SCI_PEDESTAL_RUN SCD2, 1000, UPDATE = ON, RAW = ON, SUMMARY = OFF.
+SEP 29 15:54:33.268.051 cdaq_evt[01826]: 200 events [62.1 Hz].
+SEP 29 15:54:36.499.638 cdaq_evt[01827]: 400 events [61.9 Hz].
+SEP 29 15:54:39.731.309 cdaq_evt[01828]: 600 events [61.9 Hz].
+SEP 29 15:54:42.962.941 cdaq_evt[01829]: 800 events [61.9 Hz].
+SEP 29 15:54:46.211.315 cdaq_evt[01830]: 1000 events [61.6 Hz].
+SEP 29 15:54:48.047.529 cdaq_evt[01831]: STV autoupdate[3]: 83 disabled, 2861 accepted, 0 rejected.
+SEP 29 15:54:48.072.394 cdaq_evt[01832]: SprsBox[4]: garbage data is cleared.
+SEP 29 15:54:48.072.576 cdaq_evt[01833]: dispatch: 60430F0100000001.
+SEP 29 15:54:48.074.400 cdaq_evt[01834]: dispatch: 60430C020000000C.
+SEP 29 15:54:48.079.108 cdaq_evt[01835]: end of stv autoupdate.
+SEP 29 15:54:48.079.297 cdaq_evt[01836]: calibration trigger frequency (dev 12, addr 1) set to level 5.
+SEP 29 15:54:48.079.313 cdaq_evt[01837]: CAL calibration event sending: on.
+SEP 29 15:54:48.079.320 cdaq_evt[01838]: scd_ped_update_run: 1000 events to go.
+SEP 29 15:54:48.079.348 cdaq_evt[01839]: dispatch: 6043100100000000.
+SEP 29 15:54:48.081.024 cdaq_evt[01840]: dispatch: 60430C0200000005.
+SEP 29 15:54:51.474.635 cdaq_evt[01841]: 200 events [60.9 Hz].
+SEP 29 15:54:54.690.397 cdaq_evt[01842]: 400 events [62.2 Hz].
+SEP 29 15:54:57.923.141 cdaq_evt[01843]: 600 events [61.9 Hz].
+SEP 29 15:55:01.171.597 cdaq_evt[01844]: 800 events [61.6 Hz].
+SEP 29 15:55:04.419.391 cdaq_evt[01845]: 1000 events [61.6 Hz].
+SEP 29 15:55:05.976.272 cdaq_evt[01846]: STV autoupdate[4]: 63 disabled, 2881 accepted, 0 rejected.
+SEP 29 15:55:06.585.181 cdaq_evt[01847]: SprsBox[2]: garbage data is cleared.
+SEP 29 15:55:06.594.061 cdaq_evt[01848]: dispatch: 6043100100000001.
+SEP 29 15:55:06.595.681 cdaq_evt[01849]: dispatch: 60430C020000000C.
+SEP 29 15:55:06.601.740 cdaq_evt[01850]: end of stv autoupdate.
+SEP 29 15:55:06.601.907 cdaq_evt[01851]: calibration trigger frequency (dev 7, addr 1) set to level 5.
+SEP 29 15:55:06.601.917 cdaq_evt[01852]: CAL calibration event sending: on.
+SEP 29 15:55:06.601.925 cdaq_evt[01853]: scd_ped_update_run: 1000 events to go.
+SEP 29 15:55:06.601.952 cdaq_evt[01854]: dispatch: 60430E0100000000.
+SEP 29 15:55:06.603.987 cdaq_evt[01855]: dispatch: 60430C0200000005.
+SEP 29 15:55:07.000.678 cdaq_evt[01856]: ERROR: SprsBox[1]: no data after 1 secs/trials.
+SEP 29 15:55:10.242.002 cdaq_evt[01857]: 200 events [61.7 Hz].
+SEP 29 15:55:13.489.882 cdaq_evt[01858]: 400 events [61.6 Hz].
+SEP 29 15:55:16.753.208 cdaq_evt[01859]: 600 events [61.3 Hz].
+SEP 29 15:55:20.001.742 cdaq_evt[01860]: 800 events [61.6 Hz].
+SEP 29 15:55:23.249.227 cdaq_evt[01861]: 1000 events [61.6 Hz].
+SEP 29 15:55:24.756.252 cdaq_evt[01862]: STV autoupdate[1]: 0 disabled, 2944 accepted, 0 rejected.
+SEP 29 15:55:25.986.080 cdaq_evt[01863]: SprsBox[4]: garbage data is cleared.
+SEP 29 15:55:25.986.212 cdaq_evt[01864]: dispatch: 60430E0100000001.
+SEP 29 15:55:25.988.763 cdaq_evt[01865]: dispatch: 60430C020000000C.
+SEP 29 15:55:25.992.794 cdaq_evt[01866]: end of stv autoupdate.
+SEP 29 15:55:25.992.969 cdaq_evt[01867]: calibration trigger frequency (dev 6, addr 1) set to level 5.
+SEP 29 15:55:25.992.987 cdaq_evt[01868]: CAL calibration event sending: on.
+SEP 29 15:55:25.992.994 cdaq_evt[01869]: scd_ped_update_run: 1000 events to go.
+SEP 29 15:55:25.993.020 cdaq_evt[01870]: dispatch: 60430D0100000000.
+SEP 29 15:55:25.995.341 cdaq_evt[01871]: dispatch: 60430C0200000005.

@@ -1,0 +1,7 @@
+\n*** RESTART Thu Sep 29 13:30:19 EDT 2016 ***
+Restarting CDAQ ...
+kill 15053: No such process
+usage: kill [ -s signal | -p ] [ -a ] pid ...
+       kill -l [ signal ]
+/root/cdaq
+/root/cdaq/server

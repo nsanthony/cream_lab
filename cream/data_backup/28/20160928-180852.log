@@ -1,0 +1,561 @@
+SEP 28 18:08:52.278.813 cdaq_evt[01925]: 4800 events [11.9 Hz].
+SEP 28 18:09:09.073.743 cdaq_evt[01926]: 5000 events [11.9 Hz].
+SEP 28 18:09:26.481.675 cdaq_evt[01927]: 5200 events [11.5 Hz].
+SEP 28 18:09:43.405.612 cdaq_evt[01928]: 5400 events [11.8 Hz].
+SEP 28 18:09:59.654.996 cdaq_evt[01929]: 5600 events [12.3 Hz].
+SEP 28 18:10:17.117.073 cdaq_evt[01930]: 5800 events [11.5 Hz].
+SEP 28 18:10:34.531.653 cdaq_evt[01931]: 6000 events [11.5 Hz].
+SEP 28 18:10:51.868.127 cdaq_evt[01932]: 6200 events [11.5 Hz].
+SEP 28 18:11:09.647.274 cdaq_evt[01933]: 6400 events [11.2 Hz].
+SEP 28 18:11:27.099.350 cdaq_evt[01934]: 6600 events [11.5 Hz].
+SEP 28 18:11:27.119.253 cdaq_cmd[01587]: DCommand: SCI_PEDESTAL_RUN SCD2, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 28 18:11:27.119.269 cdaq_cmd[01588]: DCommand: SCI_PEDESTAL_RUN SCD1, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 28 18:11:27.119.281 cdaq_cmd[01589]: DCommand: SCI_PEDESTAL_RUN SCD3, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 28 18:11:27.119.293 cdaq_cmd[01590]: DCommand: SCI_PEDESTAL_RUN SCD4, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 28 18:11:27.119.304 cdaq_cmd[01591]: DCommand: SCI_PEDESTAL_RUN TCD/BCD, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 28 18:11:27.132.351 cdaq_evt[01935]: CAL calibration event sending: on.
+SEP 28 18:11:27.132.360 cdaq_evt[01936]: scd_ped_update_run: 100 events to go.
+SEP 28 18:11:27.132.384 cdaq_evt[01937]: dispatch: 60430D0100000000.
+SEP 28 18:11:27.133.467 cdaq_evt[01938]: dispatch: 60430C0200000005.
+SEP 28 18:11:29.589.373 cdaq_evt[01939]: STV autoupdate[2]: 8 disabled, 2936 accepted, 0 rejected.
+SEP 28 18:11:32.607.631 cdaq_evt[01940]: dispatch: 60430D0100000001.
+SEP 28 18:11:32.608.753 cdaq_evt[01941]: dispatch: 60430C020000000C.
+SEP 28 18:11:32.612.428 cdaq_evt[01942]: end of stv autoupdate.
+SEP 28 18:11:32.612.616 cdaq_evt[01943]: CAL calibration event sending: on.
+SEP 28 18:11:32.612.631 cdaq_evt[01944]: scd_ped_update_run: 100 events to go.
+SEP 28 18:11:32.612.650 cdaq_evt[01945]: dispatch: 60430E0100000000.
+SEP 28 18:11:32.613.750 cdaq_evt[01946]: dispatch: 60430C0200000005.
+SEP 28 18:11:35.029.627 cdaq_evt[01947]: STV autoupdate[1]: 0 disabled, 2944 accepted, 0 rejected.
+SEP 28 18:11:35.660.282 cdaq_evt[01948]: SprsBox[4]: garbage data is cleared.
+SEP 28 18:11:35.660.413 cdaq_evt[01949]: dispatch: 60430E0100000001.
+SEP 28 18:11:35.661.658 cdaq_evt[01950]: dispatch: 60430C020000000C.
+SEP 28 18:11:35.665.952 cdaq_evt[01951]: end of stv autoupdate.
+SEP 28 18:11:35.666.109 cdaq_evt[01952]: CAL calibration event sending: on.
+SEP 28 18:11:35.666.127 cdaq_evt[01953]: scd_ped_update_run: 100 events to go.
+SEP 28 18:11:35.666.147 cdaq_evt[01954]: dispatch: 60430F0100000000.
+SEP 28 18:11:35.667.158 cdaq_evt[01955]: dispatch: 60430C0200000005.
+SEP 28 18:11:38.186.394 cdaq_evt[01956]: STV autoupdate[3]: 83 disabled, 2861 accepted, 0 rejected.
+SEP 28 18:11:38.816.066 cdaq_evt[01957]: SprsBox[4]: garbage data is cleared.
+SEP 28 18:11:38.816.182 cdaq_evt[01958]: dispatch: 60430F0100000001.
+SEP 28 18:11:38.817.300 cdaq_evt[01959]: dispatch: 60430C020000000C.
+SEP 28 18:11:38.820.539 cdaq_evt[01960]: end of stv autoupdate.
+SEP 28 18:11:38.820.715 cdaq_evt[01961]: CAL calibration event sending: on.
+SEP 28 18:11:38.820.732 cdaq_evt[01962]: scd_ped_update_run: 100 events to go.
+SEP 28 18:11:38.820.754 cdaq_evt[01963]: dispatch: 6043100100000000.
+SEP 28 18:11:38.822.198 cdaq_evt[01964]: dispatch: 60430C0200000005.
+SEP 28 18:11:41.315.039 cdaq_evt[01965]: STV autoupdate[4]: 63 disabled, 2881 accepted, 0 rejected.
+SEP 28 18:11:41.321.162 cdaq_evt[01966]: SprsBox[T]: garbage data is cleared.
+SEP 28 18:11:43.134.146 cdaq_evt[01967]: dispatch: 6043100100000001.
+SEP 28 18:11:43.135.264 cdaq_evt[01968]: dispatch: 60430C020000000C.
+SEP 28 18:11:43.138.823 cdaq_evt[01969]: end of stv autoupdate.
+SEP 28 18:11:43.139.012 cdaq_evt[01970]: CAL calibration event sending: on.
+SEP 28 18:11:43.139.024 cdaq_evt[01971]: cal ped autoupdate.
+SEP 28 18:11:43.139.030 cdaq_evt[01972]: cal_ped_update_run: 100 events to go.
+SEP 28 18:11:43.139.052 cdaq_evt[01973]: dispatch: 60431B0100000000.
+SEP 28 18:11:43.140.138 cdaq_evt[01974]: dispatch: 60430C0200000005.
+SEP 28 18:11:45.217.505 cdaq_evt[01975]: STV autoupdate[T]: 0 disabled, 1280 accepted, 0 rejected.
+SEP 28 18:11:47.046.537 cdaq_evt[01976]: SprsBox[4]: garbage data is cleared.
+SEP 28 18:11:47.046.672 cdaq_evt[01977]: dispatch: 60431B0100000001.
+SEP 28 18:11:47.047.664 cdaq_evt[01978]: dispatch: 60430C020000000C.
+SEP 28 18:11:47.050.237 cdaq_evt[01979]: end of stv autoupdate.
+SEP 28 18:11:54.767.737 cdaq_evt[01980]: 200 events [17.4 Hz].
+SEP 28 18:12:11.895.449 cdaq_evt[01981]: 400 events [11.7 Hz].
+SEP 28 18:12:29.389.116 cdaq_evt[01982]: 600 events [11.4 Hz].
+SEP 28 18:12:47.412.678 cdaq_evt[01983]: 800 events [11.1 Hz].
+SEP 28 18:13:07.119.032 cdaq_evt[01984]: 1000 events [10.1 Hz].
+SEP 28 18:13:24.271.401 cdaq_evt[01985]: 1200 events [11.7 Hz].
+SEP 28 18:13:43.028.542 cdaq_evt[01986]: 1400 events [10.7 Hz].
+SEP 28 18:14:01.674.802 cdaq_evt[01987]: 1600 events [10.7 Hz].
+SEP 28 18:14:19.598.059 cdaq_evt[01988]: 1800 events [11.2 Hz].
+SEP 28 18:14:38.144.106 cdaq_evt[01989]: 2000 events [10.8 Hz].
+SEP 28 18:14:55.600.171 cdaq_evt[01990]: 2200 events [11.5 Hz].
+SEP 28 18:15:13.511.550 cdaq_evt[01991]: 2400 events [11.2 Hz].
+SEP 28 18:15:30.425.161 cdaq_evt[01992]: 2600 events [11.8 Hz].
+SEP 28 18:15:47.133.085 cdaq_evt[01993]: 2800 events [12.0 Hz].
+SEP 28 18:16:05.727.681 cdaq_evt[01994]: 3000 events [10.8 Hz].
+SEP 28 18:16:23.244.642 cdaq_evt[01995]: 3200 events [11.4 Hz].
+SEP 28 18:16:41.933.508 cdaq_evt[01996]: 3400 events [10.7 Hz].
+SEP 28 18:17:01.291.044 cdaq_evt[01997]: 3600 events [10.3 Hz].
+SEP 28 18:17:18.839.630 cdaq_evt[01998]: 3800 events [11.4 Hz].
+SEP 28 18:17:37.197.808 cdaq_evt[01999]: 4000 events [10.9 Hz].
+SEP 28 18:17:55.279.146 cdaq_evt[02000]: 4200 events [11.1 Hz].
+SEP 28 18:18:11.095.639 cdaq_evt[02001]: 4400 events [12.6 Hz].
+SEP 28 18:18:29.157.583 cdaq_evt[02002]: 4600 events [11.1 Hz].
+SEP 28 18:18:47.413.040 cdaq_evt[02003]: 4800 events [11.0 Hz].
+SEP 28 18:19:05.509.014 cdaq_evt[02004]: 5000 events [11.1 Hz].
+SEP 28 18:19:23.710.096 cdaq_evt[02005]: 5200 events [11.0 Hz].
+SEP 28 18:19:41.857.355 cdaq_evt[02006]: 5400 events [11.0 Hz].
+SEP 28 18:20:00.984.016 cdaq_evt[02007]: 5600 events [10.5 Hz].
+SEP 28 18:20:18.857.284 cdaq_evt[02008]: 5800 events [11.2 Hz].
+SEP 28 18:20:36.913.640 cdaq_evt[02009]: 6000 events [11.1 Hz].
+SEP 28 18:20:55.897.931 cdaq_evt[02010]: 6200 events [10.5 Hz].
+SEP 28 18:21:13.209.842 cdaq_evt[02011]: 6400 events [11.6 Hz].
+SEP 28 18:21:28.109.612 cdaq_cmd[01592]: DCommand: SCI_PEDESTAL_RUN SCD2, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 28 18:21:28.109.638 cdaq_cmd[01593]: DCommand: SCI_PEDESTAL_RUN SCD1, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 28 18:21:28.109.658 cdaq_cmd[01594]: DCommand: SCI_PEDESTAL_RUN SCD3, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 28 18:21:28.109.670 cdaq_cmd[01595]: DCommand: SCI_PEDESTAL_RUN SCD4, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 28 18:21:28.109.683 cdaq_cmd[01596]: DCommand: SCI_PEDESTAL_RUN TCD/BCD, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 28 18:21:28.126.683 cdaq_evt[02012]: CAL calibration event sending: on.
+SEP 28 18:21:28.126.695 cdaq_evt[02013]: scd_ped_update_run: 100 events to go.
+SEP 28 18:21:28.126.720 cdaq_evt[02014]: dispatch: 60430D0100000000.
+SEP 28 18:21:28.127.791 cdaq_evt[02015]: dispatch: 60430C0200000005.
+SEP 28 18:21:30.482.550 cdaq_evt[02016]: STV autoupdate[2]: 8 disabled, 2936 accepted, 0 rejected.
+SEP 28 18:21:31.107.459 cdaq_evt[02017]: SprsBox[4]: garbage data is cleared.
+SEP 28 18:21:31.107.591 cdaq_evt[02018]: dispatch: 60430D0100000001.
+SEP 28 18:21:31.109.229 cdaq_evt[02019]: dispatch: 60430C020000000C.
+SEP 28 18:21:31.112.199 cdaq_evt[02020]: end of stv autoupdate.
+SEP 28 18:21:31.112.375 cdaq_evt[02021]: CAL calibration event sending: on.
+SEP 28 18:21:31.112.389 cdaq_evt[02022]: scd_ped_update_run: 100 events to go.
+SEP 28 18:21:31.112.414 cdaq_evt[02023]: dispatch: 60430E0100000000.
+SEP 28 18:21:31.114.013 cdaq_evt[02024]: dispatch: 60430C0200000005.
+SEP 28 18:21:32.000.073 cdaq_evt[02025]: ERROR: SprsBox[1]: no data after 1 secs/trials.
+SEP 28 18:21:34.210.104 cdaq_evt[02026]: STV autoupdate[1]: 0 disabled, 2944 accepted, 0 rejected.
+SEP 28 18:21:35.435.794 cdaq_evt[02027]: SprsBox[4]: garbage data is cleared.
+SEP 28 18:21:35.435.926 cdaq_evt[02028]: dispatch: 60430E0100000001.
+SEP 28 18:21:35.437.174 cdaq_evt[02029]: dispatch: 60430C020000000C.
+SEP 28 18:21:35.440.491 cdaq_evt[02030]: end of stv autoupdate.
+SEP 28 18:21:35.440.667 cdaq_evt[02031]: CAL calibration event sending: on.
+SEP 28 18:21:35.440.685 cdaq_evt[02032]: scd_ped_update_run: 100 events to go.
+SEP 28 18:21:35.440.706 cdaq_evt[02033]: dispatch: 60430F0100000000.
+SEP 28 18:21:35.442.183 cdaq_evt[02034]: dispatch: 60430C0200000005.
+SEP 28 18:21:37.824.677 cdaq_evt[02035]: STV autoupdate[3]: 83 disabled, 2861 accepted, 0 rejected.
+SEP 28 18:21:39.048.243 cdaq_evt[02036]: SprsBox[4]: garbage data is cleared.
+SEP 28 18:21:39.048.375 cdaq_evt[02037]: dispatch: 60430F0100000001.
+SEP 28 18:21:39.049.493 cdaq_evt[02038]: dispatch: 60430C020000000C.
+SEP 28 18:21:39.052.930 cdaq_evt[02039]: end of stv autoupdate.
+SEP 28 18:21:39.053.102 cdaq_evt[02040]: CAL calibration event sending: on.
+SEP 28 18:21:39.053.121 cdaq_evt[02041]: scd_ped_update_run: 100 events to go.
+SEP 28 18:21:39.053.142 cdaq_evt[02042]: dispatch: 6043100100000000.
+SEP 28 18:21:39.054.243 cdaq_evt[02043]: dispatch: 60430C0200000005.
+SEP 28 18:21:41.617.992 cdaq_evt[02044]: STV autoupdate[4]: 63 disabled, 2881 accepted, 0 rejected.
+SEP 28 18:21:44.034.487 cdaq_evt[02045]: dispatch: 6043100100000001.
+SEP 28 18:21:44.035.605 cdaq_evt[02046]: dispatch: 60430C020000000C.
+SEP 28 18:21:44.039.163 cdaq_evt[02047]: end of stv autoupdate.
+SEP 28 18:21:44.039.360 cdaq_evt[02048]: CAL calibration event sending: on.
+SEP 28 18:21:44.039.373 cdaq_evt[02049]: cal ped autoupdate.
+SEP 28 18:21:44.039.380 cdaq_evt[02050]: cal_ped_update_run: 100 events to go.
+SEP 28 18:21:44.039.399 cdaq_evt[02051]: dispatch: 60431B0100000000.
+SEP 28 18:21:44.040.478 cdaq_evt[02052]: dispatch: 60430C0200000005.
+SEP 28 18:21:46.204.906 cdaq_evt[02053]: STV autoupdate[T]: 0 disabled, 1280 accepted, 0 rejected.
+SEP 28 18:21:48.031.865 cdaq_evt[02054]: SprsBox[4]: garbage data is cleared.
+SEP 28 18:21:48.031.997 cdaq_evt[02055]: dispatch: 60431B0100000001.
+SEP 28 18:21:48.033.118 cdaq_evt[02056]: dispatch: 60430C020000000C.
+SEP 28 18:21:48.036.560 cdaq_evt[02057]: end of stv autoupdate.
+SEP 28 18:21:49.000.092 cdaq_evt[02058]: ERROR: SprsBox[C]: no data after 1 secs/trials.
+SEP 28 18:21:50.000.068 cdaq_evt[02059]: ERROR: SprsBox[T]: no data after 1 secs/trials.
+SEP 28 18:21:51.001.093 cdaq_evt[02060]: ERROR: SprsBox[1]: no data after 1 secs/trials.
+SEP 28 18:21:52.000.012 cdaq_evt[02061]: ERROR: SprsBox[2]: no data after 1 secs/trials.
+SEP 28 18:21:53.000.860 cdaq_evt[02062]: ERROR: SprsBox[3]: no data after 1 secs/trials.
+SEP 28 18:21:54.000.708 cdaq_evt[02063]: ERROR: SprsBox[4]: no data after 1 secs/trials.
+SEP 28 18:22:00.735.433 cdaq_evt[02064]: 200 events [12.1 Hz].
+SEP 28 18:22:18.541.825 cdaq_evt[02065]: 400 events [11.2 Hz].
+SEP 28 18:22:36.611.062 cdaq_evt[02066]: 600 events [11.1 Hz].
+SEP 28 18:22:54.780.025 cdaq_evt[02067]: 800 events [11.0 Hz].
+SEP 28 18:23:13.182.334 cdaq_evt[02068]: 1000 events [10.9 Hz].
+SEP 28 18:23:30.941.864 cdaq_evt[02069]: 1200 events [11.3 Hz].
+SEP 28 18:23:48.318.779 cdaq_evt[02070]: 1400 events [11.5 Hz].
+SEP 28 18:24:05.159.634 cdaq_evt[02071]: 1600 events [11.9 Hz].
+SEP 28 18:24:22.516.975 cdaq_evt[02072]: 1800 events [11.5 Hz].
+SEP 28 18:24:39.975.299 cdaq_evt[02073]: 2000 events [11.5 Hz].
+SEP 28 18:24:56.017.882 cdaq_evt[02074]: 2200 events [12.5 Hz].
+SEP 28 18:25:15.429.738 cdaq_evt[02075]: 2400 events [10.3 Hz].
+SEP 28 18:25:34.704.786 cdaq_evt[02076]: 2600 events [10.4 Hz].
+SEP 28 18:25:51.487.216 cdaq_evt[02077]: 2800 events [11.9 Hz].
+SEP 28 18:26:10.440.435 cdaq_evt[02078]: 3000 events [10.6 Hz].
+SEP 28 18:26:27.545.065 cdaq_evt[02079]: 3200 events [11.7 Hz].
+SEP 28 18:26:44.723.308 cdaq_evt[02080]: 3400 events [11.6 Hz].
+SEP 28 18:27:05.126.185 cdaq_evt[02081]: 3600 events [9.8 Hz].
+SEP 28 18:27:22.273.685 cdaq_evt[02082]: 3800 events [11.7 Hz].
+SEP 28 18:27:39.173.224 cdaq_evt[02083]: 4000 events [11.8 Hz].
+SEP 28 18:27:56.012.393 cdaq_evt[02084]: 4200 events [11.9 Hz].
+SEP 28 18:28:13.241.766 cdaq_evt[02085]: 4400 events [11.6 Hz].
+SEP 28 18:28:30.761.821 cdaq_evt[02086]: 4600 events [11.4 Hz].
+SEP 28 18:28:49.919.150 cdaq_evt[02087]: 4800 events [10.4 Hz].
+SEP 28 18:29:07.421.207 cdaq_evt[02088]: 5000 events [11.4 Hz].
+SEP 28 18:29:27.049.200 cdaq_evt[02089]: 5200 events [10.2 Hz].
+SEP 28 18:29:47.302.413 cdaq_evt[02090]: 5400 events [9.9 Hz].
+SEP 28 18:30:05.077.720 cdaq_evt[02091]: 5600 events [11.3 Hz].
+SEP 28 18:30:23.891.866 cdaq_evt[02092]: 5800 events [10.6 Hz].
+SEP 28 18:30:40.726.544 cdaq_evt[02093]: 6000 events [11.9 Hz].
+SEP 28 18:31:01.155.537 cdaq_evt[02094]: 6200 events [9.8 Hz].
+SEP 28 18:31:18.047.827 cdaq_evt[02095]: 6400 events [11.8 Hz].
+SEP 28 18:31:29.074.915 cdaq_cmd[01597]: DCommand: SCI_SPI CAL, SEND.
+SEP 28 18:31:29.074.938 cdaq_cmd[01598]: DCommand: SCI_SPI SCD2, SEND.
+SEP 28 18:31:29.074.948 cdaq_cmd[01599]: DCommand: SCI_SPI SCD1, SEND.
+SEP 28 18:31:29.074.959 cdaq_cmd[01600]: DCommand: SCI_SPI SCD3, SEND.
+SEP 28 18:31:29.074.969 cdaq_cmd[01601]: DCommand: SCI_SPI SCD4, SEND.
+SEP 28 18:31:29.074.978 cdaq_cmd[01602]: DCommand: SCI_SPI TCD/BCD, SEND.
+SEP 28 18:31:29.074.992 cdaq_cmd[01603]: DCommand: SCI_PEDESTAL_RUN CAL, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 28 18:31:29.075.004 cdaq_cmd[01604]: DCommand: SCI_PEDESTAL_RUN SCD2, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 28 18:31:29.075.015 cdaq_cmd[01605]: DCommand: SCI_PEDESTAL_RUN SCD1, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 28 18:31:29.075.027 cdaq_cmd[01606]: DCommand: SCI_PEDESTAL_RUN SCD3, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 28 18:31:29.075.039 cdaq_cmd[01607]: DCommand: SCI_PEDESTAL_RUN SCD4, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 28 18:31:29.075.050 cdaq_cmd[01608]: DCommand: SCI_PEDESTAL_RUN TCD/BCD, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 28 18:31:29.075.062 cdaq_cmd[01609]: DCommand: SCI_LED_RUN BSD, 3000, RAW = OFF, SUMMARY = ON.
+SEP 28 18:31:29.147.639 cdaq_evt[02096]: CAL stv info requested.
+SEP 28 18:31:29.147.947 cdaq_evt[02097]: SCD stv info requested.
+SEP 28 18:31:29.148.238 cdaq_evt[02098]: SCD stv info requested.
+SEP 28 18:31:29.148.521 cdaq_evt[02099]: SCD stv info requested.
+SEP 28 18:31:29.148.810 cdaq_evt[02100]: SCD stv info requested.
+SEP 28 18:31:29.149.114 cdaq_evt[02101]: CAL stv info requested.
+SEP 28 18:31:29.149.261 cdaq_evt[02102]: CAL calibration event sending: on.
+SEP 28 18:31:29.149.270 cdaq_evt[02103]: cal ped autoupdate.
+SEP 28 18:31:29.149.277 cdaq_evt[02104]: cal_ped_update_run: 100 events to go.
+SEP 28 18:31:29.149.307 cdaq_evt[02105]: dispatch: 6043090100000000.
+SEP 28 18:31:29.151.089 cdaq_evt[02106]: dispatch: 60430C0200000005.
+SEP 28 18:31:31.408.393 cdaq_evt[02107]: STV autoupdate[C]: 40 disabled, 2520 accepted, 0 rejected.
+SEP 28 18:31:31.415.269 cdaq_evt[02108]: SprsBox[1]: garbage data is cleared.
+SEP 28 18:31:32.635.838 cdaq_evt[02109]: SprsBox[4]: garbage data is cleared.
+SEP 28 18:31:32.635.967 cdaq_evt[02110]: dispatch: 6043090100000001.
+SEP 28 18:31:32.637.084 cdaq_evt[02111]: dispatch: 60430C020000000C.
+SEP 28 18:31:32.640.381 cdaq_evt[02112]: end of stv autoupdate.
+SEP 28 18:31:32.640.543 cdaq_evt[02113]: CAL calibration event sending: on.
+SEP 28 18:31:32.640.557 cdaq_evt[02114]: scd_ped_update_run: 100 events to go.
+SEP 28 18:31:32.640.579 cdaq_evt[02115]: dispatch: 60430D0100000000.
+SEP 28 18:31:32.642.007 cdaq_evt[02116]: dispatch: 60430C0200000005.
+SEP 28 18:31:33.000.404 cdaq_evt[02117]: ERROR: SprsBox[2]: no data after 1 secs/trials.
+SEP 28 18:31:35.189.814 cdaq_evt[02118]: STV autoupdate[2]: 8 disabled, 2936 accepted, 0 rejected.
+SEP 28 18:31:36.415.129 cdaq_evt[02119]: SprsBox[4]: garbage data is cleared.
+SEP 28 18:31:36.415.261 cdaq_evt[02120]: dispatch: 60430D0100000001.
+SEP 28 18:31:36.416.379 cdaq_evt[02121]: dispatch: 60430C020000000C.
+SEP 28 18:31:36.419.824 cdaq_evt[02122]: end of stv autoupdate.
+SEP 28 18:31:36.419.993 cdaq_evt[02123]: CAL calibration event sending: on.
+SEP 28 18:31:36.420.012 cdaq_evt[02124]: scd_ped_update_run: 100 events to go.
+SEP 28 18:31:36.420.033 cdaq_evt[02125]: dispatch: 60430E0100000000.
+SEP 28 18:31:36.421.516 cdaq_evt[02126]: dispatch: 60430C0200000005.
+SEP 28 18:31:38.717.025 cdaq_evt[02127]: STV autoupdate[1]: 0 disabled, 2944 accepted, 0 rejected.
+SEP 28 18:31:39.939.590 cdaq_evt[02128]: SprsBox[4]: garbage data is cleared.
+SEP 28 18:31:39.939.722 cdaq_evt[02129]: dispatch: 60430E0100000001.
+SEP 28 18:31:39.940.841 cdaq_evt[02130]: dispatch: 60430C020000000C.
+SEP 28 18:31:39.943.256 cdaq_evt[02131]: end of stv autoupdate.
+SEP 28 18:31:39.943.435 cdaq_evt[02132]: CAL calibration event sending: on.
+SEP 28 18:31:39.943.442 cdaq_evt[02133]: scd_ped_update_run: 100 events to go.
+SEP 28 18:31:39.943.464 cdaq_evt[02134]: dispatch: 60430F0100000000.
+SEP 28 18:31:39.944.480 cdaq_evt[02135]: dispatch: 60430C0200000005.
+SEP 28 18:31:42.333.721 cdaq_evt[02136]: STV autoupdate[3]: 83 disabled, 2861 accepted, 0 rejected.
+SEP 28 18:31:44.158.942 cdaq_evt[02137]: SprsBox[4]: garbage data is cleared.
+SEP 28 18:31:44.159.078 cdaq_evt[02138]: dispatch: 60430F0100000001.
+SEP 28 18:31:44.160.193 cdaq_evt[02139]: dispatch: 60430C020000000C.
+SEP 28 18:31:44.163.611 cdaq_evt[02140]: end of stv autoupdate.
+SEP 28 18:31:44.163.807 cdaq_evt[02141]: CAL calibration event sending: on.
+SEP 28 18:31:44.163.820 cdaq_evt[02142]: scd_ped_update_run: 100 events to go.
+SEP 28 18:31:44.163.842 cdaq_evt[02143]: dispatch: 6043100100000000.
+SEP 28 18:31:44.164.826 cdaq_evt[02144]: dispatch: 60430C0200000005.
+SEP 28 18:31:46.487.334 cdaq_evt[02145]: STV autoupdate[4]: 63 disabled, 2881 accepted, 0 rejected.
+SEP 28 18:31:48.899.975 cdaq_evt[02146]: dispatch: 6043100100000001.
+SEP 28 18:31:48.901.094 cdaq_evt[02147]: dispatch: 60430C020000000C.
+SEP 28 18:31:48.904.874 cdaq_evt[02148]: end of stv autoupdate.
+SEP 28 18:31:48.905.057 cdaq_evt[02149]: CAL calibration event sending: on.
+SEP 28 18:31:48.905.073 cdaq_evt[02150]: cal ped autoupdate.
+SEP 28 18:31:48.905.080 cdaq_evt[02151]: cal_ped_update_run: 100 events to go.
+SEP 28 18:31:48.905.099 cdaq_evt[02152]: dispatch: 60431B0100000000.
+SEP 28 18:31:48.906.092 cdaq_evt[02153]: dispatch: 60430C0200000005.
+SEP 28 18:31:50.941.400 cdaq_evt[02154]: STV autoupdate[T]: 0 disabled, 1280 accepted, 0 rejected.
+SEP 28 18:31:53.366.534 cdaq_evt[02155]: SprsBox[4]: garbage data is cleared.
+SEP 28 18:31:53.366.667 cdaq_evt[02156]: dispatch: 60431B0100000001.
+SEP 28 18:31:53.367.786 cdaq_evt[02157]: dispatch: 60430C020000000C.
+SEP 28 18:31:53.370.196 cdaq_evt[02158]: end of stv autoupdate.
+SEP 28 18:31:53.371.248 cdaq_evt[02159]: LED calibration event sending: off.
+SEP 28 18:31:53.371.262 cdaq_evt[02160]: loop parameters 60, 100, 40.
+SEP 28 18:31:53.372.781 cdaq_evt[02161]: dispatch: 60430C0200000000.
+SEP 28 18:31:53.373.782 cdaq_evt[02162]: BSD Pedestal run.
+SEP 28 18:31:53.373.794 cdaq_evt[02163]: dispatch: 60430C0200000004.
+SEP 28 18:31:54.944.551 cdaq_evt[02164]: 200 events [136.4 Hz].
+SEP 28 18:31:56.489.187 cdaq_evt[02165]: 400 events [129.5 Hz].
+SEP 28 18:31:58.048.946 cdaq_evt[02166]: 600 events [128.2 Hz].
+SEP 28 18:31:59.545.719 cdaq_evt[02167]: 800 events [133.6 Hz].
+SEP 28 18:32:01.049.492 cdaq_evt[02168]: 1000 events [133.0 Hz].
+SEP 28 18:32:02.576.256 cdaq_evt[02169]: 1200 events [131.0 Hz].
+SEP 28 18:32:04.041.035 cdaq_evt[02170]: 1400 events [136.5 Hz].
+SEP 28 18:32:05.536.801 cdaq_evt[02171]: 1600 events [133.7 Hz].
+SEP 28 18:32:07.072.569 cdaq_evt[02172]: 1800 events [130.2 Hz].
+SEP 28 18:32:08.575.336 cdaq_evt[02173]: 2000 events [133.1 Hz].
+SEP 28 18:32:10.064.108 cdaq_evt[02174]: 2200 events [134.3 Hz].
+SEP 28 18:32:11.575.876 cdaq_evt[02175]: 2400 events [132.3 Hz].
+SEP 28 18:32:12.958.668 cdaq_evt[02176]: 2600 events [144.6 Hz].
+SEP 28 18:32:14.319.709 cdaq_evt[02177]: 2800 events [146.9 Hz].
+SEP 28 18:32:15.647.256 cdaq_evt[02178]: 3000 events [150.7 Hz].
+SEP 28 18:32:17.071.038 cdaq_evt[02179]: 3200 events [140.5 Hz].
+SEP 28 18:32:17.615.958 cdaq_evt[02180]: dispatch: 60430C0200000000.
+SEP 28 18:32:17.616.941 cdaq_evt[02181]: BSD Pedestal End.
+SEP 28 18:32:17.617.319 cdaq_evt[02182]: dispatch: 60430C020000000C.
+SEP 28 18:32:17.722.472 cdaq_evt[02183]: BSDLed: starting (loop parameters 51, 51, 40; 3000 events each).
+SEP 28 18:32:17.722.802 cdaq_evt[02184]: dispatch: 60430C0200000000.
+SEP 28 18:32:17.723.805 cdaq_evt[02185]: dispatch: 60430C0400000001.
+SEP 28 18:32:17.724.803 cdaq_evt[02186]: dispatch: 60430C0100000033.
+SEP 28 18:32:17.725.927 cdaq_evt[02187]: dispatch: 60430C0500001133.
+SEP 28 18:32:17.726.929 cdaq_evt[02188]: dispatch: 60430C0200000004.
+SEP 28 18:32:20.856.321 cdaq_evt[02189]: SprsBox[4]: garbage data is cleared.
+SEP 28 18:32:21.742.319 cdaq_evt[02190]: 3400 events [42.8 Hz].
+SEP 28 18:32:23.095.116 cdaq_evt[02191]: 3600 events [147.8 Hz].
+SEP 28 18:32:24.438.911 cdaq_evt[02192]: 3800 events [148.8 Hz].
+SEP 28 18:32:25.813.825 cdaq_evt[02193]: 4000 events [145.5 Hz].
+SEP 28 18:32:27.205.735 cdaq_evt[02194]: 4200 events [143.7 Hz].
+SEP 28 18:32:28.623.269 cdaq_evt[02195]: 4400 events [141.1 Hz].
+SEP 28 18:32:30.007.056 cdaq_evt[02196]: 4600 events [144.5 Hz].
+SEP 28 18:32:31.375.344 cdaq_evt[02197]: 4800 events [146.2 Hz].
+SEP 28 18:32:32.885.611 cdaq_evt[02198]: 5000 events [132.4 Hz].
+SEP 28 18:32:34.325.392 cdaq_evt[02199]: 5200 events [138.9 Hz].
+SEP 28 18:32:35.796.169 cdaq_evt[02200]: 5400 events [136.0 Hz].
+SEP 28 18:32:37.196.956 cdaq_evt[02201]: 5600 events [142.8 Hz].
+SEP 28 18:32:38.564.748 cdaq_evt[02202]: 5800 events [146.2 Hz].
+SEP 28 18:32:39.949.534 cdaq_evt[02203]: 6000 events [144.4 Hz].
+SEP 28 18:32:41.364.568 cdaq_evt[02204]: 6200 events [141.3 Hz].
+SEP 28 18:32:42.788.219 cdaq_evt[02205]: 6400 events [140.5 Hz].
+SEP 28 18:32:44.332.859 cdaq_evt[02206]: 6600 events [129.5 Hz].
+SEP 28 18:32:44.981.765 cdaq_evt[02207]: dispatch: 60430C0200000000.
+SEP 28 18:32:44.982.751 cdaq_evt[02208]: dispatch: 60430C0300000000.
+SEP 28 18:32:44.983.752 cdaq_evt[02209]: dispatch: 60430C0400000000.
+SEP 28 18:32:44.985.253 cdaq_evt[02210]: dispatch: 60430C020000000C.
+SEP 28 18:32:45.089.305 cdaq_evt[02211]: BSDLed: starting (loop parameters 60, 51, 40; 3000 events each).
+SEP 28 18:32:45.091.485 cdaq_evt[02212]: dispatch: 60430C0200000000.
+SEP 28 18:32:45.092.488 cdaq_evt[02213]: dispatch: 60430C0400000001.
+SEP 28 18:32:45.093.612 cdaq_evt[02214]: dispatch: 60430C010000003C.
+SEP 28 18:32:45.094.734 cdaq_evt[02215]: dispatch: 60430C0500001133.
+SEP 28 18:32:45.095.736 cdaq_evt[02216]: dispatch: 60430C0200000004.
+SEP 28 18:32:45.216.591 cdaq_evt[02217]: SprsBox[C]: garbage data is cleared.
+SEP 28 18:32:45.230.587 cdaq_evt[02218]: SprsBox[T]: garbage data is cleared.
+SEP 28 18:32:47.052.312 cdaq_evt[02219]: SprsBox[4]: garbage data is cleared.
+SEP 28 18:32:47.900.315 cdaq_evt[02220]: 6800 events [56.1 Hz].
+SEP 28 18:32:49.420.082 cdaq_evt[02221]: 7000 events [131.6 Hz].
+SEP 28 18:32:50.955.848 cdaq_evt[02222]: 7200 events [130.2 Hz].
+SEP 28 18:32:52.491.620 cdaq_evt[02223]: 7400 events [130.2 Hz].
+SEP 28 18:32:54.011.379 cdaq_evt[02224]: 7600 events [131.6 Hz].
+SEP 28 18:32:55.508.148 cdaq_evt[02225]: 7800 events [133.6 Hz].
+SEP 28 18:32:57.058.912 cdaq_evt[02226]: 8000 events [129.0 Hz].
+SEP 28 18:32:58.530.814 cdaq_evt[02227]: 8200 events [135.9 Hz].
+SEP 28 18:33:00.059.466 cdaq_evt[02228]: 8400 events [130.8 Hz].
+SEP 28 18:33:01.603.345 cdaq_evt[02229]: 8600 events [129.5 Hz].
+SEP 28 18:33:03.139.108 cdaq_evt[02230]: 8800 events [130.2 Hz].
+SEP 28 18:33:04.635.754 cdaq_evt[02231]: 9000 events [133.6 Hz].
+SEP 28 18:33:06.154.518 cdaq_evt[02232]: 9200 events [131.7 Hz].
+SEP 28 18:33:07.643.290 cdaq_evt[02233]: 9400 events [134.3 Hz].
+SEP 28 18:33:09.154.059 cdaq_evt[02234]: 9600 events [132.4 Hz].
+SEP 28 18:33:10.618.961 cdaq_evt[02235]: 9800 events [136.5 Hz].
+SEP 28 18:33:11.145.882 cdaq_evt[02236]: dispatch: 60430C0200000000.
+SEP 28 18:33:11.146.995 cdaq_evt[02237]: dispatch: 60430C0300000000.
+SEP 28 18:33:11.147.995 cdaq_evt[02238]: dispatch: 60430C0400000000.
+SEP 28 18:33:11.150.496 cdaq_evt[02239]: dispatch: 60430C020000000C.
+SEP 28 18:33:14.255.823 cdaq_evt[02240]: end of BSD LED run.
+SEP 28 18:33:14.400.124 cdaq_evt[02241]: SprsBox[4]: garbage data is cleared.
+SEP 28 18:33:15.416.967 cdaq_evt[02242]: SprsBox[T]: garbage data is cleared.
+SEP 28 18:33:15.516.951 cdaq_evt[02243]: SprsBox[3]: garbage data is cleared.
+SEP 28 18:33:15.707.923 cdaq_evt[02244]: SprsBox[1]: garbage data is cleared.
+SEP 28 18:33:15.793.909 cdaq_evt[02245]: SprsBox[2]: garbage data is cleared.
+SEP 28 18:33:15.893.895 cdaq_evt[02246]: SprsBox[4]: garbage data is cleared.
+SEP 28 18:33:27.517.626 cdaq_evt[02247]: 10000 events [11.8 Hz].
+SEP 28 18:33:45.011.176 cdaq_evt[02248]: 10200 events [11.4 Hz].
+SEP 28 18:33:59.492.357 cdaq_evt[02249]: 10400 events [13.8 Hz].
+SEP 28 18:34:16.848.305 cdaq_evt[02250]: 10600 events [11.5 Hz].
+SEP 28 18:34:35.086.549 cdaq_evt[02251]: 10800 events [11.0 Hz].
+SEP 28 18:34:52.749.194 cdaq_evt[02252]: 11000 events [11.3 Hz].
+SEP 28 18:35:11.097.024 cdaq_evt[02253]: 11200 events [10.9 Hz].
+SEP 28 18:35:28.942.322 cdaq_evt[02254]: 11400 events [11.2 Hz].
+SEP 28 18:35:45.871.185 cdaq_evt[02255]: 11600 events [11.8 Hz].
+SEP 28 18:36:03.607.720 cdaq_evt[02256]: 11800 events [11.3 Hz].
+SEP 28 18:36:22.818.387 cdaq_evt[02257]: 12000 events [10.4 Hz].
+SEP 28 18:36:39.644.826 cdaq_evt[02258]: 12200 events [11.9 Hz].
+SEP 28 18:36:57.011.414 cdaq_evt[02259]: 12400 events [11.5 Hz].
+SEP 28 18:37:15.232.501 cdaq_evt[02260]: 12600 events [11.0 Hz].
+SEP 28 18:37:31.953.313 cdaq_evt[02261]: 12800 events [12.0 Hz].
+SEP 28 18:37:50.675.708 cdaq_evt[02262]: 13000 events [10.7 Hz].
+SEP 28 18:38:07.014.614 cdaq_evt[02263]: 13200 events [12.2 Hz].
+SEP 28 18:38:26.753.179 cdaq_evt[02264]: 13400 events [10.1 Hz].
+SEP 28 18:38:44.010.536 cdaq_evt[02265]: 13600 events [11.6 Hz].
+SEP 28 18:38:59.806.484 cdaq_evt[02266]: 13800 events [12.7 Hz].
+SEP 28 18:39:10.000.289 cdaq_evt[02267]: ERROR: SprsBox[C]: no data after 1 secs/trials.
+SEP 28 18:39:11.000.262 cdaq_evt[02268]: ERROR: SprsBox[2]: no data after 1 secs/trials.
+SEP 28 18:39:12.000.112 cdaq_evt[02269]: ERROR: SprsBox[3]: no data after 1 secs/trials.
+SEP 28 18:39:13.001.135 cdaq_evt[02270]: ERROR: SprsBox[4]: no data after 1 secs/trials.
+SEP 28 18:39:23.009.307 cdaq_evt[02271]: 14000 events [8.6 Hz].
+SEP 28 18:39:41.210.890 cdaq_evt[02272]: 14200 events [11.0 Hz].
+SEP 28 18:39:58.702.963 cdaq_evt[02273]: 14400 events [11.4 Hz].
+SEP 28 18:40:16.006.311 cdaq_evt[02274]: 14600 events [11.6 Hz].
+SEP 28 18:40:33.556.252 cdaq_evt[02275]: 14800 events [11.4 Hz].
+SEP 28 18:40:51.496.501 cdaq_evt[02276]: 15000 events [11.1 Hz].
+SEP 28 18:41:08.420.525 cdaq_evt[02277]: 15200 events [11.8 Hz].
+SEP 28 18:41:27.410.634 cdaq_evt[02278]: 15400 events [10.5 Hz].
+SEP 28 18:41:30.037.213 cdaq_cmd[01610]: DCommand: SCI_PEDESTAL_RUN SCD2, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 28 18:41:30.037.241 cdaq_cmd[01611]: DCommand: SCI_PEDESTAL_RUN SCD1, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 28 18:41:30.037.252 cdaq_cmd[01612]: DCommand: SCI_PEDESTAL_RUN SCD3, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 28 18:41:30.037.264 cdaq_cmd[01613]: DCommand: SCI_PEDESTAL_RUN SCD4, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 28 18:41:30.037.276 cdaq_cmd[01614]: DCommand: SCI_PEDESTAL_RUN TCD/BCD, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 28 18:41:30.143.448 cdaq_evt[02279]: CAL calibration event sending: on.
+SEP 28 18:41:30.143.457 cdaq_evt[02280]: scd_ped_update_run: 100 events to go.
+SEP 28 18:41:30.143.482 cdaq_evt[02281]: dispatch: 60430D0100000000.
+SEP 28 18:41:30.144.577 cdaq_evt[02282]: dispatch: 60430C0200000005.
+SEP 28 18:41:33.662.034 cdaq_evt[02284]: SprsBox[4]: garbage data is cleared.
+SEP 28 18:41:33.662.168 cdaq_evt[02285]: dispatch: 60430D0100000001.
+SEP 28 18:41:33.663.288 cdaq_evt[02286]: dispatch: 60430C020000000C.
+SEP 28 18:41:33.666.671 cdaq_evt[02287]: end of stv autoupdate.
+SEP 28 18:41:33.666.862 cdaq_evt[02288]: CAL calibration event sending: on.
+SEP 28 18:41:33.666.874 cdaq_evt[02289]: scd_ped_update_run: 100 events to go.
+SEP 28 18:41:33.666.896 cdaq_evt[02290]: dispatch: 60430E0100000000.
+SEP 28 18:41:33.667.911 cdaq_evt[02291]: dispatch: 60430C0200000005.
+SEP 28 18:41:39.427.525 cdaq_evt[02301]: STV autoupdate[3]: 83 disabled, 2861 accepted, 0 rejected.
+SEP 28 18:41:40.651.968 cdaq_evt[02302]: SprsBox[4]: garbage data is cleared.
+SEP 28 18:41:40.652.113 cdaq_evt[02303]: dispatch: 60430F0100000001.
+SEP 28 18:41:40.653.217 cdaq_evt[02304]: dispatch: 60430C020000000C.
+SEP 28 18:41:40.656.610 cdaq_evt[02305]: end of stv autoupdate.
+SEP 28 18:41:40.656.783 cdaq_evt[02306]: CAL calibration event sending: on.
+SEP 28 18:41:40.656.797 cdaq_evt[02307]: scd_ped_update_run: 100 events to go.
+SEP 28 18:41:40.656.819 cdaq_evt[02308]: dispatch: 6043100100000000.
+SEP 28 18:41:40.657.842 cdaq_evt[02309]: dispatch: 60430C0200000005.
+SEP 28 18:41:42.869.265 cdaq_evt[02310]: STV autoupdate[4]: 63 disabled, 2881 accepted, 0 rejected.
+SEP 28 18:41:43.481.164 cdaq_evt[02311]: dispatch: 6043100100000001.
+SEP 28 18:41:43.482.287 cdaq_evt[02312]: dispatch: 60430C020000000C.
+SEP 28 18:41:43.486.293 cdaq_evt[02313]: end of stv autoupdate.
+SEP 28 18:41:43.486.500 cdaq_evt[02314]: CAL calibration event sending: on.
+SEP 28 18:41:43.486.518 cdaq_evt[02315]: cal ped autoupdate.
+SEP 28 18:41:43.486.527 cdaq_evt[02316]: cal_ped_update_run: 100 events to go.
+SEP 28 18:41:43.486.549 cdaq_evt[02317]: dispatch: 60431B0100000000.
+SEP 28 18:41:43.487.922 cdaq_evt[02318]: dispatch: 60430C0200000005.
+SEP 28 18:41:45.561.709 cdaq_evt[02319]: STV autoupdate[T]: 0 disabled, 1280 accepted, 0 rejected.
+SEP 28 18:41:47.385.934 cdaq_evt[02320]: SprsBox[4]: garbage data is cleared.
+SEP 28 18:41:47.386.065 cdaq_evt[02321]: dispatch: 60431B0100000001.
+SEP 28 18:41:47.387.184 cdaq_evt[02322]: dispatch: 60430C020000000C.
+SEP 28 18:41:47.389.585 cdaq_evt[02323]: end of stv autoupdate.
+SEP 28 18:41:53.901.587 cdaq_evt[02324]: 200 events [19.4 Hz].
+SEP 28 18:42:12.211.774 cdaq_evt[02325]: 400 events [10.9 Hz].
+SEP 28 18:42:30.390.860 cdaq_evt[02326]: 600 events [11.0 Hz].
+SEP 28 18:42:48.641.938 cdaq_evt[02327]: 800 events [11.0 Hz].
+SEP 28 18:43:07.586.036 cdaq_evt[02328]: 1000 events [10.6 Hz].
+SEP 28 18:43:25.984.346 cdaq_evt[02329]: 1200 events [10.9 Hz].
+SEP 28 18:43:43.696.131 cdaq_evt[02330]: 1400 events [11.3 Hz].
+SEP 28 18:44:00.701.242 cdaq_evt[02331]: 1600 events [11.8 Hz].
+SEP 28 18:44:17.851.616 cdaq_evt[02332]: 1800 events [11.7 Hz].
+SEP 28 18:44:35.141.009 cdaq_evt[02333]: 2000 events [11.6 Hz].
+SEP 28 18:44:53.249.217 cdaq_evt[02334]: 2200 events [11.0 Hz].
+SEP 28 18:45:11.672.406 cdaq_evt[02335]: 2400 events [10.9 Hz].
+SEP 28 18:45:27.945.916 cdaq_evt[02336]: 2600 events [12.3 Hz].
+SEP 28 18:45:45.001.315 cdaq_evt[02337]: 2800 events [11.7 Hz].
+SEP 28 18:46:00.784.913 cdaq_evt[02338]: 3000 events [12.7 Hz].
+SEP 28 18:46:19.692.008 cdaq_evt[02339]: 3200 events [10.6 Hz].
+SEP 28 18:46:37.731.227 cdaq_evt[02340]: 3400 events [11.1 Hz].
+SEP 28 18:46:54.593.523 cdaq_evt[02341]: 3600 events [11.9 Hz].
+SEP 28 18:47:13.332.528 cdaq_evt[02342]: 3800 events [10.7 Hz].
+SEP 28 18:47:31.221.125 cdaq_evt[02343]: 4000 events [11.2 Hz].
+SEP 28 18:47:47.312.694 cdaq_evt[02344]: 4200 events [12.4 Hz].
+SEP 28 18:48:05.851.001 cdaq_evt[02345]: 4400 events [10.8 Hz].
+SEP 28 18:48:25.026.937 cdaq_evt[02346]: 4600 events [10.4 Hz].
+SEP 28 18:48:40.783.633 cdaq_evt[02347]: 4800 events [12.7 Hz].
+SEP 28 18:48:59.585.656 cdaq_evt[02348]: 5000 events [10.6 Hz].
+SEP 28 18:49:18.988.665 cdaq_evt[02349]: 5200 events [10.3 Hz].
+SEP 28 18:49:38.670.656 cdaq_evt[02350]: 5400 events [10.2 Hz].
+SEP 28 18:49:55.824.766 cdaq_evt[02351]: 5600 events [11.7 Hz].
+SEP 28 18:50:16.002.799 cdaq_evt[02352]: 5800 events [9.9 Hz].
+SEP 28 18:50:34.762.054 cdaq_evt[02353]: 6000 events [10.7 Hz].
+SEP 28 18:50:52.801.290 cdaq_evt[02354]: 6200 events [11.1 Hz].
+SEP 28 18:51:11.413.191 cdaq_evt[02355]: 6400 events [10.7 Hz].
+SEP 28 18:51:29.789.755 cdaq_evt[02356]: 6600 events [10.9 Hz].
+SEP 28 18:51:31.007.547 cdaq_cmd[01615]: DCommand: SCI_PEDESTAL_RUN SCD2, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 28 18:51:31.007.572 cdaq_cmd[01616]: DCommand: SCI_PEDESTAL_RUN SCD1, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 28 18:51:31.007.583 cdaq_cmd[01617]: DCommand: SCI_PEDESTAL_RUN SCD3, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 28 18:51:31.007.594 cdaq_cmd[01618]: DCommand: SCI_PEDESTAL_RUN SCD4, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 28 18:51:31.007.606 cdaq_cmd[01619]: DCommand: SCI_PEDESTAL_RUN TCD/BCD, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 28 18:51:31.050.546 cdaq_evt[02357]: CAL calibration event sending: on.
+SEP 28 18:51:31.050.558 cdaq_evt[02358]: scd_ped_update_run: 100 events to go.
+SEP 28 18:51:31.050.583 cdaq_evt[02359]: dispatch: 60430D0100000000.
+SEP 28 18:51:31.051.676 cdaq_evt[02360]: dispatch: 60430C0200000005.
+SEP 28 18:51:33.523.794 cdaq_evt[02361]: STV autoupdate[2]: 8 disabled, 2936 accepted, 0 rejected.
+SEP 28 18:51:35.953.173 cdaq_evt[02362]: SprsBox[4]: garbage data is cleared.
+SEP 28 18:51:35.953.303 cdaq_evt[02363]: dispatch: 60430D0100000001.
+SEP 28 18:51:35.954.541 cdaq_evt[02364]: dispatch: 60430C020000000C.
+SEP 28 18:51:35.957.790 cdaq_evt[02365]: end of stv autoupdate.
+SEP 28 18:51:35.957.978 cdaq_evt[02366]: CAL calibration event sending: on.
+SEP 28 18:51:35.957.985 cdaq_evt[02367]: scd_ped_update_run: 100 events to go.
+SEP 28 18:51:35.958.006 cdaq_evt[02368]: dispatch: 60430E0100000000.
+SEP 28 18:51:35.959.424 cdaq_evt[02369]: dispatch: 60430C0200000005.
+SEP 28 18:51:45.518.205 cdaq_evt[02388]: STV autoupdate[4]: 63 disabled, 2881 accepted, 0 rejected.
+SEP 28 18:51:46.731.657 cdaq_evt[02389]: dispatch: 6043100100000001.
+SEP 28 18:51:46.732.899 cdaq_evt[02390]: dispatch: 60430C020000000C.
+SEP 28 18:51:46.735.155 cdaq_evt[02391]: end of stv autoupdate.
+SEP 28 18:51:46.735.355 cdaq_evt[02392]: CAL calibration event sending: on.
+SEP 28 18:51:46.735.370 cdaq_evt[02393]: cal ped autoupdate.
+SEP 28 18:51:46.735.377 cdaq_evt[02394]: cal_ped_update_run: 100 events to go.
+SEP 28 18:51:46.735.398 cdaq_evt[02395]: dispatch: 60431B0100000000.
+SEP 28 18:51:46.736.522 cdaq_evt[02396]: dispatch: 60430C0200000005.
+SEP 28 18:51:48.786.457 cdaq_evt[02397]: STV autoupdate[T]: 0 disabled, 1280 accepted, 0 rejected.
+SEP 28 18:51:50.612.928 cdaq_evt[02398]: SprsBox[4]: garbage data is cleared.
+SEP 28 18:51:50.613.061 cdaq_evt[02399]: dispatch: 60431B0100000001.
+SEP 28 18:51:50.614.181 cdaq_evt[02400]: dispatch: 60430C020000000C.
+SEP 28 18:51:50.617.573 cdaq_evt[02401]: end of stv autoupdate.
+SEP 28 18:51:58.997.267 cdaq_evt[02402]: 200 events [16.5 Hz].
+SEP 28 18:52:16.637.597 cdaq_evt[02403]: 400 events [11.3 Hz].
+SEP 28 18:52:35.129.868 cdaq_evt[02404]: 600 events [10.8 Hz].
+SEP 28 18:52:51.840.689 cdaq_evt[02405]: 800 events [12.0 Hz].
+SEP 28 18:53:09.693.459 cdaq_evt[02406]: 1000 events [11.2 Hz].
+SEP 28 18:53:26.842.579 cdaq_evt[02407]: 1200 events [11.7 Hz].
+SEP 28 18:53:47.429.425 cdaq_evt[02408]: 1400 events [9.7 Hz].
+SEP 28 18:54:08.863.141 cdaq_evt[02409]: 1600 events [9.3 Hz].
+SEP 28 18:54:25.847.168 cdaq_evt[02410]: 1800 events [11.8 Hz].
+SEP 28 18:54:44.050.076 cdaq_evt[02411]: 2000 events [11.0 Hz].
+SEP 28 18:55:01.323.441 cdaq_evt[02412]: 2200 events [11.6 Hz].
+SEP 28 18:55:18.348.878 cdaq_evt[02413]: 2400 events [11.7 Hz].
+SEP 28 18:55:34.887.340 cdaq_evt[02414]: 2600 events [12.1 Hz].
+SEP 28 18:55:51.535.791 cdaq_evt[02415]: 2800 events [12.0 Hz].
+SEP 28 18:56:09.391.313 cdaq_evt[02416]: 3000 events [11.2 Hz].
+SEP 28 18:56:27.591.397 cdaq_evt[02417]: 3200 events [11.0 Hz].
+SEP 28 18:56:46.022.486 cdaq_evt[02418]: 3400 events [10.9 Hz].
+SEP 28 18:57:02.296.709 cdaq_evt[02419]: 3600 events [12.3 Hz].
+SEP 28 18:57:19.195.245 cdaq_evt[02420]: 3800 events [11.8 Hz].
+SEP 28 18:57:38.365.313 cdaq_evt[02421]: 4000 events [10.4 Hz].
+SEP 28 18:57:55.225.853 cdaq_evt[02422]: 4200 events [11.9 Hz].
+SEP 28 18:58:10.961.191 cdaq_evt[02423]: 4400 events [12.7 Hz].
+SEP 28 18:58:29.147.534 cdaq_evt[02424]: 4600 events [11.0 Hz].
+SEP 28 18:58:47.566.958 cdaq_evt[02425]: 4800 events [10.9 Hz].
+SEP 28 18:59:05.883.278 cdaq_evt[02426]: 5000 events [10.9 Hz].
+SEP 28 18:59:24.149.377 cdaq_evt[02427]: 5200 events [10.9 Hz].
+SEP 28 18:59:42.551.567 cdaq_evt[02428]: 5400 events [10.9 Hz].
+SEP 28 19:00:01.836.848 cdaq_evt[02429]: 5600 events [10.4 Hz].
+SEP 28 19:00:19.449.019 cdaq_evt[02430]: 5800 events [11.4 Hz].
+SEP 28 19:00:38.873.927 cdaq_evt[02431]: 6000 events [10.3 Hz].
+SEP 28 19:00:55.913.061 cdaq_evt[02432]: 6200 events [11.7 Hz].
+SEP 28 19:01:14.599.319 cdaq_evt[02433]: 6400 events [10.7 Hz].
+SEP 28 19:01:31.967.861 cdaq_cmd[01620]: DCommand: SCI_SPI SCD2, SEND.
+SEP 28 19:01:31.967.884 cdaq_cmd[01621]: DCommand: SCI_SPI SCD1, SEND.
+SEP 28 19:01:31.967.894 cdaq_cmd[01622]: DCommand: SCI_SPI SCD3, SEND.
+SEP 28 19:01:31.967.904 cdaq_cmd[01623]: DCommand: SCI_SPI SCD4, SEND.
+SEP 28 19:01:31.967.914 cdaq_cmd[01624]: DCommand: SCI_SPI TCD/BCD, SEND.
+SEP 28 19:01:31.967.928 cdaq_cmd[01625]: DCommand: SCI_PEDESTAL_RUN SCD2, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 28 19:01:31.967.939 cdaq_cmd[01626]: DCommand: SCI_PEDESTAL_RUN SCD1, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 28 19:01:31.967.951 cdaq_cmd[01627]: DCommand: SCI_PEDESTAL_RUN SCD3, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 28 19:01:31.967.962 cdaq_cmd[01628]: DCommand: SCI_PEDESTAL_RUN SCD4, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 28 19:01:31.967.974 cdaq_cmd[01629]: DCommand: SCI_PEDESTAL_RUN TCD/BCD, 100, UPDATE = ON, RAW = ON, SUMMARY = ON.
+SEP 28 19:01:32.090.778 cdaq_evt[02434]: SCD stv info requested.
+SEP 28 19:01:32.091.131 cdaq_evt[02435]: SCD stv info requested.
+SEP 28 19:01:32.091.429 cdaq_evt[02436]: SCD stv info requested.
+SEP 28 19:01:32.091.725 cdaq_evt[02437]: SCD stv info requested.
+SEP 28 19:01:32.092.037 cdaq_evt[02438]: CAL stv info requested.
+SEP 28 19:01:32.092.195 cdaq_evt[02439]: CAL calibration event sending: on.
+SEP 28 19:01:32.092.203 cdaq_evt[02440]: scd_ped_update_run: 100 events to go.
+SEP 28 19:01:32.092.232 cdaq_evt[02441]: dispatch: 60430D0100000000.
+SEP 28 19:01:32.093.882 cdaq_evt[02442]: dispatch: 60430C0200000005.
+SEP 28 19:01:46.378.204 cdaq_evt[02471]: dispatch: 6043100100000001.
+SEP 28 19:01:46.379.692 cdaq_evt[02472]: dispatch: 60430C020000000C.
+SEP 28 19:01:46.384.652 cdaq_evt[02473]: end of stv autoupdate.
+SEP 28 19:01:46.384.847 cdaq_evt[02474]: CAL calibration event sending: on.
+SEP 28 19:01:46.384.861 cdaq_evt[02475]: cal ped autoupdate.
+SEP 28 19:01:46.384.868 cdaq_evt[02476]: cal_ped_update_run: 100 events to go.
+SEP 28 19:01:46.384.887 cdaq_evt[02477]: dispatch: 60431B0100000000.
+SEP 28 19:01:46.386.239 cdaq_evt[02478]: dispatch: 60430C0200000005.
+SEP 28 19:01:48.518.601 cdaq_evt[02479]: STV autoupdate[T]: 0 disabled, 1280 accepted, 0 rejected.
+SEP 28 19:01:49.146.647 cdaq_evt[02480]: SprsBox[4]: garbage data is cleared.
+SEP 28 19:01:49.146.777 cdaq_evt[02481]: dispatch: 60431B0100000001.
+SEP 28 19:01:49.147.899 cdaq_evt[02482]: dispatch: 60430C020000000C.
+SEP 28 19:01:49.151.262 cdaq_evt[02483]: end of stv autoupdate.
+SEP 28 19:01:56.230.576 cdaq_evt[02484]: 200 events [20.6 Hz].
+SEP 28 19:02:13.688.896 cdaq_evt[02485]: 400 events [11.5 Hz].
+SEP 28 19:02:31.054.987 cdaq_evt[02486]: 600 events [11.5 Hz].
+SEP 28 19:02:48.308.215 cdaq_evt[02487]: 800 events [11.6 Hz].
+SEP 28 19:03:07.071.363 cdaq_evt[02488]: 1000 events [10.7 Hz].
+SEP 28 19:03:24.611.037 cdaq_evt[02489]: 1200 events [11.4 Hz].
+SEP 28 19:03:41.078.151 cdaq_evt[02490]: 1400 events [12.1 Hz].
+SEP 28 19:03:57.625.982 cdaq_evt[02491]: 1600 events [12.1 Hz].
+SEP 28 19:04:14.058.217 cdaq_evt[02492]: 1800 events [12.2 Hz].
+SEP 28 19:04:32.475.019 cdaq_evt[02493]: 2000 events [10.9 Hz].
+SEP 28 19:04:51.315.134 cdaq_evt[02494]: 2200 events [10.6 Hz].
+SEP 28 19:05:10.139.751 cdaq_evt[02495]: 2400 events [10.6 Hz].
+SEP 28 19:05:26.412.256 cdaq_evt[02496]: 2600 events [12.3 Hz].
+SEP 28 19:05:42.860.595 cdaq_evt[02497]: 2800 events [12.2 Hz].
+SEP 28 19:06:00.904.849 cdaq_evt[02498]: 3000 events [11.1 Hz].

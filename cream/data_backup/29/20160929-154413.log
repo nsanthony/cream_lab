@@ -1,0 +1,17 @@
+SEP 29 15:44:13.735.305 cdaq_cmd[01577]: SCI_NOOP.
+SEP 29 15:44:13.735.329 cdaq_cmd[01578]: NOOP (command counts: 624 since last noop, 742 in total).
+SEP 29 15:46:26.520.057 cdaq_cmd[01579]: SCI_NOOP.
+SEP 29 15:46:26.520.077 cdaq_cmd[01580]: NOOP (command counts: 1 since last noop, 743 in total).
+SEP 29 15:46:41.319.805 cdaq_cmd[01581]: SCI_HW *C0C020000000C.
+SEP 29 15:46:41.836.734 cdaq_evt[01777]: dispatch: 60430C020000000C.
+SEP 29 15:46:44.421.320 cdaq_cmd[01582]: SCI_OPMODE 54178, 1.
+SEP 29 15:46:44.421.337 cdaq_cmd[01583]: test mode.
+SEP 29 15:46:44.845.273 cdaq_evt[01778]: select: avail 0xD3A2, active 0xD3A2.
+SEP 29 15:46:44.845.283 cdaq_evt[01779]: test mode.
+SEP 29 15:46:45.000.256 cdaq_evt[01780]: ERROR: SprsBox[C]: no data after 1 secs/trials.
+SEP 29 15:46:46.001.237 cdaq_evt[01781]: ERROR: SprsBox[T]: no data after 1 secs/trials.
+SEP 29 15:46:47.000.330 cdaq_evt[01782]: ERROR: SprsBox[1]: no data after 1 secs/trials.
+SEP 29 15:46:48.000.177 cdaq_evt[01783]: ERROR: SprsBox[2]: no data after 1 secs/trials.
+SEP 29 15:46:49.000.647 cdaq_evt[01784]: ERROR: SprsBox[3]: no data after 1 secs/trials.
+SEP 29 15:46:50.000.624 cdaq_evt[01785]: ERROR: SprsBox[4]: no data after 1 secs/trials.
+SEP 29 15:49:19.244.754 cdaq_evt[01786]: 1200 events [0.3 Hz].

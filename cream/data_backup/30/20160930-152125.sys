@@ -1,0 +1,7 @@
+\n*** RESTART Fri Sep 30 15:21:25 EDT 2016 ***
+Restarting CDAQ ...
+kill 6430: No such process
+usage: kill [ -s signal | -p ] [ -a ] pid ...
+       kill -l [ signal ]
+/root/cdaq
+/root/cdaq/server

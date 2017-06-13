@@ -1,0 +1,110 @@
+SEP 27 13:01:00.000.363 cdaq_hk[00001]: ERROR: HK: hardware_event: read (%m).
+SEP 27 13:01:00.002.160 cdaq_hk[00002]: ERROR: HK: hardware_event: read (%m).
+SEP 27 13:01:00.003.922 cdaq_hk[00003]: ERROR: HK: hardware_event: read (%m).
+SEP 27 13:01:10.008.606 cdaq_hk[00004]: ERROR: failed to claim usb interface 0.
+SEP 27 13:01:15.010.843 cdaq_hk[00005]: ERROR: failed to claim usb interface 0.
+SEP 27 13:01:20.013.084 cdaq_hk[00006]: ERROR: failed to claim usb interface 0.
+SEP 27 13:01:25.015.318 cdaq_hk[00007]: ERROR: failed to claim usb interface 0.
+SEP 27 13:01:30.017.553 cdaq_hk[00008]: ERROR: failed to claim usb interface 0.
+SEP 27 13:01:35.019.784 cdaq_hk[00009]: ERROR: failed to claim usb interface 0.
+SEP 27 13:01:40.022.031 cdaq_hk[00010]: ERROR: failed to claim usb interface 0.
+SEP 27 13:01:45.024.259 cdaq_hk[00011]: ERROR: failed to claim usb interface 0.
+SEP 27 13:01:50.026.487 cdaq_hk[00012]: ERROR: failed to claim usb interface 0.
+SEP 27 13:01:55.028.725 cdaq_hk[00013]: ERROR: failed to claim usb interface 0.
+SEP 27 13:02:00.030.966 cdaq_hk[00014]: ERROR: failed to claim usb interface 0.
+SEP 27 13:02:05.033.197 cdaq_hk[00015]: ERROR: failed to claim usb interface 0.
+SEP 27 13:02:10.035.436 cdaq_hk[00016]: ERROR: failed to claim usb interface 0.
+SEP 27 13:02:15.037.679 cdaq_hk[00017]: ERROR: failed to claim usb interface 0.
+SEP 27 13:02:20.039.930 cdaq_hk[00018]: ERROR: failed to claim usb interface 0.
+SEP 27 13:02:25.042.145 cdaq_hk[00019]: ERROR: failed to claim usb interface 0.
+SEP 27 13:02:30.044.379 cdaq_hk[00020]: ERROR: failed to claim usb interface 0.
+SEP 27 13:02:35.046.633 cdaq_hk[00021]: ERROR: failed to claim usb interface 0.
+SEP 27 13:02:40.048.871 cdaq_hk[00022]: ERROR: failed to claim usb interface 0.
+SEP 27 13:02:45.051.085 cdaq_hk[00023]: ERROR: failed to claim usb interface 0.
+SEP 27 13:02:50.053.328 cdaq_hk[00024]: ERROR: failed to claim usb interface 0.
+SEP 27 13:02:55.055.579 cdaq_hk[00025]: ERROR: failed to claim usb interface 0.
+SEP 27 13:03:00.057.816 cdaq_hk[00026]: ERROR: failed to claim usb interface 0.
+SEP 27 13:03:05.060.056 cdaq_hk[00027]: ERROR: failed to claim usb interface 0.
+SEP 27 13:03:10.062.281 cdaq_hk[00028]: ERROR: failed to claim usb interface 0.
+SEP 27 13:03:15.064.533 cdaq_hk[00029]: ERROR: failed to claim usb interface 0.
+SEP 27 13:03:20.066.764 cdaq_hk[00030]: ERROR: failed to claim usb interface 0.
+SEP 27 13:03:25.068.984 cdaq_hk[00031]: ERROR: failed to claim usb interface 0.
+SEP 27 13:03:30.071.226 cdaq_hk[00032]: ERROR: failed to claim usb interface 0.
+SEP 27 13:03:35.073.471 cdaq_hk[00033]: ERROR: failed to claim usb interface 0.
+SEP 27 13:03:40.075.701 cdaq_hk[00034]: ERROR: failed to claim usb interface 0.
+SEP 27 13:03:45.077.947 cdaq_hk[00035]: ERROR: failed to claim usb interface 0.
+SEP 27 13:03:50.080.189 cdaq_hk[00036]: ERROR: failed to claim usb interface 0.
+SEP 27 13:03:55.082.418 cdaq_hk[00037]: ERROR: failed to claim usb interface 0.
+SEP 27 13:04:00.084.648 cdaq_hk[00038]: ERROR: failed to claim usb interface 0.
+SEP 27 13:04:05.086.897 cdaq_hk[00039]: ERROR: failed to claim usb interface 0.
+SEP 27 13:04:10.089.146 cdaq_hk[00040]: ERROR: failed to claim usb interface 0.
+SEP 27 13:04:15.091.351 cdaq_hk[00041]: ERROR: failed to claim usb interface 0.
+SEP 27 13:04:20.093.590 cdaq_hk[00042]: ERROR: failed to claim usb interface 0.
+SEP 27 13:04:25.095.838 cdaq_hk[00043]: ERROR: failed to claim usb interface 0.
+SEP 27 13:04:30.098.090 cdaq_hk[00044]: ERROR: failed to claim usb interface 0.
+SEP 27 13:04:35.100.325 cdaq_hk[00045]: ERROR: failed to claim usb interface 0.
+SEP 27 13:04:40.102.547 cdaq_hk[00046]: ERROR: failed to claim usb interface 0.
+SEP 27 13:04:45.104.810 cdaq_hk[00047]: ERROR: failed to claim usb interface 0.
+SEP 27 13:04:46.130.775 cdaq_cmd[00012]: SCI_PROCESS HK, 10, 0.
+SEP 27 13:04:46.130.792 cdaq_cmd[00013]: cmd_hk_reconnect: restarting HK.
+SEP 27 13:04:46.130.799 cdaq_cmd[00014]: Sending SIGTERM to cdaq_hk ...
+SEP 27 13:04:46.130.842 cdaq_hk[00048]: caught signal 15; shutting down.
+SEP 27 13:04:46.130.850 cdaq_hk[00049]: Signal in /cdaq/src/server/cdaq_hk.cpp.
+SEP 27 13:04:46.130.858 cdaq_hk[00050]: SMCQ: id 0xF6F, length 10240, max count 30 (0.29%).
+SEP 27 13:04:46.130.864 cdaq_hk[00051]:   count 10, avail 70, h 60.
+SEP 27 13:04:46.130.870 cdaq_hk[00052]: SM: id 0x118004, addr 0xB79F9000, size 10272.
+SEP 27 13:04:46.130.876 cdaq_hk[00053]: Semaphore: id 0x10002, length 3.
+SEP 27 13:04:46.130.889 cdaq_hk[00054]:  sem[0] = 1.
+SEP 27 13:04:46.130.895 cdaq_hk[00055]:  sem[1] = 1.
+SEP 27 13:04:46.130.901 cdaq_hk[00056]:  sem[2] = 7.
+SEP 27 13:04:46.130.906 cdaq_hk[00057]: SMCQ: id 0xF90, length 3145696, max count 961 (0.03%).
+SEP 27 13:04:46.130.912 cdaq_hk[00058]:   count 499, avail 3363, h 2864.
+SEP 27 13:04:46.130.918 cdaq_hk[00059]: SM: id 0x120005, addr 0xB76F9000, size 3145728.
+SEP 27 13:04:46.130.923 cdaq_hk[00060]: Semaphore: id 0x18003, length 3.
+SEP 27 13:04:46.130.930 cdaq_hk[00061]:  sem[0] = 1.
+SEP 27 13:04:46.130.935 cdaq_hk[00062]:  sem[1] = 1.
+SEP 27 13:04:46.130.941 cdaq_hk[00063]:  sem[2] = 107.
+SEP 27 13:04:46.130.947 cdaq_hk[00064]: SMCQ: id 0xF92, length 1048544, max count 14420 (1.38%).
+SEP 27 13:04:46.130.952 cdaq_hk[00065]:   count 0, avail 282632, h 282632.
+SEP 27 13:04:46.130.958 cdaq_hk[00066]: SM: id 0x128006, addr 0xB75F9000, size 1048576.
+SEP 27 13:04:46.130.964 cdaq_hk[00067]: Semaphore: id 0x20004, length 3.
+SEP 27 13:04:46.130.971 cdaq_hk[00068]:  sem[0] = 1.
+SEP 27 13:04:46.130.976 cdaq_hk[00069]:  sem[1] = 1.
+SEP 27 13:04:46.130.982 cdaq_hk[00070]:  sem[2] = 196.
+SEP 27 13:04:46.130.987 cdaq_hk[00071]: Semaphore: id 0x30006, length 1.
+SEP 27 13:04:46.130.994 cdaq_hk[00072]:  sem[0] = 1.
+SEP 27 13:04:46.131.000 cdaq_hk[00073]: Semaphore: id 0x40008, length 1.
+SEP 27 13:04:46.131.006 cdaq_hk[00074]:  sem[0] = 1.
+SEP 27 13:04:46.131.012 cdaq_hk[00075]: SM: id 0x138008, addr 0xB75F8000, size 1024.
+SEP 27 13:04:46.131.018 cdaq_hk[00076]: closing queues, hardware interface, and message log.
+SEP 27 13:04:46.133.986 cdaq_cmd[00015]: termination of child.
+SEP 27 13:04:46.134.015 cdaq_cmd[00016]: resuming.
+SEP 27 13:04:46.134.027 cdaq_cmd[00017]: Starting cdaq_hk ...
+SEP 27 13:04:46.136.091 cdaq_hk[00000]: This is CDAQ_HK (Version 1.43).
+SEP 27 13:10:14.845.633 cdaq_cmd[00018]: SCI_POWER CAL, 0x00044000, ON.
+SEP 27 13:10:17.337.252 cdaq_evt[00014]: dispatch: 60430A0A00000001.
+SEP 27 13:10:18.347.094 cdaq_evt[00015]: dispatch: 60430A0E00000001.
+SEP 27 13:15:22.413.703 cdaq_cmd[00019]: SCI_PROCESS EVT, 14, 0.
+SEP 27 13:15:22.413.723 cdaq_cmd[00020]: cmd_daq_reset: restarting EVT.
+SEP 27 13:15:22.413.729 cdaq_cmd[00021]: Sending SIGTERM to cdaq_evt ...
+SEP 27 13:15:22.413.760 cdaq_evt[00016]: caught signal 15; shutting down.
+SEP 27 13:15:22.413.772 cdaq_evt[00017]: Signal in /cdaq/src/server/cdaq_evt.cpp.
+SEP 27 13:15:22.421.626 cdaq_cmd[00022]: termination of child.
+SEP 27 13:15:22.421.653 cdaq_cmd[00023]: resuming.
+SEP 27 13:15:22.421.662 cdaq_cmd[00024]: Starting cdaq_evt ...
+SEP 27 13:15:22.423.957 cdaq_evt[00000]: This is CDAQ_EVT (Version 1.10).
+SEP 27 13:15:22.432.744 cdaq_evt[00001]: cleared master trigger board.
+SEP 27 13:15:22.432.760 cdaq_evt[00002]: reset command box: not implemented.
+SEP 27 13:15:22.432.766 cdaq_evt[00003]: reset hk board: not implemented.
+SEP 27 13:15:23.281.978 cdaq_evt[00004]: SprsBox[C]: garbage data is cleared.
+SEP 27 13:15:24.060.856 cdaq_evt[00005]: SprsBox[T]: garbage data is cleared.
+SEP 27 13:15:24.812.742 cdaq_evt[00006]: SprsBox[1]: garbage data is cleared.
+SEP 27 13:15:25.526.631 cdaq_evt[00007]: SprsBox[2]: garbage data is cleared.
+SEP 27 13:15:26.245.520 cdaq_evt[00008]: SprsBox[3]: garbage data is cleared.
+SEP 27 13:15:26.923.418 cdaq_evt[00009]: SprsBox[4]: garbage data is cleared.
+SEP 27 13:15:27.177.128 cdaq_evt[00010]: BSD:ready to go.
+SEP 27 13:15:27.177.159 cdaq_evt[00011]: dispatch: 60430A0A00000001.
+SEP 27 13:15:27.184.966 cdaq_evt[00012]: dispatch: 60430C0200000000.
+SEP 27 13:15:27.189.995 cdaq_evt[00013]: ready to go.
+SEP 27 13:16:14.610.748 cdaq_cmd[00025]: SCI_HW *C0C020000000C.
+SEP 27 13:16:15.271.655 cdaq_evt[00014]: dispatch: 60430C020000000C.
