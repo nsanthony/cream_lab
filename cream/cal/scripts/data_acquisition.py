@@ -24,7 +24,7 @@ def acquisition(detector,path=None,time=None,date=None,layer=None):
     """Date is in format YEARMONTHDAY example: 20170524 is May 24 2017, time 
     is in format HOURMINUTESECOND example: 145342 is 14:53.42"""
     if path == None:
-        path = '/Users/nsanthony/cream/cal'
+        path = '/Users/nsanthony/cream_lab/cream/cal'
     path_root = path
     path = '%s/files/temp_files' % (path_root)
     os.chdir(path)
