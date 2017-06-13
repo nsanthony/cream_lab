@@ -8,9 +8,9 @@
 #include "CreamBSD.h"
 #include "timez.h"
 
-#include <TROOT.h>
-#include <TFile.h>
-#include <TTree.h>
+#include </usr/local/root/include/TROOT.h>
+#include </usr/local/root/include/TFile.h>
+#include </usr/local/root/include/TTree.h>
 #include <cstdlib>
 
 #include <iostream>
@@ -44,25 +44,25 @@ public:
 	struct {
                 unsigned adc[1280];
         } tbcd;
-	struct {
-		unsigned adc[2944];
-	} scd1;
-	struct {
-		unsigned adc[2944];
-	} scd2;
-        struct {
-                unsigned adc[2944];
-        } scd3;
-        struct {
-                unsigned adc[2944];
-        } scd4;
-        struct {
-                unsigned adc[36];
-                unsigned adc2[36];
-                unsigned fevent[2];
-                unsigned fmode[2];
-                unsigned ftrig[2];
-        } bsd;
+ 	struct {
+ 		unsigned adc[2944];
+ 	} scd1;
+ 	struct {
+ 		unsigned adc[2944];
+ 	} scd2;
+         struct {
+                 unsigned adc[2944];
+         } scd3;
+         struct {
+                 unsigned adc[2944];
+         } scd4;
+         struct {
+                 unsigned adc[36];
+                 unsigned adc2[36];
+                 unsigned fevent[2];
+                 unsigned fmode[2];
+                 unsigned ftrig[2];
+         } bsd;
 } sevt;
 
 std::string ExtractFilename( const std::string& path )

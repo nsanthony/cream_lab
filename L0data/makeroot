@@ -1,12 +1,24 @@
-!/bin/sh 
+#!/bin/sh 
 
+MONTH=$1
+echo $MONTH
+
+DAY=$2
+echo $DAY
+
+YEAR=$3
+echo $YEAR
+
+source env.sh
 export CRMROOT=`pwd`
 cd cream
 
-ls /data/KSC/cream/$1/$2/$3/*dat /data/KSC/cream/$1/$2/$3/*bsd.led > LIST
-./adc
-
-mkdir /data/L0/$1/$2/$3
-mv ROOT/*root /data/L0/$1/$2/$3
-
-cp /data/KSC/cream/$1/$2/$3/*log /data/KSC/cream/$1/$2/$3/*hk /data/KSC/cream/$1/$2/$3/*pds /data/KSC/cream/$1/$2/$3/*spi* /data/KSC/cream/$1/$2/$3/*gtb /data/KSC/cream/$1/$2/$3/*tgn /data/KSC/cream/$1/$2/$3/*bsd.led /data/KSC/cream/$1/$2/$3/*phs /data/L0/$1/$2/$3
+ls ~/cream/data/cdps2/cream/$YEAR/$MONTH/$DAY/*dat > LIST
+# ./adc
+# 
+# mkdir data/dat/$YEAR
+# mkdir data/dat/$YEAR/$MONTH
+# mkdir data/dat/$YEAR/$MONTH/$DAY
+# mv ROOT/*root /data/dat/$YEAR/$MONTH/$DAY
+# 
+# cp /data/cdps2/cream/$YEAR/$MONTH/$DAY/*log /data/cdps2/cream/$YEAR/$MONTH/$DAY/*hk /data/cdps2/cream/$YEAR/$MONTH/$DAY/*pds /data/cdps2/cream/$YEAR/$MONTH/$DAY/*spi* /data/cdps2/cream/$YEAR/$MONTH/$DAY/*gtb /data/cdps2/cream/$YEAR/$MONTH/$DAY/*tgn /data/cdps2/cream/$YEAR/$MONTH/$DAY/*bsd.led /data/cdps2/cream/$YEAR/$MONTH/$DAY/*phs /data/dat/$YEAR/$MONTH/$DAY

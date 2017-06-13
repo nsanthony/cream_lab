@@ -31,4 +31,4 @@ clean:
 	rm -f *.o core.* go
 
 adc: adc.cpp $(DEPS)
-	$(CXX) $(CXXFLAGS) $(MOREINC) -o adc adc.cpp -I/usr/lib -I${ROOTSYS}/include/ -L${ROOTSYS}/lib -lCore -lCint  -lTree -lvectorDict -lMatrix $(LIBS)
+	$(CXX) $(CXXFLAGS) $(MOREINC) -o adc adc.cpp -I/usr/lib -I${ROOTSYS}/include/ -L${ROOTSYS}/lib -lCore  -lTree -lvectorDict -lMatrix $(LIBS)

@@ -32,7 +32,9 @@ CXX=g++
 DEBUG= -g -O
 
 # Include directory other than the standard ones
+CRMROOT=/Users/nsanthony/cream_lab/L0data
 INCDIR= -I$(CRMROOT)/crmfile
+#INCDIR= -I/usr/local/root/include
 
 CFLAGS= -Wall $(INCDIR) $(DEBUG)
 CXXFLAGS= -Wall $(INCDIR) $(DEBUG)
