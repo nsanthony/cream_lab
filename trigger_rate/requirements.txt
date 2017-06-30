@@ -1,0 +1,28 @@
+These are notes when I installed ROOT and got root-numpy to work on anaconda with Ubuntu 16.04:
+
+- Needed to conda install libgcc
+
+- Needed to have ROOT make with this command after you make /urs/local/root directory and build it in a seperate directory from both the source and destination (this includes python dependancy):
+	sudo cmake ~/Downloads/root-6.08.06 -DPYTHON_EXECUTABLE=/home/nsanthony/anaconda3/bin/python 
+	-DCMAKE_INSTALL_PREFIX:PATH=/usr/local/root
+
+-Install root-numpy with pip (does not work on mac system)
+-Need to put data in /home/nsanthony/anaconda3/lib/python3.6/site-packages/root_numpy/testdata
+
+
+-Going to build GUI using PyQT(Most likely)
+- going to use wxPython to build GUI:
+	Dependancies(on Phoenix github README, linux only):
+	    dpkg-dev
+	    build-essential
+	    python2.7-dev # use appropriate Python version
+	    libwebkitgtk-dev
+	    libjpeg-dev
+	    libtiff-dev
+	    libgtk2.0-dev
+	    libsdl1.2-dev
+	    libgstreamer-plugins-base0.10-dev
+	    libnotify-dev
+	    freeglut3
+	    freeglut3-dev
+
