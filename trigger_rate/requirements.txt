@@ -10,7 +10,10 @@ These are notes when I installed ROOT and got root-numpy to work on anaconda wit
 -Need to put data in /home/nsanthony/anaconda3/lib/python3.6/site-packages/root_numpy/testdata
 
 
--Going to build GUI using PyQT(Most likely)
+-Going to build GUI using PyQT5
+
+
+#THIS is not true anymore:
 - going to use wxPython to build GUI:
 	Dependancies(on Phoenix github README, linux only):
 	    dpkg-dev
