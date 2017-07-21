@@ -1,0 +1,217 @@
+#! /home/nsanthony/anaconda3/bin/python
+
+import sys
+#import numpy as np
+#import PyQt5.QtGui as pyqt
+from PyQt5.QtWidgets import (QWidget,QApplication, QMessageBox, QMainWindow,
+                             QGridLayout,QHBoxLayout, QVBoxLayout,
+                             QFrame,QSplitter,QDockWidget,QStatusBar)
+from PyQt5.QtCore import Qt
+
+#imports for functions and widgets
+import matplotlib.pyplot as plt
+import widgets
+
+#Possible use to split the different areas of the app
+
+
+
+#class Frames(QWidget):
+class Frames(QMainWindow):
+    
+    def __init__(self,parent=None):
+        super(Frames, self).__init__(parent)
+        self.form_widget = frame_setup(self) 
+        self.setCentralWidget(self.form_widget)
+        self.statusBar = QStatusBar()
+        self.setStatusBar(self.statusBar)
+        self.move(300,300)
+#    def initUI(self):
+#        self.statusBar().showMessage('Ready')
+        
+#    def tearDown(self):
+#        self.app.deleteLater()
+    def closeEvent(self, event):
+         
+         reply = QMessageBox.question(self, 'Message',
+             "Are you sure to quit?", QMessageBox.Yes | 
+             QMessageBox.No, QMessageBox.No)
+ 
+         if reply == QMessageBox.Yes:
+             plt.close(1)
+             plt.close(2)
+             event.accept()
+         else:
+             event.ignore()
+        
+        
+    def onChanged(self, text):
+        
+        self.lbl.setText(text)
+        self.lbl.adjustSize()    
+
+class frame_setup(QWidget):
+    def __init__(self,parent):
+        super(frame_setup, self).__init__(parent)
+        
+        self.initUI()
+        
+        
+    def initUI(self): 
+        timebox = QVBoxLayout()
+        selectbox = QGridLayout()
+        asiicbox = QGridLayout()
+        appbox = QHBoxLayout()
+
+        top = QFrame()
+        top.setFrameShape(QFrame.StyledPanel)
+        
+        middle = QFrame(self)
+        middle.setFrameShape(QFrame.StyledPanel)
+        
+        
+        bottom = QFrame(self)
+        bottom.setFrameShape(QFrame.StyledPanel)
+        
+        
+        #TOP box widgets
+        year_widget = QDockWidget('Start Year',self)
+        year_widget.setFeatures(QDockWidget.DockWidgetMovable)#makes it look better by removed x icon
+        year_widget.setWidget(widgets.yeardrop(se='start'))
+        timebox.addWidget(year_widget)
+
+        
+        month_widget = QDockWidget('Start Month',self)
+        month_widget.setFeatures(QDockWidget.DockWidgetMovable)
+        month_widget.setWidget(widgets.monthdrop(se='start'))
+        timebox.addWidget(month_widget)
+        
+        day_widget = QDockWidget('Start Day',self)
+        day_widget.setFeatures(QDockWidget.DockWidgetMovable)
+        day_widget.setWidget(widgets.daydrop(se='start'))
+        timebox.addWidget(day_widget)
+
+        yearend_widget = QDockWidget('End Year',self)
+        yearend_widget.setFeatures(QDockWidget.DockWidgetMovable)
+        yearend_widget.setWidget(widgets.yeardrop(se='end'))
+        timebox.addWidget(yearend_widget)        
+    
+        monthend_widget = QDockWidget('End Month',self)
+        monthend_widget.setFeatures(QDockWidget.DockWidgetMovable)
+        monthend_widget.setWidget(widgets.monthdrop(se='end'))
+        timebox.addWidget(monthend_widget)
+        
+        dayend_widget = QDockWidget('End Day',self)
+        dayend_widget.setFeatures(QDockWidget.DockWidgetMovable)
+        dayend_widget.setWidget(widgets.daydrop(se='end'))
+        timebox.addWidget(dayend_widget)
+        
+
+        #Middle box widgets
+        
+        select_file = QDockWidget(self)
+        select_file.setFeatures(QDockWidget.DockWidgetMovable)
+        select_file.setWidget(widgets.select_file())
+        selectbox.addWidget(select_file,1,0,1,12)
+        
+        full_day_data = QDockWidget(self)
+        full_day_data.setFeatures(QDockWidget.DockWidgetMovable)
+        full_day_data.setWidget(widgets.fullday())
+        selectbox.addWidget(full_day_data,1,15,1,12)
+        
+        get_data = QDockWidget(self)
+        get_data.setFeatures(QDockWidget.DockWidgetMovable) 
+        get_data.setWidget(widgets.getdata())
+        selectbox.addWidget(get_data,2,0,1,12)
+        
+        last_file = QDockWidget(self)
+        last_file.setFeatures(QDockWidget.DockWidgetMovable) 
+        last_file.setWidget(widgets.last())
+        selectbox.addWidget(last_file,2,15,1,12)
+        
+   
+        
+        #bottom box widget
+        chip_list = QDockWidget('ASIIC Chip',self)
+        chip_list.setFeatures(QDockWidget.DockWidgetMovable)
+        chip_list.setWidget(widgets.chipdrop())
+        asiicbox.addWidget(chip_list,1,0,1,30)
+        
+        graph_chip = QDockWidget(self)
+        graph_chip.setFeatures(QDockWidget.DockWidgetMovable)
+        graph_chip.setWidget(widgets.getchipdata())
+        asiicbox.addWidget(graph_chip,2,0,1,20)
+       
+        previous_chip = QDockWidget(self)
+        previous_chip.setFeatures(QDockWidget.DockWidgetMovable)
+        previous_chip.setWidget(widgets.previouschip())
+        asiicbox.addWidget(previous_chip,2,20,1,5)
+        
+        next_chip = QDockWidget(self)
+        next_chip.setFeatures(QDockWidget.DockWidgetMovable)
+        next_chip.setWidget(widgets.nextchip())
+        asiicbox.addWidget(next_chip,2,25,1,5)
+        
+
+        
+        
+        
+        #create boxes with widgets and format (width,height)
+        app_width = 190
+        top_height = 300
+        middle_height = 110
+        bottom_height = 110
+        app_height = top_height + middle_height + bottom_height
+        top.setLayout(timebox)
+        top.setFixedSize(app_width,top_height)
+#        top.setFixedSize(230,350)    
+        
+        middle.setLayout(selectbox)
+        bottom.setLayout(asiicbox)
+#        middle.setFixedSize(230,155)
+        middle.setFixedSize(app_width,middle_height)
+        bottom.setFixedSize(app_width,bottom_height)
+#        bottom.setLayout(channel_box)
+        
+
+        splitter1 = QSplitter(Qt.Vertical)
+        splitter1.addWidget(top)
+        splitter1.addWidget(middle)
+#        splitter1.addWidget(bottom)
+        
+#        splitter2 = QSplitter(Qt.Vertical)
+#        splitter2.addWidget(splitter1)
+#        splitter2.addWidget(bottom)
+        
+        splitter3 = QSplitter(Qt.Vertical)
+        splitter3.addWidget(splitter1)
+        splitter3.addWidget(bottom)
+
+        appbox.addWidget(splitter3)
+        self.setLayout(appbox)
+        self.setGeometry(300,300,app_width,app_height)
+        self.setWindowTitle('Trigger Rate App')
+        self.show()
+#        self.setGeometry(300, 300, 230, 520)
+
+def main():
+
+    app = QApplication(sys.argv)
+    m = Frames()
+    m.show()
+    sys.exit(app.exec_())
+
+if __name__ == '__main__':
+    main()
+
+
+
+
+
+
+
+
+
+
+
+
